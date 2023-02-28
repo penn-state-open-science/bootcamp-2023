@@ -6,6 +6,7 @@
 - Organize planning/program committee
     - Invite [survey](https://penn-state-open-science/survey-fall-2022) respondents who gave contact info.
     - Invite HDFS folks (Sy-Miin Chow; Tim Brick)
+    - Invite library experts who teach/organize R and related courses.
     - Plan agenda
 - Post draft website
 - Hold planning/program committee meeting
