@@ -31,10 +31,21 @@ It is neither exhaustive nor definitive.
 ## Content
 
 - Python and R; command line scripting/programming
+- Computational reproducibility
+    - `{renv}`; Jupyter Notebooks
+    - Docker images
+    - Git, GitHub, GitLab
+    - Literate programming
+        - RStudio, JupyterLab
 - What is open science; why open science; how open science
 - Variety of disciplines
     - Open science in...
         - psychology, anthropology, biology, etc., etc.
+        - Economics (Lars Vilhuber, Cornell?)
+- Data verification
+    - Lars Vilhuber, Cornell?
+- Open Science @ PSU
+    - Data repositories (ScholarSphere; DataCommons)
 - Have specific program components related to what we learned from the survey [results](https://penn-state-open-science.github.io/survey-fall-2022/data-visualization.html).
     - e.g., where to share data
 - Best practices/lessons learned.
@@ -48,5 +59,6 @@ It is neither exhaustive nor definitive.
 ## Comms
 
 - Create web book "proceedings"? Easy if we use `bookdown` or similar.
-    - Nice if presenters can get a 'pub' from this.
+    - Nice if presenters can get a 'pub' from this. 
+    - How to get DOI? 
 
