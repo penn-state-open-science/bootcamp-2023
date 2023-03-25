@@ -1,0 +1,36 @@
+--- 
+title: "Open Science Bootcamp 2023"
+author: ["Rick O. Gilmore", "Frank Hillary", "Nicole Lazar", "Daisy Lei", "David McManus", "Hollie Mullin", "Alaina Pearce", "Jenae Neiderhiser", "Briana Wham"]
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [include/bib/book.bib, include/bib/packages.bib]
+csl: include/bib/apa.csl
+url: "https://github.com/penn-state-open-science/bootcamp-2023"
+description: |
+  This is the home site for the Open Science Bootcamp @ PSU 2023.
+link-citations: yes
+github-repo: "penn-state-open-science/bootcamp-2023"
+---
+
+```{r}
+knitr::opts_chunk$set(echo = TRUE,
+                      fig.align = "center",
+                      fig.path = "include/img/")
+library(tidyverse)
+```
+
+# About Bootcamp 2023 {-}
+
+These pages document and describe the 2023 Open Science Bootcamp held at Penn State University August 9-11, 2023 at the Marriott Foundation Building.
+
+## Acknowledgements {-}
+
+We gratefully acknowledge the [Department of Psychology](http://psych.la.psu.edu), the [Child Study Center (CSC)](https://csc.la.psu.edu), [Laureen Teti](https://psych.la.psu.edu/directory/laureen-teti-ph-d), and [Nancy English](https://psych.la.psu.edu/directory/nec101) for support.
+
+```{r add-bib-entries, include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'include/bib/packages.bib')
+```

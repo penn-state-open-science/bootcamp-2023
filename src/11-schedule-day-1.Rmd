@@ -1,0 +1,5 @@
+# Day 1 (Wed, Aug 9) {-}
+
+## Morning {- #day_1_am}
+
+## Afternoon {- #day_1_pm}
