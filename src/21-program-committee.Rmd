@@ -1,5 +1,7 @@
 # Program Planning Committee {-}
 
+## Bruce Desmarais {-}
+
 ## Rick Gilmore {-}
 
 ## Frank Hillary {-}
