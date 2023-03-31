@@ -1,10 +1,12 @@
 # Program Planning Committee {-}
 
+## Carrie Brown {-}
+
 ## Bruce Desmarais {-}
 
 ## Rick Gilmore {-}
 
-Rick is Professor of Psychology.
+Rick is Professor of [Psychology](https://psych.la.psu.edu) and Director of the Open Data and Developmental Science (ODDS) initiative with the [Penn State Child Study Center (CSC)](https://csc.la.psu.edu). He co-founded and co-directs the [Databrary](https://databrary.org) data repository, and serves as Co-PI on the [Play & Learning Across a Year (PLAY) Project](https://play-project.org). His research examines the development of perception and action in infants, children, and adults using behavioral, neural, and computational methods.
 
 ## Frank Hillary {-}
 

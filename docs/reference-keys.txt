@@ -1,6 +1,3 @@
-resources-penn-state
-university-libraries
-workshops
-scholarsphere
-data-commons
-institute-for-computation-and-data-science-icds
+fig:unnamed-chunk-2
+fig:unnamed-chunk-3
+courses

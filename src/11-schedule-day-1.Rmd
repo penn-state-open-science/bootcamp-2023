@@ -1,5 +1,35 @@
 # Day 1 (Wed, Aug 9) {-}
 
+What is open science? Why do open science?
+
+::: {.}
+
+All times are Eastern Daylight Time (EDT)
+
+:::
+
 ## Morning {- #day_1_am}
 
+08:30 am    Coffee
+
+09:00 am    Welcome
+
+09:15 am    What is open science?
+
+10:15 am    Break
+
+10:45 am    Why open science?
+
+11:45 am    Lunch break
+
 ## Afternoon {- #day_1_pm}
+
+01:15 pm    Open science @ Penn State
+
+02:15 pm    Break
+
+02:45 pm    Open science @ Penn State
+
+03:45 pm    Day 1 wrap-up
+
+04:15 pm    End of Day 1

@@ -6,15 +6,15 @@ site: bookdown::bookdown_site
 documentclass: book
 bibliography: [include/bib/book.bib, include/bib/packages.bib]
 csl: include/bib/apa.csl
-url: "https://github.com/penn-state-open-science/bootcamp-2023"
+url: "https://penn-state-open-science.github.io/bootcamp-2023/"
 description: |
   This is the home site for the Open Science Bootcamp @ PSU 2023.
 link-citations: yes
-github-repo: "penn-state-open-science/bootcamp-2023"
+github-repo: "penn-state-open-science/bootcamp-2023/"
 ---
 
 ```{r}
-knitr::opts_chunk$set(echo = TRUE,
+knitr::opts_chunk$set(echo = FALSE,
                       fig.align = "center",
                       fig.path = "include/img/")
 library(tidyverse)
@@ -22,7 +22,30 @@ library(tidyverse)
 
 # About Bootcamp 2023 {-}
 
-These pages document and describe the 2023 Open Science Bootcamp held at Penn State University August 9-11, 2023 at the Marriott Foundation Building.
+These pages document and describe the 2023 Open Science Bootcamp held at the University Park campus of [the Pennsylvania State University](https://www.psu.edu) August 9-11, 2023 at the Marriott Foundation Building.
+
+## Logistics {-}
+
+### Location {-}
+
+Most in-person events at Bootcamp 2023 will be held in the newly renovated Marriott Foundation Building on the Penn State University Park campus.
+The Marriott Foundation Building is located just north of the Nittany Lion Inn, near the intersection of Park Avenue and Atherton Street.
+
+```{r, out.width="100%", fig.cap="Marriott Foundation Building"}
+knitr::include_graphics("https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/4_3_2000w/public/Oak%20Building.jpeg?h=71976bb4&itok=AOCn0pbO")
+```
+
+```{r, out.width="100%", fig.cap="Marriott Foundation Building location from https://www.map.psu.edu"}
+knitr::include_url("https://www.map.psu.edu/?id=1134#!ct/59509,33177,25403,26748,26749,26750,27255?m/336393?s/", height = "400px")
+```
+
+### Remote participants {-}
+
+Bootcamp 2023 will be streamed online at the following URL:
+
+<https://psu.zoom.us/bootcamp-2023/>
+
+All sessions will be recorded and made publicly available at a later date.
 
 ## Acknowledgements {-}
 

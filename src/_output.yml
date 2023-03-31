@@ -1,16 +1,16 @@
 bookdown::bs4_book:
   css: include/css/style.css
   theme:
-    primary: "#096B72"
+    primary: "#325ca8"
     code_folding: hide
-  repo: 'https://github.com/penn-state-open-science/survey-fall-2022'
+  repo: 'https://github.com/penn-state-open-science/bootcamp-2023/'
 bookdown::gitbook:
   code_folding: hide
   css: css/style.css
   config:
     toc:
       before: |
-        <li><a href="./">Penn State Open Science Survey Protocol</a></li>
+        <li><a href="./">Penn State Open Science Bootcamp 2023</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     edit: https://github.com/penn-state-open-science/survey-fall-2022/edit/main/protocol/%s
@@ -34,5 +34,3 @@ bookdown::pdf_book:
   keep_tex: yes
 
 bookdown::epub_book: default
-
-
