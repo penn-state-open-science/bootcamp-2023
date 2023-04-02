@@ -2,7 +2,16 @@
 
 Files related to the Open Science Bootcamp held in August 2023.
 
+You may view the associated website at: 
+
+<https://penn-state-open-science.github.io/bootcamp-2023/>
+
 ### Contents
+
+- `docs/`: Website served by GitHub pages.
+- `renv/`: Files related to the `renv` package manager.
+- `planning/`: Files related to planning the bootcamp.
+- `src`: Source files used to generate the site using the `bookdown` package.
 
 ### Rendering
 

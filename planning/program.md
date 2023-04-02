@@ -61,4 +61,3 @@ It is neither exhaustive nor definitive.
 - Create web book "proceedings"? Easy if we use `bookdown` or similar.
     - Nice if presenters can get a 'pub' from this. 
     - How to get DOI? 
-
