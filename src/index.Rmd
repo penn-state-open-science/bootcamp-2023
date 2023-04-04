@@ -49,7 +49,7 @@ All sessions will be recorded and made publicly available at a later date.
 
 ## Acknowledgements {-}
 
-We gratefully acknowledge the [Department of Psychology](http://psych.la.psu.edu), the [Child Study Center (CSC)](https://csc.la.psu.edu), the [Department of Statistics](https://science.psu.edu/stat), [Laureen Teti](https://psych.la.psu.edu/directory/laureen-teti-ph-d), and [Nancy English](https://psych.la.psu.edu/directory/nec101) for support.
+We gratefully acknowledge the [Department of Psychology](http://psych.la.psu.edu), the [Child Study Center (CSC)](https://csc.la.psu.edu), the [Department of Statistics](https://science.psu.edu/stat), the [Center for Social Data Analytics](https://soda.la.psu.edu), [Laureen Teti](https://psych.la.psu.edu/directory/laureen-teti-ph-d), and [Nancy English](https://psych.la.psu.edu/directory/nec101) for support.
 
 ```{r add-bib-entries, include=FALSE}
 # automatically create a bib database for R packages
