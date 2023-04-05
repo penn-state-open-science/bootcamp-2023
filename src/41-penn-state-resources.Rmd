@@ -19,6 +19,6 @@
 
 ## Center for Social Data Analytics ([SoDA](https://soda.la.psu.edu)) {-}
 
-## Courses
+## Courses {-}
 
 - [PSYCH 490: The reproducibility crisis in science (Spring 2023)](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/).

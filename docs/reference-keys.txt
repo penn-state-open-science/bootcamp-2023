@@ -1,3 +1,2 @@
 fig:unnamed-chunk-2
 fig:unnamed-chunk-3
-courses
