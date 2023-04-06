@@ -1,4 +1,4 @@
-# Day 1 (Wed, Aug 9) {-}
+# Day 1 (Wed, Aug 9) {- #day_1}
 
 What is open science? Why do open science?
 

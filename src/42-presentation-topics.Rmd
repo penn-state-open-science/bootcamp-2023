@@ -1,0 +1,78 @@
+# Presentation topics {-}
+
+The following are potential presentation topics we are considering for [Day 1](#day_1) and [Day 2](#day_2).
+
+These are also topics that might be offered later on after the bootcamp.
+
+Some of the presentations have been suggsted by a specific person, and others are topics that Rick Gilmore thought might be appropriate for a person or group.
+The person indicated in the parentheses is the tentative or proposed coordinator for that workshop as of `r Sys.Date()`.
+Question marks (?) indicate that the person has not yet confirmed their interest or availability.
+The information is merely for planning purposes.
+
+## What is open science? Why do open science? {-}
+
+These are some possible presentations for [Day 1](#day_1).
+
+### Keynote (TBD) {- #keynote}
+
+### Case study: Reproducibility in neuroimaging ([Frank Hillary]? & [Nicole Lazar]?) {- #casestudy_neuroimaging}
+
+### Case study: Big data behavioral science: The Play & Learning Across a Year (PLAY) Project ([Rick Gilmore]) {- #casestudy_PLAY}
+
+### Reproducible research in economics ([Lars Vilhuber](https://www.ilr.cornell.edu/people/lars-vilhuber), Cornell?) {- #casestudy_economics}
+
+### Reproducible and robust research has wider reach (?) {- #howto_reproducibility}
+
+Types of reproducibility. How building reproducible research workflows can make your work more robust and more readily shareable.
+
+## How to do open science? {-}
+
+These are some possible presentations for [Day 2](#day_1).
+
+### Preregistration & registered reports ([Bruce Desmarais]?) {- #howto_preregistration}
+
+What is preregistration? What are preregistered reports? When and why would you want to use these tools?
+
+### Replication ([Kevin McManus]) {- #howto_replication}
+
+Why are replication studies important? How to plan, conduct, and publish replication studies.
+
+### Responsible and robust research (?) {- #howto_responsible_research}
+
+What are questionable research practices? Why are they questionable? How do we avoid them.
+
+### Literate Programming with R Markdown and Quarto ([Rick Gilmore]){- #howto_rmarkdown}
+
+What is literate programming? 
+How can literate programming tools improve your research productivity? 
+This workshop will demonstrate the many uses of R Markdown and its successor, Quarto in research, teaching, and service.
+These tools can be used to create slides, papers, and web sites using the same source materials.
+
+### Literate programming with Jupyter notebooks ([Mike Burnham]?) {- #howto_jupyter}
+
+### Version control with git, GitHub, and GitLab ([Alaina Pearce]?) {- #howto_git}
+
+### Open access publishing ([Briana Wham]?) {- #howto_open_access}
+
+Where and how to share your research so that the maximum number of people can read it.
+
+### Sharing data and materials ([Rick Gilmore] & [Bruce Desmarais]?) {- #howto_data_sharing}
+
+Where can you share data and materials? 
+This workshop will demonstrate how researchers can use the [Open Science Framework (OSF)](https://osf.io), [Databrary](https://databrary.org), and other data and materials repositories both to share data and materials and to repurpose data and materials shared by others.
+
+### Good enough practices for data and project management (?) {- #howto_good_enough}
+
+Best practices can be hard to implement, so what open science practices are both ueseful and "good enough" [@Wilson2017-ot](http://dx.doi.org/10.1371/journal.pcbi.1005510) to have an impact on your work?
+
+### Data management ([Briana Wham]?) {- #howto_data_management}
+
+How to manage data to meet funder requirements and make sharing with collaborators and other researchers less burdensome.
+
+### Where to start? Open science for early career researchers ([Daisy Lei]? & [Hollie Mullin?]) {- #howto_early_career}
+
+Where can early career researchers start their open science journey?
+
+---
+
+
