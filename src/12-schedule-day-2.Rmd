@@ -1,4 +1,4 @@
-# Day 2 (Thu, Aug 10) {-}
+# Day 2 (Thu, Aug 10) {- #day_2}
 
 How to do open science
 

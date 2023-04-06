@@ -38,6 +38,8 @@ It is neither exhaustive nor definitive.
     - Literate programming
         - RStudio, JupyterLab
 - What is open science; why open science; how open science
+- Preregistration, registered reports
+- Data/materials archives (OSF, Databrary, Dryad, ICPSR, etc.)
 - Variety of disciplines
     - Open science in...
         - psychology, anthropology, biology, etc., etc.

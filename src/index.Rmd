@@ -4,7 +4,7 @@ author: "The 2023 Bootcamp Program Planning Committee"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [include/bib/book.bib, include/bib/packages.bib]
+bibliography: [include/bib/book.bib, include/bib/packages.bib, include/bib/bootcamp.bib]
 csl: include/bib/apa.csl
 url: "https://penn-state-open-science.github.io/bootcamp-2023/"
 description: |

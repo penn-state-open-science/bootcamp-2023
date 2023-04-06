@@ -24,16 +24,16 @@
   - ICDS
   - SSRI
   - Huck Institutes (Nicole)
-  - Department of Statistics (Nicole)
   - University Libraries
   - Office of Senior VP Research
   - Center for Language Science
-  - Center for Applied Linguistics
-  - Center for SoDA
   - SLEIC
 - Confirmed sponsors
   - Child Study Center
   - Department of Psychology
+  - Department of Statistics (Nicole)
+  - Center for Applied Linguistics
+  - Center for SoDA
 - Plan comms blitz before end of semester
 
 ## May

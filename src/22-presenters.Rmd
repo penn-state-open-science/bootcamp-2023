@@ -1,2 +1,7 @@
 # Presenters {-}
 
+## Mike Burnham {-}
+
+<http://www.mlburnham.com>
+
+Mike is a graduate student in the [Social Data Analytics (SoDA)](https://soda.la.psu.edu) program.
