@@ -39,9 +39,9 @@ knitr::include_graphics("https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-pub
 knitr::include_url("https://www.map.psu.edu/?id=1134#!ct/59509,33177,25403,26748,26749,26750,27255?m/336393?s/", height = "400px")
 ```
 
-### Remote participants {-}
+<!-- ### Remote participants {-} -->
 
-Bootcamp 2023 will be streamed online at the following URL:
+<!-- Bootcamp 2023 will be streamed online at the following URL: -->
 
 <https://psu.zoom.us/bootcamp-2023/>
 
