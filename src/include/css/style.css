@@ -27,3 +27,8 @@ pre code {
   background: #bfd1be center/3em no-repeat;
 }
 
+h2 {
+  text-underline-offset: 0.5em;
+  text-decoration-line: underline;
+}
+

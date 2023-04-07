@@ -16,6 +16,7 @@
 
 - [GitHub organization](https://github.com/penn-state-open-science).
 - [Open science survey protocol](http://penn-state-open-science.github.io/survey-fall-2022/) and [results](https://penn-state-open-science.github.io/survey-fall-2022/data-visualization.html).
+- R Markdown-formatted IRB application [template documents](https://github.com/penn-state-open-science/irb-markdown-templates).
 
 ## Center for Social Data Analytics ([SoDA](https://soda.la.psu.edu)) {-}
 
