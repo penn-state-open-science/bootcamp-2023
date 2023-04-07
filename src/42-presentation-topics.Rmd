@@ -69,7 +69,7 @@ Best practices can be hard to implement, so what open science practices are both
 
 How to manage data to meet funder requirements and make sharing with collaborators and other researchers less burdensome.
 
-### Where to start? Open science for early career researchers ([Daisy Lei]? & [Hollie Mullin?]) {- #howto_early_career}
+### Where to start? Open science for early career researchers ([Daisy Lei]? & [Hollie Mullin]?) {- #howto_early_career}
 
 Where can early career researchers start their open science journey?
 
