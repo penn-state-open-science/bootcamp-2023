@@ -1,20 +1,20 @@
-# This site
+# This site {-}
 
 This page describes the technologies and tools we use for generating this site.
 
-## RStudio
+## RStudio {-}
 
 [Rick Gilmore] drafted the site using the [RStudio](https://posit.co/download/rstudio-desktop/) Integrated Development Environment on his desktop computer.
 ~~Penn State supports RStudio Server which allows users to run RStudio in a web browser.~~
 
-## `bookdown`
+## `bookdown`  {-}
 
 The R package [`bookdown`](https://bookdown.org/yihui/bookdown/) generates the site.
 
 We use the Bootstrap format.
 To view specific parameters, see the `src/_bookdown.yml`, `src/_output.yml`, and `src/index.Rmd` files.
 
-## `renv`
+## `renv`  {-}
 
 We use the `renv` package to manage package dependencies.
 In most cases, to render the site anew, the user should do the following:
@@ -22,7 +22,7 @@ In most cases, to render the site anew, the user should do the following:
 1. Install `renv` via `install.packages('renv')`.
 2. Execute `renv::restore()` from the R console to install local copies of the required packages.
 
-## R Markdown
+## R Markdown  {-}
 
 Most of the content of the site is written in R Markdown, an extension of Markdown.
 
@@ -30,20 +30,20 @@ Image files are located in `src/include/img`; CSS style sheets are in `src/inclu
 
 Any "child" R Markdown files needed can be stored in `src/include/rmd`.
 
-## GitHub
+## GitHub  {-}
 
 We use git for version control and push changes to GitHub at <https://github.com/penn-state-open-science/bootcamp-2023>.
 
 GitHub has a 'pages' feature that will automatically turn HTML and associated files into a hosted website with a convenient URL.
 In our case, the URL is <https://penn-state-open-science.github.io/bootcamp-2023/>.
 
-## File structure
+## File structure {-}
 
 - All source documents are under `src/`.
 - The rendered website is in `docs/`.
 - Files related to package management are located in `renv/`
 
-## Editing and rendering
+## Editing and rendering {-}
 
 A typical editing and site rendering cycle goes like this:
 

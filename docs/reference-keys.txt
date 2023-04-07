@@ -1,10 +1,2 @@
 fig:unnamed-chunk-2
 fig:unnamed-chunk-3
-this-site
-rstudio
-bookdown
-renv
-r-markdown
-github
-file-structure
-editing-and-rendering
