@@ -43,9 +43,9 @@ knitr::include_url("https://www.map.psu.edu/?id=1134#!ct/59509,33177,25403,26748
 
 <!-- Bootcamp 2023 will be streamed online at the following URL: -->
 
-<https://psu.zoom.us/bootcamp-2023/>
+<!-- <https://psu.zoom.us/bootcamp-2023/> -->
 
-All sessions will be recorded and made publicly available at a later date.
+<!-- All sessions will be recorded and made publicly available at a later date. -->
 
 ## Acknowledgements {-}
 
