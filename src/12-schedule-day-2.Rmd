@@ -1,6 +1,9 @@
 # Day 2 (Thu, Aug 10) {- #day_2}
 
-How to do open science
+How to do open science.
+
+Parallel sessions for hands-on workshops. 
+Locations and topics will be announced later.
 
 ## Morning {- #day_2_am}
 
@@ -8,22 +11,24 @@ How to do open science
 
 09:00 am    Welcome to Day 2
 
-09:15 am    Presentation
+09:15 am    Workshop session 1
 
 10:15 am    Break (30 min)
 
-10:45 am    Presentation
+10:45 am    Workshop session 2
 
 11:45 am    Lunch break
 
 ## Afternoon {- #day_2_pm}
 
-01:15 pm    Presentation
+01:15 pm    Workshop session 3
 
 02:15 pm    Break (30 min)
 
-02:45 pm    Presentation
+02:45 pm    Workshop session 4
 
-03:45 pm    Day 2 wrap-up discussion
+03:45 pm    Break to reconvene at Marriott Foundation Building
+
+04:00 pm    Recap Day 2 (plenary session)
 
 04:15 pm    End of Day 2
