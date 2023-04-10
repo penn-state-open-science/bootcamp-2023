@@ -2,31 +2,37 @@
 
 ## Carrie Brown {-}
 
-Carrie Brown is the Advanced Cyberinfrastructure Research and Education Facilitator (ACI-REF) at PSU's [Institute of Computational and Data Sciences](https://icds.psu.edu). Building on an educational and research background in bioinformatics and statistics, she specializes in matchmaking computational and data-driven research questions with the most appropriate cyberinfrastructre resources and works closely with researchers to provide guidance on how best to develop and optimize their workflows. Prior to her arrival at Penn State in 2021, she worked as the Outreach and Training specialist at the Univeristy of Nebraska where she led the training and onboarding efforts at their high performance computing core and served as a regional mentor in the midwest. She has received her certification as an Instructor (2018) and an Instructor Trainer (2020) with [The Carpentries](https://carpentries.org), a nonprofit organization focused on building global capacity in essential data and computational skills for conducting efficient, open, and reproducible research.
+Carrie Brown is the Advanced Cyberinfrastructure Research and Education Facilitator (ACI-REF) at PSU's [Institute of Computational and Data Sciences](https://icds.psu.edu). Building on an educational and research background in bioinformatics and statistics, she specializes in matchmaking computational and data-driven research questions with the most appropriate cyberinfrastructre resources and works closely with researchers to provide guidance on how best to develop and optimize their workflows. Prior to her arrival at Penn State in 2021, she worked as the Outreach and Training specialist at the University of Nebraska where she led the training and onboarding efforts at their high performance computing core and served as a regional mentor in the midwest. She has received her certification as an Instructor (2018) and an Instructor Trainer (2020) with [The Carpentries](https://carpentries.org), a nonprofit organization focused on building global capacity in essential data and computational skills for conducting efficient, open, and reproducible research.
 
 ## Mike Burnham {-}
 
 <http://www.mlburnham.com>
 
-Mike is a graduate student in the [Social Data Analytics (SoDA)](https://soda.la.psu.edu) program.
+Mike Burnham is a graduate student in the [Social Data Analytics (SoDA)](https://soda.la.psu.edu) program.
 
 ## Bruce Desmarais {-}
 
-Bruce Desmarais is the DeGrandis-McCourtney Early Career Professor in Political Science, Director of the [Center for Social Data Analytics](https://soda.la.psu.edu), and a co-hire of the [Institute for Computational and Data Sciences](https://icds.psu.edu) at Penn State University. His research is focused on methodological development and applications that further our understanding of the complex interdependence that underlies politics and public policy. Methodologically, he focuses on methods for modeling networks, analyzing text, and running experiments on social systems. Primary application areas of interest to Bruce include public policy diffusion and digital communications involving political elites.
+Bruce Desmarais is the DeGrandis-McCourtney Early Career Professor in [Political Science](https://polisci.la.psu.edu), Director of the [Center for Social Data Analytics](https://soda.la.psu.edu), and a co-hire of the [Institute for Computational and Data Sciences](https://icds.psu.edu) at Penn State University. His research is focused on methodological development and applications that further our understanding of the complex interdependence that underlies politics and public policy. Methodologically, he focuses on methods for modeling networks, analyzing text, and running experiments on social systems. Primary application areas of interest to Bruce include public policy diffusion and digital communications involving political elites.
 
 ## Rick Gilmore {-}
 
-Rick is Professor of [Psychology](https://psych.la.psu.edu) and Director of the Open Data and Developmental Science (ODDS) initiative with the [Penn State Child Study Center (CSC)](https://csc.la.psu.edu). He co-founded and co-directs the [Databrary](https://databrary.org) data repository, and serves as Co-PI on the [Play & Learning Across a Year (PLAY) Project](https://play-project.org). His research examines the development of perception and action in infants, children, and adults using behavioral, neural, and computational methods.
+Rick Gilmore is Professor of [Psychology](https://psych.la.psu.edu) and Director of the Open Data and Developmental Science (ODDS) initiative with the [Penn State Child Study Center (CSC)](https://csc.la.psu.edu). He co-founded and co-directs the [Databrary](https://databrary.org) data repository, and serves as Co-PI on the [Play & Learning Across a Year (PLAY) Project](https://play-project.org). Gilmore served as inaugural director of the Penn State [Social, Life, & Engineering Sciences Imaging Center](https://imaging.psu.edu). His research examines the development of perception and action in infants, children, and adults using behavioral, neural, and computational methods.
 
 ## Frank Hillary {-}
 
+Frank Hillary is Professor of [Psychology](https://psych.la.psu.edu).
+
 ## Sai Koneru {-}
+
+Sai Koneru is a graduate student in the [College of Information Sciences and Technology (IST)](https://ist.psu.edu).
 
 ## Nicole Lazar {-}
 
+Nicole Lazar is Professor of [Statistics](https://science.psu.edu/stat) at Penn State. Her research interests include the foundations of statistical inference and the analysis of functional neuroimaging data. In particular, she has worked on fundamental inferential topics such as model selection, multiple testing problems, and likelihood theory, specifically in the context of modern large-scale data analysis problems. She has done pioneering work on the statistical analysis of cognitive neuroscience data, with a focus on functional magnetic resonance imaging (fMRI). Most recently, Lazar has been involved in the application of topological data analysis methods to scientific questions of interest in psychology and climatology. These techniques are at the interface of statistics, mathematics, and computer science, and exemplify her cross-disciplinary approach to research. Lazar is the author of the book *The Statistical Analysis of Functional MRI Data* published by Springer.  Lazar is also Co-PI on an NSF-funded project on fostering open science education for graduate students [NSF-1955049](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955049) which has led to the formation of the [Open Science Alliance](https://openscialliance.github.io/).
+
 ## Daisy Lei {-}
 
-Daisy Lei is a PhD candidate at Penn State, pursuing a dual-title degree in Psychology and Language Science. She is in Dr. Janet van Hell's Bilingualism and Language Development (BiLD) Lab. Her research interests include native- and nonnative-accented speech processing and word learning in monolinguals and bilinguals. She uses behavioral and neuropsychological (EEG) measurements in her research.
+Daisy Lei is a PhD candidate at Penn State, pursuing a dual-title degree in [Psychology](https://psych.la.psu.edu) and [Language Science](https://cls.la.psu.edu). She is in Dr. Janet van Hell's Bilingualism and Language Development (BiLD) Lab. Her research interests include native- and nonnative-accented speech processing and word learning in monolinguals and bilinguals. She uses behavioral and neuropsychological (EEG) measurements in her research.
 
 ## Kevin McManus {-}
 
@@ -34,8 +40,16 @@ Kevin McManus is an Associate Professor of [Applied Linguistics](https://aplng.l
 
 ## Hollie Mullin {-}
 
+Hollie Mullin is a graduate student in clinical psychology.
+
 ## Jenae Neiderhiser {-}
+
+Jenae Neiderhiser is Distinguished Professor of [Psychology](https://psych.la.psu.edu) and [Human Development and Family Studies](https://hhd.psu.edu/hdfs). Dr. Neiderhiser’s research is focused on understanding how interpersonal relationships, especially those within the family, are influenced by genetic factors via gene-environment correlation and interaction and the subsequent links to later adjustment in children and adults. More recently her work has included the examination of prenatal and early life risks in relation to child and adult adjustment. Dr. Neiderhiser is interested in understanding how interpersonal relationships shape and are shaped by children throughout the lifespan. One of the more novel findings emerging from her current work is that prenatal and early life risks appear to be mechanisms by which genetic factors influence child adjustment. Dr. Neiderhiser has used a variety of genetically informed research designs to examine gene-environment interplay including a longitudinal adolescent twin/sibling design, a study of twin parents of an adolescent and their family, a prospective longitudinal parent-offspring adoption study, a study of preadolescent twin children oversampled for residing in high risk neighborhoods, and a large international data harmonization study including multiple adult twin samples. These studies include extensive assessment of the environment within the household, interpersonal relationships, adult and child adjustment, temperament and personality and other related measures and together span the lifespan.
 
 ## Alaina Pearce {-}
 
+Alaina Pearce is Assistant Research Professor in the [Department of Nutritional Sciences](https://hhd.psu.edu/nutrition). Dr. Pearce is a cognitive neuroscientist interested in the reciprocal relationship between neurocognitive function and pediatric obesity. Dr. Pearce joined the [Center for Childhood Obesity Research](https://hhd.psu.edu/ccor) in February 2022 after completing a postdoc with Dr. Kathleen Keller at Penn State University. She received her PhD in Psychology from Georgetown University with a concentration in lifespan cognitive Neuroscience. Her research interests center on understanding on the reciprocal association between neurocognitive functioning and pediatric obesity. Dr. Pearce’s current research aims to: 1) characterize cognitive function, neural food-cue responsivity, and eating behaviors in children at high and low familial risk for obesity prior to the development of excess adiposity; 2) identify neurocognitive processes and eating behaviors that confer either risk or resiliency to pediatric obesity; and 3) characterize child eating behaviors through meal microstructure and computational modeling.
+
 ## Briana Wham {-}
+
+Briana Ezray Wham is Research Data Librarian – STEM at the Penn State University Libraries. Dr. Wham conducts data management plan reviews and provides guidance, training, and consulting services for data management planning, active data management, reproducible research workflows using R, data visualization, data publication, as well as ORCiD integration and utility. She also works as one of the data curators for [ScholarSphere](https://scholarsphere.psu.edu), Penn State's institutional repository. Prior to joining Penn State University Libraries, Briana received her Ph.D. in Entomology from Penn State, where she studied aspects of ecology, evolution, and conservation of bee communities. Briana’s interests include open science, museum collection digitization, and bee conservation.
