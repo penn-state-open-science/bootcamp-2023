@@ -1,4 +1,4 @@
-# Day 3 (Fri, Aug 10) {-}
+# Day 3 (Fri, Aug 11) {- #day_3}
 
 Open science @ Penn State: Next steps
 
