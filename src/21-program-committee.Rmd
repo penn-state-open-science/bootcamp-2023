@@ -4,6 +4,12 @@
 
 Carrie Brown is the Advanced Cyberinfrastructure Research and Education Facilitator (ACI-REF) at PSU's [Institute of Computational and Data Sciences](https://icds.psu.edu). Building on an educational and research background in bioinformatics and statistics, she specializes in matchmaking computational and data-driven research questions with the most appropriate cyberinfrastructre resources and works closely with researchers to provide guidance on how best to develop and optimize their workflows. Prior to her arrival at Penn State in 2021, she worked as the Outreach and Training specialist at the Univeristy of Nebraska where she led the training and onboarding efforts at their high performance computing core and served as a regional mentor in the midwest. She has received her certification as an Instructor (2018) and an Instructor Trainer (2020) with [The Carpentries](https://carpentries.org), a nonprofit organization focused on building global capacity in essential data and computational skills for conducting efficient, open, and reproducible research.
 
+## Mike Burnham {-}
+
+<http://www.mlburnham.com>
+
+Mike is a graduate student in the [Social Data Analytics (SoDA)](https://soda.la.psu.edu) program.
+
 ## Bruce Desmarais {-}
 
 Bruce Desmarais is the DeGrandis-McCourtney Early Career Professor in Political Science, Director of the [Center for Social Data Analytics](https://soda.la.psu.edu), and a co-hire of the [Institute for Computational and Data Sciences](https://icds.psu.edu) at Penn State University. His research is focused on methodological development and applications that further our understanding of the complex interdependence that underlies politics and public policy. Methodologically, he focuses on methods for modeling networks, analyzing text, and running experiments on social systems. Primary application areas of interest to Bruce include public policy diffusion and digital communications involving political elites.
