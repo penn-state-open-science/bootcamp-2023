@@ -17,7 +17,22 @@ These are some possible presentations for [Day 1](#day_1).
 
 ### Case study: Reproducibility in neuroimaging ([Frank Hillary]? & [Nicole Lazar]?) {- #casestudy_neuroimaging}
 
+*Prerequisites*: 
+
+*Skill level*: 
+
+*Time required*: 
+
 ### Case study: Big data behavioral science: The Play & Learning Across a Year (PLAY) Project ([Rick Gilmore]) {- #casestudy_PLAY}
+
+The [Play & Learning Across a Year (PLAY) Project](https://play-project.org) is an [NIH-funded research project](https://reporter.nih.gov/search/PJYxIpAvQkyD2ZNPUPbp8Q/project-details/9500957) that is recording, annotating, and sharing video recordings of mothers and their infants engaged in natural activities in the home.
+In addition to providing a first-of-its-kind openly shared video corpus of natural behavior via [Databrary](https://databrary.org), PLAY's entire [protocol](https://play-project.org) is openly shared on the web, and the project's survey data results are [openly summarized](https://PLAY-behaviorome.github.io/KoBoToolbox/) and regularly updated. As such, PLAY provides a test-case for how open science practices work in a large-scale, geographically distributed research project that collects and intends to share identifiable data.
+
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+*Time required*: 30 min
 
 ### Reproducible research in economics ([Lars Vilhuber](https://www.ilr.cornell.edu/people/lars-vilhuber), Cornell?) {- #casestudy_economics}
 
@@ -25,32 +40,79 @@ These are some possible presentations for [Day 1](#day_1).
 
 Types of reproducibility. How building reproducible research workflows can make your work more robust and more readily shareable.
 
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+*Time required*: 30 min
+
 ## How to do open science? {-}
 
 These are some possible presentations for [Day 2](#day_1).
+[Day 2](#day_2) would be conducted in 3-5 breakout sessions.
 
 ### Preregistration & registered reports ([Bruce Desmarais]?) {- #howto_preregistration}
 
 What is preregistration? What are preregistered reports? When and why would you want to use these tools?
 
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+*Time required*: 30 min
+
 ### Replication ([Kevin McManus]) {- #howto_replication}
 
 Why are replication studies important? How to plan, conduct, and publish replication studies.
 
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+*Time required*: 30 min
+
+
 ### Responsible and robust research (?) {- #howto_responsible_research}
 
-What are questionable research practices? Why are they questionable? How do we avoid them.
+What are questionable research practices? Why are they questionable? How do we avoid them?
+
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+*Time required*: 30 min
 
 ### Literate Programming with R Markdown and Quarto ([Rick Gilmore]){- #howto_rmarkdown}
 
 What is literate programming? 
 How can literate programming tools improve your research productivity? 
-This workshop will demonstrate the many uses of R Markdown and its successor, Quarto in research, teaching, and service.
-These tools can be used to create slides, papers, and web sites using the same source materials.
+This workshop will demonstrate the many uses of [R Markdown](https://rmarkdown.rstudio.com) and its successor, [Quarto](https://quarto.org) in research, teaching, and service.
+These tools can be used to create slides, analysis reports, papers, and web sites (like this one) using the same source materials.
+[Rick Gilmore] considers these tools super-powers.
 
-### Literate programming with Jupyter notebooks ([Mike Burnham]?) {- #howto_jupyter}
+*Prerequisites*: None
 
-### Version control with git, GitHub, and GitLab ([Alaina Pearce]? & [Carrie Brown]?) {- #howto_git}
+*Skill level*: Novice
+
+*Time required*: 2 hrs (could extend to 3-4 if needed)
+
+### Literate programming with Jupyter notebooks ([Mike Burnham]) {- #howto_jupyter}
+
+[Jupyter notebooks](https://jupyter.org) are another literate programming tool, and also another research super-power.
+
+*Prerequisites*: 
+
+*Skill level*: 
+
+*Time required*: 
+
+### Version control with git, GitHub, and GitLab ([Alaina Pearce]? & [Carrie Brown]) {- #howto_git}
+
+*Prerequisites*: 
+
+*Skill level*: 
+
+*Time required*: 2-4 hrs.
 
 ### Open access publishing ([Briana Wham]?) {- #howto_open_access}
 
@@ -58,8 +120,15 @@ Where and how to share your research so that the maximum number of people can re
 
 ### Sharing data and materials ([Rick Gilmore] & [Bruce Desmarais]?) {- #howto_data_sharing}
 
-Where can you share data and materials? 
+Where can you share data and materials?
+Where *should* you share data and materials?
 This workshop will demonstrate how researchers can use the [Open Science Framework (OSF)](https://osf.io), [Databrary](https://databrary.org), and other data and materials repositories both to share data and materials and to repurpose data and materials shared by others.
+
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+*Time required*: 30-45 min
 
 ### Good enough practices for data and project management (?) {- #howto_good_enough}
 
@@ -76,3 +145,9 @@ Where can early career researchers start their open science journey?
 ### Reproducible software ([Carrie Brown]?) {- #reproducible-software}
 
 How to make your code reproducible; Conda; software environments, etc.
+
+*Prerequisites*: 
+
+*Skill level*: 
+
+*Time required*: 
