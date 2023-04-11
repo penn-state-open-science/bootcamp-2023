@@ -140,7 +140,7 @@ How to manage data to meet funder requirements and make sharing with collaborato
 
 ### Where to start? Open science for early career researchers ([Daisy Lei]?, [Hollie Mullin]?, [Mike Burnham]?, & [Sai Koneru]?) {- #howto_early_career}
 
-Where can early career researchers start their open science journey?
+How can early career researchers start easing-in to their open science journey [@Kathawalla2021-tk](https://doi.org/10.1525/collabra.18684)?
 
 ### Reproducible software ([Carrie Brown]?) {- #reproducible-software}
 

@@ -20,9 +20,21 @@ knitr::opts_chunk$set(echo = FALSE,
 library(tidyverse)
 ```
 
-# About Bootcamp 2023 {-}
+# Bootcamp 2023 {-}
 
-These pages document and describe the 2023 Open Science Bootcamp held at the University Park campus of [the Pennsylvania State University](https://www.psu.edu) August 9-11, 2023 at the Marriott Foundation Building.
+These pages document and describe the 2023 Open Science Bootcamp held at the University Park campus of [the Pennsylvania State University](https://www.psu.edu) August 9-11, 2023 at the Marriott Foundation Building on the Penn State University Park campus.
+
+## Goals {-}
+
+- To create a focal point for activity and learning related to open science practices.
+- To accelerate the development of a community of scholars who are interested in open science.
+- To plan next steps to foster the emergence of a robust open science community at Penn State.
+
+## Origins {-}
+
+The Bootcamp is an outgrowth of discussions that emerged in early 2022 among some of the conference organizers and builds upon the lessons learned in an open science [survey](https://penn-state-open-science.github.io/survey-fall-2022/) that a number of Penn State researchers completed in late 2022 and early 2023.
+
+It also builds upon the lessons learned in hosting bootcamps focused on the R programming language in [2017](https://psu-psychology.github.io/r-bootcamp/), [2018](https://psu-psychology.github.io/r-bootcamp-2018/), and [2019](https://psu-psychology.github.io/r-bootcamp-2019/) by [Psychology Department](https://psych.la.psu.edu) and [HDFS](https://hhd.psu.edu/hdfs) faculty.
 
 ## Logistics {-}
 
