@@ -82,7 +82,7 @@ What are questionable research practices? Why are they questionable? How do we a
 
 *Time required*: 30 min
 
-### Literate Programming with R Markdown and Quarto ([Rick Gilmore]){- #howto_rmarkdown}
+### Literate Programming with R Markdown and Quarto ([Rick Gilmore] & [Alaina Pearce]?){- #howto_rmarkdown}
 
 What is literate programming? 
 How can literate programming tools improve your research productivity? 
@@ -106,7 +106,7 @@ These tools can be used to create slides, analysis reports, papers, and web site
 
 *Time required*: 
 
-### Version control with git, GitHub, and GitLab ([Alaina Pearce]? & [Carrie Brown]) {- #howto_git}
+### Version control with git, GitHub, and GitLab ([Carrie Brown]) {- #howto_git}
 
 *Prerequisites*: 
 
@@ -130,9 +130,15 @@ This workshop will demonstrate how researchers can use the [Open Science Framewo
 
 *Time required*: 30-45 min
 
-### Good enough practices for data and project management (?) {- #howto_good_enough}
+### Good enough practices for data and project management ([Alaina Pearce]?) {- #howto_good_enough}
 
-Best practices can be hard to implement, so what open science practices are both ueseful and "good enough" [@Wilson2017-ot](http://dx.doi.org/10.1371/journal.pcbi.1005510) to have an impact on your work?
+Best practices can be hard to implement, so what open science practices are both ueseful and "good enough" [@Wilson2017-ot] to have an impact on your work? How can researchers make their data findable, accessible, interoperable, and reusable--adhere to the FAIR data principles [@Wilkinson2016-qr]?
+
+*Prerequisites*: 
+
+*Skill level*: 
+
+*Time required*: 
 
 ### Data management ([Briana Wham]?) {- #howto_data_management}
 
@@ -140,7 +146,7 @@ How to manage data to meet funder requirements and make sharing with collaborato
 
 ### Where to start? Open science for early career researchers ([Daisy Lei]?, [Hollie Mullin]?, [Mike Burnham]?, & [Sai Koneru]?) {- #howto_early_career}
 
-How can early career researchers start easing-in to their open science journey [@Kathawalla2021-tk](https://doi.org/10.1525/collabra.18684)?
+How can early career researchers start easing-in to their open science journey [@Kathawalla2021-tk]?
 
 ### Reproducible software ([Carrie Brown]?) {- #reproducible-software}
 
