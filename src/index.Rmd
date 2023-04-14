@@ -34,14 +34,16 @@ These pages document and describe the 2023 Open Science Bootcamp held at the Uni
 
 The Bootcamp is an outgrowth of discussions that emerged in early 2022 among some of the conference organizers and builds upon the lessons learned in an open science [survey](https://penn-state-open-science.github.io/survey-fall-2022/) that a number of Penn State researchers completed in late 2022 and early 2023.
 
-It also builds upon the lessons learned in hosting bootcamps focused on the R programming language in [2017](https://psu-psychology.github.io/r-bootcamp/), [2018](https://psu-psychology.github.io/r-bootcamp-2018/), and [2019](https://psu-psychology.github.io/r-bootcamp-2019/) by [Psychology Department](https://psych.la.psu.edu) and [HDFS](https://hhd.psu.edu/hdfs) faculty.
+It also builds upon the lessons learned in hosting bootcamps focused on the R programming language sponsored in [2017](https://psu-psychology.github.io/r-bootcamp/), [2018](https://psu-psychology.github.io/r-bootcamp-2018/), and [2019](https://psu-psychology.github.io/r-bootcamp-2019/) by [Psychology Department](https://psych.la.psu.edu) and [HDFS](https://hhd.psu.edu/hdfs) faculty.
 
 ## Logistics {-}
 
-### Location {-}
+### Locations {-}
 
-Most in-person events at Bootcamp 2023 will be held in the newly renovated Marriott Foundation Building on the Penn State University Park campus.
+Most in-person events at Bootcamp 2023 will be held in the newly renovated **Marriott Foundation Building** on the Penn State University Park campus.
 The Marriott Foundation Building is located just north of the Nittany Lion Inn, near the intersection of Park Avenue and Atherton Street.
+
+#### Marriott Foundation Building  {-}
 
 ```{r, out.width="100%", fig.cap="Marriott Foundation Building"}
 knitr::include_graphics("https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/4_3_2000w/public/Oak%20Building.jpeg?h=71976bb4&itok=AOCn0pbO")
@@ -49,6 +51,22 @@ knitr::include_graphics("https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-pub
 
 ```{r, out.width="100%", fig.cap="Marriott Foundation Building location from https://www.map.psu.edu"}
 knitr::include_url("https://www.map.psu.edu/?id=1134#!ct/59509,33177,25403,26748,26749,26750,27255?m/336393?s/", height = "400px")
+```
+
+#### Keller Building {-}
+
+Some breakout sessions will be held in 115 Keller Building on [Thursday, August 10](#day_2) and [Friday, August 11](#day_3).
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fla.psu.edu%2Fabout%2Fexplore-campus%2F&psig=AOvVaw1A-rBdI1PxXwtC6qFHlgvS&ust=1681566744033000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD0t7XCqf4CFQAAAAAdAAAAABAE
+
+https://la.psu.edu/wp-content/uploads/sites/2/2022/11/Keller-Building-April-2022-01.jpg
+
+```{r, out.width="100%", fig.cap="Keller Building"}
+knitr::include_graphics("https://la.psu.edu/wp-content/uploads/sites/2/2022/11/Keller-Building-April-2022-01.jpg")
+```
+
+```{r, out.width="100%", fig.cap="Keller Building location from https://www.map.psu.edu"}
+knitr::include_url("https://map.psu.edu/?id=1134#!m/272192?s/", height = "400px")
 ```
 
 <!-- ### Remote participants {-} -->
