@@ -18,17 +18,21 @@ knitr::opts_chunk$set(echo = FALSE,
                       fig.align = "center",
                       fig.path = "include/img/")
 library(tidyverse)
+library(bslib)
+library(htmltools)
 ```
 
 # Bootcamp 2023 {-}
 
-These pages document and describe the 2023 Open Science Bootcamp held at the University Park campus of [the Pennsylvania State University](https://www.psu.edu) August 9-11, 2023 at the Marriott Foundation Building on the Penn State University Park campus.
+These pages document and describe the 2023 Open Science Bootcamp held at the University Park campus of [the Pennsylvania State University](https://www.psu.edu) Wednesday, August 9 through Friday, August 11, 2023 at the [Marriott Foundation Building](#marriott-fdn-bldg) and [Keller Building](#keller-bldg) on the Penn State University Park campus.
+
+The Bootcamp would not be possible without the generosity and hard work of our [sponsors and supporters](#acknowledgements).
 
 ## Goals {-}
 
 - To create a focal point for activity and learning related to open science practices.
 - To accelerate the development of a community of scholars who are interested in open science.
-- To plan next steps to foster the emergence of a robust open science community at Penn State.
+- To plan next steps that will foster the emergence of a robust open science community at Penn State.
 
 ## Origins {-}
 
@@ -43,7 +47,7 @@ It also builds upon the lessons learned in hosting bootcamps focused on the R pr
 Most in-person events at Bootcamp 2023 will be held in the newly renovated **Marriott Foundation Building** on the Penn State University Park campus.
 The Marriott Foundation Building is located just north of the Nittany Lion Inn, near the intersection of Park Avenue and Atherton Street.
 
-#### Marriott Foundation Building  {-}
+#### Marriott Foundation Building  {- #marriott-fdn-bldg}
 
 ```{r, out.width="100%", fig.cap="Marriott Foundation Building"}
 knitr::include_graphics("https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/4_3_2000w/public/Oak%20Building.jpeg?h=71976bb4&itok=AOCn0pbO")
@@ -53,13 +57,9 @@ knitr::include_graphics("https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-pub
 knitr::include_url("https://www.map.psu.edu/?id=1134#!ct/59509,33177,25403,26748,26749,26750,27255?m/336393?s/", height = "400px")
 ```
 
-#### Keller Building {-}
+#### Keller Building {- #keller-bldg}
 
 Some breakout sessions will be held in 115 Keller Building on [Thursday, August 10](#day_2) and [Friday, August 11](#day_3).
-
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fla.psu.edu%2Fabout%2Fexplore-campus%2F&psig=AOvVaw1A-rBdI1PxXwtC6qFHlgvS&ust=1681566744033000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMD0t7XCqf4CFQAAAAAdAAAAABAE
-
-https://la.psu.edu/wp-content/uploads/sites/2/2022/11/Keller-Building-April-2022-01.jpg
 
 ```{r, out.width="100%", fig.cap="Keller Building"}
 knitr::include_graphics("https://la.psu.edu/wp-content/uploads/sites/2/2022/11/Keller-Building-April-2022-01.jpg")

@@ -1,15 +1,25 @@
 # Day 2 (Thu, Aug 10) {- #day_2}
 
-How to do open science.
+::: {.rmdimportant}
+
+*Locations*: [Marriott Foundation Building](#marriott-fdn-bldg) and 115 [Keller Building](#keller-bldg).
 
 Parallel sessions for hands-on workshops. 
 Locations and topics will be announced later.
 
+:::
+
 ## Morning {- #day_2_am}
 
-08:30 am    Coffee
+::: {.rmdnote}
 
-09:00 am    Welcome to Day 2
+*Theme*: How to do open science: Workshops
+
+:::
+
+08:30 am    Coffee: [Marriott Foundation Building](#marriott-fdn-bldg)
+
+09:00 am    Welcome to Day 2: [Marriott Foundation Building](#marriott-fdn-bldg)
 
 09:15 am    Workshop session 1
 
@@ -21,14 +31,20 @@ Locations and topics will be announced later.
 
 ## Afternoon {- #day_2_pm}
 
+::: {.rmdnote}
+
+*Theme*: How to do open science: Workshops
+
+:::
+
 01:15 pm    Workshop session 3
 
 02:15 pm    Break (30 min)
 
 02:45 pm    Workshop session 4
 
-03:45 pm    Break to reconvene at Marriott Foundation Building
+03:45 pm    Break to reconvene at [Marriott Foundation Building](#marriott-fdn-bldg)
 
-04:00 pm    Recap Day 2 (plenary session)
+04:00 pm    Recap Day 2 (plenary session): [Marriott Foundation Building](#marriott-fdn-bldg)
 
 04:15 pm    End of Day 2
