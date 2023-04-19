@@ -132,13 +132,13 @@ This workshop will demonstrate how researchers can use the [Open Science Framewo
 
 ### Good enough practices for data and project management ([Alaina Pearce]?) {- #howto_good_enough}
 
-Best practices can be hard to implement, so what open science practices are both ueseful and "good enough" [@Wilson2017-ot] to have an impact on your work? How can researchers make their data findable, accessible, interoperable, and reusable--adhere to the FAIR data principles [@Wilkinson2016-qr]?
+Best practices can be hard to implement, so what open science practices are both ueseful and "good enough" [@Wilson2017-ot] to have an impact on your work?  How can researchers make their data findable, accessible, interoperable, and reusable--adhere to the FAIR data principles [@Wilkinson2016-qr]? How can these practices improve your data lifecycle and/or pipeline (e.g., data use and re-use within and between labs)?
 
-*Prerequisites*: 
+*Prerequisites*:
 
-*Skill level*: 
+*Skill level*:
 
-*Time required*: 
+*Time required*:
 
 ### Data management ([Briana Wham]?) {- #howto_data_management}
 
