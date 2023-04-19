@@ -38,11 +38,11 @@ All times are Eastern Daylight Time (EDT).
 
 :::
 
-01:15 pm    [Good enough practices](#howto_good_enough)
+01:15 pm    **Keynote**: [Tim Errington](https://www.linkedin.com/in/tim-errington-558a928), Senior Director of Research, Center for Open Science
 
 02:15 pm    Break
 
-02:45 pm    The 4 R's (reproducibility, replication, robustness, & reach)
+02:45 pm    [Good enough practices](#howto_good_enough)
 
 03:45 pm    Day 1 wrap-up
 
