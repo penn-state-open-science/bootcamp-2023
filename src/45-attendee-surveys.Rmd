@@ -61,7 +61,7 @@ attendees_1_clean <- attendees_1_clean |>
   dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York"))
 ```
 
-```{r, fig.cap = "Time series of responses"}
+```{r survey-1-timeseries, fig.cap = "Time series of responses"}
 attendees_1_clean |>
   dplyr::mutate(resp_index = seq_along(timestamp)) |>
   ggplot() +
@@ -96,7 +96,7 @@ attendees_1_interests <- attendees_1_clean |>
   filter(!is.na(interest_level))
 ```
 
-```{r, fig.cap="Expressed levels of interest for workshop topics"}
+```{r survey-1-interests, fig.cap="Expressed levels of interest for workshop topics"}
 attendees_1_interests |>
   ggplot() +
   aes(x = interest_level, fill = interest_level) +
@@ -105,3 +105,14 @@ attendees_1_interests |>
   theme(axis.text.x = element_blank()) +
   labs(x = NULL, y = 'n')
 ```
+
+Other suggestions:
+
+```{r, fig.cap="Other topic suggestions"}
+attendees_1_clean |>
+  select(interest_other) |>
+  filter(!is.na(interest_other)) |>
+  knitr::kable(format = 'html') |>
+  kableExtra::kable_material()
+```
+
