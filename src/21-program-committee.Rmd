@@ -50,6 +50,10 @@ Jenae Neiderhiser is Distinguished Professor of [Psychology](https://psych.la.ps
 
 [Alaina Pearce](https://sites.psu.edu/alainapearce/) is Assistant Research Professor in the [Department of Nutritional Sciences](https://hhd.psu.edu/nutrition) and [Center for Childhood Obesity Research](https://hhd.psu.edu/ccor) and is an affiliate of the [Institute of Computational and Data Sciences](https://www.icds.psu.edu). Dr. Pearce is a cognitive neuroscientist and her research interests center on understanding on the reciprocal association between neurocognitive functioning and pediatric obesity. Dr. Pearce’s current research aims to: 1) characterize cognitive function, neural food-cue responsivity, and eating behaviors in children at high and low familial risk for obesity prior to the development of excess adiposity; 2) identify neurocognitive processes and eating behaviors that confer either risk or resiliency to pediatric obesity; and 3) characterize child eating behaviors through meal microstructure and computational modeling.
 
+## Jennifer Valcin {-}
+
+Jennifer Valcin is a Statistical Data Analyst at the Penn State University Libraries.
+
 ## Briana Wham {-}
 
 Briana Ezray Wham is Research Data Librarian – STEM at the Penn State University Libraries. Dr. Wham conducts data management plan reviews and provides guidance, training, and consulting services for data management planning, active data management, reproducible research workflows using R, data visualization, data publication, as well as ORCiD integration and utility. She also works as one of the data curators for [ScholarSphere](https://scholarsphere.psu.edu), Penn State's institutional repository. Prior to joining Penn State University Libraries, Briana received her Ph.D. in Entomology from Penn State, where she studied aspects of ecology, evolution, and conservation of bee communities. Briana’s interests include open science, museum collection digitization, and bee conservation.
