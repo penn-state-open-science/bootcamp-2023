@@ -4,7 +4,7 @@ This page describes the technologies and tools we use for generating this site.
 
 ## RStudio {-}
 
-[Rick Gilmore] drafted the site using the [RStudio](https://posit.co/download/rstudio-desktop/) Integrated Development Environment on his desktop computer.
+[Rick Gilmore] drafted the site using the [RStudio](https://posit.co/download/rstudio-desktop/) Integrated Development Environment (IDE) on his desktop computer.
 ~~Penn State supports RStudio Server which allows users to run RStudio in a web browser.~~
 
 ## `bookdown`  {-}
@@ -51,3 +51,21 @@ A typical editing and site rendering cycle goes like this:
 2. Save the changed files.
 3. Render the site via `bookdown::render_book('src')`.
 4. View the site locally in a browser by opening `docs/index.html`.
+
+::: {.rmdnote}
+
+**TODO**: Incorporate GitHub actions to generate the site. This would save a step.
+
+:::
+
+## Sending emails {-}
+
+::: {.rmdnote}
+
+**TODO**: Develop workflow for sending registered participants reminder emails.
+
+:::
+
+Here is a tutorial for how to send email from Quarto/R Markdown using the `blastula` package:
+
+<https://www.youtube.com/watch?v=_QQGW_RUw_I>

@@ -6,15 +6,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>This site | Open Science Bootcamp 2023</title>
 <meta name="author" content="The 2023 Bootcamp Program Planning Committee">
-<meta name="description" content="This page describes the technologies and tools we use for generating this site. RStudio Rick Gilmore drafted the site using the RStudio Integrated Development Environment on his desktop computer....">
+<meta name="description" content="This page describes the technologies and tools we use for generating this site. RStudio Rick Gilmore drafted the site using the RStudio Integrated Development Environment (IDE) on his desktop...">
 <meta name="generator" content="bookdown 0.33 with bs4_book()">
 <meta property="og:title" content="This site | Open Science Bootcamp 2023">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://penn-state-open-science.github.io/bootcamp-2023/this-site.html">
-<meta property="og:description" content="This page describes the technologies and tools we use for generating this site. RStudio Rick Gilmore drafted the site using the RStudio Integrated Development Environment on his desktop computer....">
+<meta property="og:description" content="This page describes the technologies and tools we use for generating this site. RStudio Rick Gilmore drafted the site using the RStudio Integrated Development Environment (IDE) on his desktop...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="This site | Open Science Bootcamp 2023">
-<meta name="twitter:description" content="This page describes the technologies and tools we use for generating this site. RStudio Rick Gilmore drafted the site using the RStudio Integrated Development Environment on his desktop computer....">
+<meta name="twitter:description" content="This page describes the technologies and tools we use for generating this site. RStudio Rick Gilmore drafted the site using the RStudio Integrated Development Environment (IDE) on his desktop...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.2/transition.js"></script><script src="libs/bs3compat-0.4.2/tabs.js"></script><script src="libs/bs3compat-0.4.2/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -77,6 +77,7 @@
 <li class="book-part">Materials</li>
 <li><a class="" href="resources-penn-state.html">Resources @ Penn State</a></li>
 <li><a class="" href="presentation-topics.html">Presentation topics</a></li>
+<li><a class="" href="attendee-surveys.html">Attendee surveys</a></li>
 <li><a class="active" href="this-site.html">This site</a></li>
 <li><a class="" href="references.html">References</a></li>
 </ul>
@@ -93,7 +94,7 @@
 <div id="rstudio" class="section level2 unnumbered">
 <h2>RStudio<a class="anchor" aria-label="anchor" href="#rstudio"><i class="fas fa-link"></i></a>
 </h2>
-<p><a href="program-planning-committee.html#rick-gilmore">Rick Gilmore</a> drafted the site using the <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> Integrated Development Environment on his desktop computer.
+<p><a href="program-planning-committee.html#rick-gilmore">Rick Gilmore</a> drafted the site using the <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> Integrated Development Environment (IDE) on his desktop computer.
 <del>Penn State supports RStudio Server which allows users to run RStudio in a web browser.</del></p>
 </div>
 <div id="bookdown" class="section level2 unnumbered">
@@ -149,10 +150,23 @@ In our case, the URL is <a href="https://penn-state-open-science.github.io/bootc
 <li>Render the site via <code>bookdown::render_book('src')</code>.</li>
 <li>View the site locally in a browser by opening <code>docs/index.html</code>.</li>
 </ol>
+<div class="rmdnote">
+<p><strong>TODO</strong>: Incorporate GitHub actions to generate the site. This would save a step.</p>
+</div>
+</div>
+<div id="sending-emails" class="section level2 unnumbered">
+<h2>Sending emails<a class="anchor" aria-label="anchor" href="#sending-emails"><i class="fas fa-link"></i></a>
+</h2>
+<div class="rmdnote">
+<p><strong>TODO</strong>: Develop workflow for sending registered participants reminder emails.</p>
+</div>
+<p>Here is a tutorial for how to send email from Quarto/R Markdown using the <code>blastula</code> package:</p>
+<p><a href="https://www.youtube.com/watch?v=_QQGW_RUw_I" class="uri">https://www.youtube.com/watch?v=_QQGW_RUw_I</a></p>
+
 </div>
 </div>
   <div class="chapter-nav">
-<div class="prev"><a href="presentation-topics.html">Presentation topics</a></div>
+<div class="prev"><a href="attendee-surveys.html">Attendee surveys</a></div>
 <div class="next"><a href="references.html">References</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
@@ -165,6 +179,7 @@ In our case, the URL is <a href="https://penn-state-open-science.github.io/bootc
 <li><a class="nav-link" href="#github">GitHub</a></li>
 <li><a class="nav-link" href="#file-structure">File structure</a></li>
 <li><a class="nav-link" href="#editing-and-rendering">Editing and rendering</a></li>
+<li><a class="nav-link" href="#sending-emails">Sending emails</a></li>
 </ul>
 
       <div class="book-extra">
@@ -182,7 +197,7 @@ In our case, the URL is <a href="https://penn-state-open-science.github.io/bootc
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>Open Science Bootcamp 2023</strong>" was written by The 2023 Bootcamp Program Planning Committee. It was last built on 2023-04-19.</p>
+    <p>"<strong>Open Science Bootcamp 2023</strong>" was written by The 2023 Bootcamp Program Planning Committee. It was last built on 2023-05-03.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
