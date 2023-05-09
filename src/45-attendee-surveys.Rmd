@@ -65,7 +65,6 @@ attendees_1_clean <- attendees_1_clean |>
 attendees_1_clean |>
   dplyr::group_by(interested) |>
   dplyr::mutate(resp_index = seq_along(interested)) |>
-#  dplyr::mutate(resp_index = seq_along(timestamp)) |>
   dplyr::ungroup() |>
   ggplot() +
   aes(x = timestamp, y = resp_index, color = interested) +
@@ -88,6 +87,15 @@ recode_low_med_high <- function(x) {
     ordered = TRUE
   )
 }
+
+recode_interest_score <- function(df) {
+  df <- dplyr::mutate(df,
+                     interest_score = case_match(interest_level,
+                                                 "high" ~ 3,
+                                                 "med" ~ 2,
+                                                 "low" ~ 1))
+  df
+}
 ```
 
 ```{r}
@@ -101,15 +109,20 @@ attendees_1_interests <- attendees_1_clean |>
   ) |>
   mutate(interest_level = recode_low_med_high(interest_level)) |>
   mutate(topic = str_remove_all(topic, "interest_")) |>
-  filter(!is.na(interest_level))
+  filter(!is.na(interest_level)) |>
+  recode_interest_score() |>
+  group_by(topic) |> 
+  mutate(mean_interest = round(mean(interest_score), 2)) |>
+  ungroup()
 ```
 
 ```{r survey-1-interests, fig.cap="Expressed levels of interest for workshop topics"}
 attendees_1_interests |>
   ggplot() +
-  aes(x = interest_level, fill = interest_level) +
+  aes(x = interest_level, fill = interest_level, label = mean_interest) +
   geom_bar(na.rm = TRUE) +
   facet_wrap(~ topic) + 
+  geom_text(x = 1, y = 30) + # This is not the best way to do this.
   theme(axis.text.x = element_blank()) +
   labs(x = NULL, y = 'n')
 ```
