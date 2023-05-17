@@ -1,6 +1,7 @@
-fig:unnamed-chunk-13
-fig:unnamed-chunk-14
-fig:unnamed-chunk-15
-fig:unnamed-chunk-16
+fig:unnamed-chunk-2
+fig:unnamed-chunk-3
+fig:unnamed-chunk-4
+fig:unnamed-chunk-5
 fig:survey-1-timeseries
 fig:survey-1-interests
+outside-psu

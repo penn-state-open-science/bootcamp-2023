@@ -1,0 +1,38 @@
+# Resources {-}
+
+## Penn State {-}
+
+### University Libraries {-}
+
+#### Workshops {-}
+
+#### ScholarSphere {-}
+
+### Data Commons {-}
+
+### Institute for Computational and Data Science (ICDS) {-}
+
+### Social Science Research Institute (SSRI) {-}
+
+### Penn State Open Science Initiative {-}
+
+- [GitHub organization](https://github.com/penn-state-open-science).
+- [Open science survey protocol](http://penn-state-open-science.github.io/survey-fall-2022/) and [results](https://penn-state-open-science.github.io/survey-fall-2022/data-visualization.html).
+- R Markdown-formatted IRB application [template documents](https://github.com/penn-state-open-science/irb-markdown-templates).
+
+### Center for Social Data Analytics ([SoDA](https://soda.la.psu.edu)) {-}
+
+### Courses {-}
+
+- [PSYCH 490: The reproducibility crisis in science (Spring 2023)](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/).
+
+## Outside PSU
+
+- <https://opensciency.github.io/sprint-content/>
+- Framework for Open and Reproducible Research Training: <https://forrt.org>
+- <https://nap.nationalacademies.org/catalog/25116/open-science-by-design-realizing-a-vision-for-21st-century>
+- <https://foss.cyverse.org>
+- <https://www.gida-global.org/care>
+- <https://localcontexts.org>
+- Dr. Alondra Nelson's [memo](http://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf) about open access to federally-funded research and a [commentary](https://guides.lib.umich.edu/open-research-and-scholarship/OSTP-memo) about it.
+- Tyson Swetnam's Awesome Open Science resources: <https://tyson-swetnam.github.io/awesome-open-science/>.
