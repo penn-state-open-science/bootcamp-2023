@@ -51,6 +51,14 @@
       "Hash": "45f0398006e83a5b10b72a90663d8d8c",
       "Requirements": []
     },
+    "Rcpp": {
+      "Package": "Rcpp",
+      "Version": "1.0.10",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "e749cae40fa9ef469b6050959517453c",
+      "Requirements": []
+    },
     "askpass": {
       "Package": "askpass",
       "Version": "1.1",
@@ -622,6 +630,29 @@
       "Hash": "a4269a09a9b865579b2635c77e572374",
       "Requirements": []
     },
+    "kableExtra": {
+      "Package": "kableExtra",
+      "Version": "1.3.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "49b625e6aabe4c5f091f5850aba8ff78",
+      "Requirements": [
+        "digest",
+        "glue",
+        "htmltools",
+        "knitr",
+        "magrittr",
+        "rmarkdown",
+        "rstudioapi",
+        "rvest",
+        "scales",
+        "stringr",
+        "svglite",
+        "viridisLite",
+        "webshot",
+        "xml2"
+      ]
+    },
     "knitr": {
       "Package": "knitr",
       "Version": "1.42",
@@ -1055,6 +1086,17 @@
         "vctrs"
       ]
     },
+    "svglite": {
+      "Package": "svglite",
+      "Version": "2.1.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "29442899581643411facb66f4add846a",
+      "Requirements": [
+        "cpp11",
+        "systemfonts"
+      ]
+    },
     "sys": {
       "Package": "sys",
       "Version": "3.4.1",
@@ -1265,6 +1307,18 @@
         "withr"
       ]
     },
+    "webshot": {
+      "Package": "webshot",
+      "Version": "0.5.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "cfd9342c76693ae53108a474aafa1641",
+      "Requirements": [
+        "callr",
+        "jsonlite",
+        "magrittr"
+      ]
+    },
     "withr": {
       "Package": "withr",
       "Version": "2.5.0",
@@ -1272,6 +1326,17 @@
       "Repository": "CRAN",
       "Hash": "c0e49a9760983e81e55cdd9be92e7182",
       "Requirements": []
+    },
+    "wordcloud": {
+      "Package": "wordcloud",
+      "Version": "2.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "dddb6538141ed1e2435cb63c6c748d16",
+      "Requirements": [
+        "RColorBrewer",
+        "Rcpp"
+      ]
     },
     "xfun": {
       "Package": "xfun",

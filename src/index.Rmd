@@ -24,6 +24,15 @@ library(htmltools)
 
 # Bootcamp 2023 {-}
 
+```{r make-word-cloud, echo=FALSE, warning=FALSE}
+open_sci_words <- c("openness", "transparency", "reproducibility", "replication", "sharing",
+                        "robustness", "reach", "versioning", "data", "wrangling", "crisis", "rigor",
+                        "R", "Python", "ethics", "repository", "statistics", "scripts", "automation", "git", "preregistration")
+wts <- c(.7, .6, .5, .5, .7, .3, .2, .2, .8, .4, .3, .7, .2, .3, .5, .2, .6, .3, .2, .2, .4)/4
+
+wordcloud::wordcloud(words = open_sci_words, freq = wts, random.color = TRUE, rot.per = .25, colors = c("red", "blue", "orange", "yellow", "brown", "black", "aquamarine", "chartreuse", "coral", "bisque", "cyan", "darkmagenta")) # http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf
+```
+
 These pages document and describe the 2023 Open Science Bootcamp held at the University Park campus of [the Pennsylvania State University](https://www.psu.edu) Wednesday, August 9 through Friday, August 11, 2023 at the [Marriott Foundation Building](#marriott-fdn-bldg) and [Keller Building](#keller-bldg) on the Penn State University Park campus.
 
 The Bootcamp would not be possible without the generosity and hard work of our [sponsors and supporters](#acknowledgements).
