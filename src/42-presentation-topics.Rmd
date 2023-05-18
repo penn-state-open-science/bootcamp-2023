@@ -71,8 +71,7 @@ Why are replication studies important? How to plan, conduct, and publish replica
 
 *Time required*: 30 min
 
-
-### Responsible and robust research (?) {- #howto_responsible_research}
+### Responsible and robust research ([Kevin McManus]?) {- #howto_responsible_research}
 
 What are questionable research practices? Why are they questionable? How do we avoid them?
 
@@ -144,16 +143,28 @@ Best practices can be hard to implement, so what open science practices are both
 
 How to manage data to meet funder requirements and make sharing with collaborators and other researchers less burdensome.
 
+*Prerequisites*:
+
+*Skill level*:
+
+*Time required*:
+
 ### Where to start? Open science for early career researchers ([Daisy Lei]?, [Hollie Mullin]?, [Mike Burnham]?, & [Sai Koneru]?) {- #howto_early_career}
 
 How can early career researchers start their open science journey [@Kathawalla2021-tk; @Allen2019-js]?
 
-### Reproducible software ([Carrie Brown]?) {- #reproducible-software}
+*Prerequisites*:
 
-How to make your code reproducible; Conda; software environments, etc.
+*Skill level*:
 
-*Prerequisites*: 
+*Time required*:
 
-*Skill level*: 
+### Reproducible software ([Carrie Brown]? & [Alaina Pearce]?) {- #reproducible-software}
+
+How to make your code reproducible; Conda; software environments, R packages for data wrangling and cleaning.
+
+*Prerequisites*: Familiarity with a programming language (e.g., R, Python, Matlab)
+
+*Skill level*: Intermediate
 
 *Time required*: 
