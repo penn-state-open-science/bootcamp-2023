@@ -4,15 +4,21 @@
 
 ### University Libraries {-}
 
+The [Penn State University Libraries](https://libraries.psu.edu) are a hub of information and training about many topics related to open science.
+
 #### Workshops {-}
 
 #### ScholarSphere {-}
 
+[ScholarSphere](https://scholarsphere.psu.edu) is Penn State's institutional repository for data and materials.
+
 ### Data Commons {-}
 
-### Institute for Computational and Data Science (ICDS) {-}
+[Data Commons](https://www.datacommons.psu.edu) is a Penn State-based data repository associated with [Institutes of Energy and the Environment](https://iee.psu.edu/home).
 
-### Social Science Research Institute (SSRI) {-}
+### Institute for Computational and Data Science (ICDS) {- #icds}
+
+### Social Science Research Institute (SSRI) {- #ssri}
 
 ### Penn State Open Science Initiative {-}
 
@@ -20,14 +26,15 @@
 - [Open science survey protocol](http://penn-state-open-science.github.io/survey-fall-2022/) and [results](https://penn-state-open-science.github.io/survey-fall-2022/data-visualization.html).
 - R Markdown-formatted IRB application [template documents](https://github.com/penn-state-open-science/irb-markdown-templates).
 
-### Center for Social Data Analytics ([SoDA](https://soda.la.psu.edu)) {-}
+### Center for Social Data Analytics ([SoDA](https://soda.la.psu.edu)) {- #soda}
 
 ### Courses {-}
 
 - [PSYCH 490: The reproducibility crisis in science (Spring 2023)](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/).
 
-## Outside PSU
+## Outside PSU {-}
 
+- [Center for Open Science (OSF)](https://osf.io)
 - <https://opensciency.github.io/sprint-content/>
 - Framework for Open and Reproducible Research Training: <https://forrt.org>
 - <https://nap.nationalacademies.org/catalog/25116/open-science-by-design-realizing-a-vision-for-21st-century>

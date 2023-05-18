@@ -4,47 +4,30 @@ The following are potential presentation topics we are considering for [Day 1](#
 
 These are also topics that might be offered later on after the bootcamp.
 
-Some of the presentations have been suggsted by a specific person, and others are topics that Rick Gilmore thought might be appropriate for a person or group.
+Some of the presentations have been suggested by a specific person, and others are topics that Rick Gilmore thought might be appropriate for a person or group.
 The person indicated in the parentheses is the tentative or proposed coordinator for that workshop as of `r Sys.Date()`.
 Question marks (?) indicate that the person has not yet confirmed their interest or availability.
 The information is merely for planning purposes.
+Which hands-on topics we offer will be shaped by the preferences of prospective participants, as indicated in a May 2023 [survey](attendee-surveys.html#results).
 
 ## What is open science? Why do open science? {-}
 
 These are some possible presentations for [Day 1](#day_1).
 
-### Keynote (TBD) {- #keynote}
+### Open science @ PSU {-}
 
-### Case study: Reproducibility in neuroimaging ([Frank Hillary]? & [Nicole Lazar]?) {- #casestudy_neuroimaging}
+- Case study: Reproducibility in neuroimaging ([Frank Hillary]? & [Nicole Lazar]?)
+- Case study: ScholarSphere ([Briana Wham]? or [Jennifer Valcin]?)
+- Case study: Data Commons (Maurie Kelly or Bernd Haupt?)
+- Case study: NSF Synthesis Center (Ed O'Brien?)
+- Case study: Databrary & the PLAY Project ([Rick Gilmore])
 
-*Prerequisites*: 
+### Keynote (Tim Errington) {- #keynote}
 
-*Skill level*: 
+### Good enough practices for data and project management ([Alaina Pearce]?) {- #howto_good_enough}
 
-*Time required*: 
+Best practices can be hard to implement, so what open science practices are both ueseful and "good enough" [@Wilson2017-ot] to have an impact on your work?  How can researchers make their data findable, accessible, interoperable, and reusable--adhere to the FAIR data principles [@Wilkinson2016-qr]? How can these practices improve your data lifecycle and/or pipeline (e.g., data use and re-use within and between labs)?
 
-### Case study: Big data behavioral science: The Play & Learning Across a Year (PLAY) Project ([Rick Gilmore]) {- #casestudy_PLAY}
-
-The [Play & Learning Across a Year (PLAY) Project](https://play-project.org) is an [NIH-funded research project](https://reporter.nih.gov/search/PJYxIpAvQkyD2ZNPUPbp8Q/project-details/9500957) that is recording, annotating, and sharing video recordings of mothers and their infants engaged in natural activities in the home.
-In addition to providing a first-of-its-kind openly shared video corpus of natural behavior via [Databrary](https://databrary.org), PLAY's entire [protocol](https://play-project.org) is openly shared on the web, and the project's survey data results are [openly summarized](https://PLAY-behaviorome.github.io/KoBoToolbox/) and regularly updated. As such, PLAY provides a test-case for how open science practices work in a large-scale, geographically distributed research project that collects and intends to share identifiable data.
-
-*Prerequisites*: None
-
-*Skill level*: Novice
-
-*Time required*: 30 min
-
-### Reproducible research in economics ([Lars Vilhuber](https://www.ilr.cornell.edu/people/lars-vilhuber), Cornell?) {- #casestudy_economics}
-
-### Reproducible and robust research has wider reach (?) {- #howto_reproducibility}
-
-Types of reproducibility. How building reproducible research workflows can make your work more robust and more readily shareable.
-
-*Prerequisites*: None
-
-*Skill level*: Novice
-
-*Time required*: 30 min
 
 ## How to do open science? {-}
 
@@ -129,15 +112,6 @@ This workshop will demonstrate how researchers can use the [Open Science Framewo
 
 *Time required*: 30-45 min
 
-### Good enough practices for data and project management ([Alaina Pearce]?) {- #howto_good_enough}
-
-Best practices can be hard to implement, so what open science practices are both ueseful and "good enough" [@Wilson2017-ot] to have an impact on your work?  How can researchers make their data findable, accessible, interoperable, and reusable--adhere to the FAIR data principles [@Wilkinson2016-qr]? How can these practices improve your data lifecycle and/or pipeline (e.g., data use and re-use within and between labs)?
-
-*Prerequisites*:
-
-*Skill level*:
-
-*Time required*:
 
 ### Data management ([Briana Wham]? & [Jennifer Valcin]?) {- #howto_data_management}
 
@@ -168,3 +142,23 @@ How to make your code reproducible; Conda; software environments, R packages for
 *Skill level*: Intermediate
 
 *Time required*: 
+
+
+## Other topics/presenters {-}
+
+### Case study: Big data behavioral science: The Play & Learning Across a Year (PLAY) Project ([Rick Gilmore]) {- #casestudy_PLAY}
+
+The [Play & Learning Across a Year (PLAY) Project](https://play-project.org) is an [NIH-funded research project](https://reporter.nih.gov/search/PJYxIpAvQkyD2ZNPUPbp8Q/project-details/9500957) that is recording, annotating, and sharing video recordings of mothers and their infants engaged in natural activities in the home.
+In addition to providing a first-of-its-kind openly shared video corpus of natural behavior via [Databrary](https://databrary.org), PLAY's entire [protocol](https://play-project.org) is openly shared on the web, and the project's survey data results are [openly summarized](https://PLAY-behaviorome.github.io/KoBoToolbox/) and regularly updated. As such, PLAY provides a test-case for how open science practices work in a large-scale, geographically distributed research project that collects and intends to share identifiable data.
+
+### Reproducible research in economics ([Lars Vilhuber](https://www.ilr.cornell.edu/people/lars-vilhuber), Cornell?) {- #casestudy_economics}
+
+### Reproducible and robust research has wider reach (?) {- #howto_reproducibility}
+
+Types of reproducibility. How building reproducible research workflows can make your work more robust and more readily shareable.
+
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+*Time required*: 30 min
