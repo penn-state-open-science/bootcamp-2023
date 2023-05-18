@@ -81,7 +81,7 @@ What are questionable research practices? Why are they questionable? How do we a
 
 *Time required*: 30 min
 
-### Literate Programming with R Markdown and Quarto ([Rick Gilmore] & [Alaina Pearce]?){- #howto_rmarkdown}
+### Literate Programming with R Markdown and Quarto ([Rick Gilmore] & [Jennifer Valcin]?){- #howto_rmarkdown}
 
 What is literate programming? 
 How can literate programming tools improve your research productivity? 
@@ -139,7 +139,7 @@ Best practices can be hard to implement, so what open science practices are both
 
 *Time required*:
 
-### Data management ([Briana Wham]?) {- #howto_data_management}
+### Data management ([Briana Wham]? & [Jennifer Valcin]?) {- #howto_data_management}
 
 How to manage data to meet funder requirements and make sharing with collaborators and other researchers less burdensome.
 
