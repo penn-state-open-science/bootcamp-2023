@@ -16,6 +16,8 @@ These are some possible presentations for [Day 1](#day_1).
 
 ### Open science @ PSU {-}
 
+Short (3-5 min) "blitz"-style talks about open science-related initiatives at Penn State.
+
 - Case study: Reproducibility in neuroimaging ([Frank Hillary]? & [Nicole Lazar]?)
 - Case study: ScholarSphere ([Briana Wham]? or [Jennifer Valcin]?)
 - Case study: Data Commons (Maurie Kelly or Bernd Haupt?)
@@ -27,7 +29,6 @@ These are some possible presentations for [Day 1](#day_1).
 ### Good enough practices for data and project management ([Alaina Pearce]?) {- #howto_good_enough}
 
 Best practices can be hard to implement, so what open science practices are both ueseful and "good enough" [@Wilson2017-ot] to have an impact on your work?  How can researchers make their data findable, accessible, interoperable, and reusable--adhere to the FAIR data principles [@Wilkinson2016-qr]? How can these practices improve your data lifecycle and/or pipeline (e.g., data use and re-use within and between labs)?
-
 
 ## How to do open science? {-}
 
@@ -54,7 +55,7 @@ Why are replication studies important? How to plan, conduct, and publish replica
 
 *Time required*: 30 min
 
-### Responsible and robust research ([Kevin McManus]?) {- #howto_responsible_research}
+### Responsible and robust research ([Nicole Lazar]?) {- #howto_responsible_research}
 
 What are questionable research practices? Why are they questionable? How do we avoid them?
 
@@ -112,14 +113,13 @@ This workshop will demonstrate how researchers can use the [Open Science Framewo
 
 *Time required*: 30-45 min
 
-
 ### Data management ([Briana Wham]? & [Jennifer Valcin]?) {- #howto_data_management}
 
 How to manage data to meet funder requirements and make sharing with collaborators and other researchers less burdensome.
 
-*Prerequisites*:
+*Prerequisites*: None
 
-*Skill level*:
+*Skill level*: All
 
 *Time required*:
 
@@ -127,9 +127,9 @@ How to manage data to meet funder requirements and make sharing with collaborato
 
 How can early career researchers start their open science journey [@Kathawalla2021-tk; @Allen2019-js]?
 
-*Prerequisites*:
+*Prerequisites*: None
 
-*Skill level*:
+*Skill level*: All
 
 *Time required*:
 
