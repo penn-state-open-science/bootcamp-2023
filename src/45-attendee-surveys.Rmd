@@ -24,7 +24,13 @@ Survey link: <https://docs.google.com/forms/d/e/1FAIpQLSf_hIVQz3CoDq2bzjTNExw-Hn
 Download.
 
 ```{r}
-googledrive::drive_auth(email = 'rick.o.gilmore@gmail.com')
+options(gargle_oauth_email = "rick.o.gilmore@gmail.com")
+#googledrive::drive_auth(email = 'rick.o.gilmore@gmail.com')
+
+if (!dir.exists('csv')) {
+  message("Creating missing `csv/`.")
+  dir.create("csv")
+}
 
 googledrive::drive_download("Open Science Bootcamp 2023 (Responses)", path = "csv/attendees-2023-05.csv", type = "csv", overwrite = TRUE)
 ```
