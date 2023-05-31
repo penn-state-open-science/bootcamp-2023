@@ -10,7 +10,7 @@ Question marks (?) indicate that the person has not yet confirmed their interest
 The information is merely for planning purposes.
 Which hands-on topics we offer will be shaped by the preferences of prospective participants, as indicated in a May 2023 [survey](attendee-surveys.html#results).
 
-## What is open science? Why do open science? {-}
+## What is open science? Why do open science? ([Rick Gilmore]) {-}
 
 These are some possible presentations for [Day 1](#day_1).
 
@@ -26,7 +26,7 @@ Short (3-5 min) "blitz"-style talks about open science-related initiatives at Pe
 
 ### Keynote (Tim Errington) {- #keynote}
 
-### Good enough practices for data and project management ([Alaina Pearce]?) {- #howto_good_enough}
+### Good enough practices for data and project management ([Alaina Pearce]) {- #howto_good_enough}
 
 Best practices can be hard to implement, so what open science practices are both ueseful and "good enough" [@Wilson2017-ot] to have an impact on your work?  How can researchers make their data findable, accessible, interoperable, and reusable--adhere to the FAIR data principles [@Wilkinson2016-qr]? How can these practices improve your data lifecycle and/or pipeline (e.g., data use and re-use within and between labs)?
 
@@ -35,7 +35,7 @@ Best practices can be hard to implement, so what open science practices are both
 These are some possible presentations for [Day 2](#day_1).
 [Day 2](#day_2) would be conducted in 3-5 breakout sessions.
 
-### Preregistration & registered reports ([Bruce Desmarais]?) {- #howto_preregistration}
+### Preregistration & registered reports ([Frank Hillary]) {- #howto_preregistration}
 
 What is preregistration? What are preregistered reports? When and why would you want to use these tools?
 
@@ -43,9 +43,11 @@ What is preregistration? What are preregistered reports? When and why would you 
 
 *Skill level*: Novice
 
-*Time required*: 30 min
+*Time required*: 45 min
 
-### Replication ([Kevin McManus]) {- #howto_replication}
+*Offered*: [Thu PM Session 3](#day_2_pm_session_3)
+
+### Replication and registered reports ([Kevin McManus]) {- #howto_replication}
 
 Why are replication studies important? How to plan, conduct, and publish replication studies.
 
@@ -53,7 +55,9 @@ Why are replication studies important? How to plan, conduct, and publish replica
 
 *Skill level*: Novice
 
-*Time required*: 30 min
+*Time required*: 45 min
+
+*Offered*: [Thu AM Session 2](#day_2_am_session_2)
 
 ### Responsible and robust research ([Nicole Lazar]?) {- #howto_responsible_research}
 
@@ -77,17 +81,21 @@ These tools can be used to create slides, analysis reports, papers, and web site
 
 *Skill level*: Novice
 
-*Time required*: 2 hrs (could extend to 3-4 if needed)
+*Time required*: 1 hour
+
+*Offered*: [Thu AM Session 2](#day_2_am_session_2).
 
 ### Literate programming with Jupyter notebooks ([Mike Burnham]) {- #howto_jupyter}
 
 [Jupyter notebooks](https://jupyter.org) are another literate programming tool, and also another research super-power.
 
-*Prerequisites*: 
+*Prerequisites*: None
 
-*Skill level*: 
+*Skill level*: Novice
 
-*Time required*: 
+*Time required*: 1 hour
+
+*Offered*: [Thu PM Session 4](#day_2_pm_session_4).
 
 ### Version control with git, GitHub, and GitLab ([Carrie Brown]) {- #howto_git}
 
@@ -101,7 +109,7 @@ These tools can be used to create slides, analysis reports, papers, and web site
 
 Where and how to share your research so that the maximum number of people can read it.
 
-### Sharing data and materials ([Rick Gilmore] & [Bruce Desmarais]?) {- #howto_data_sharing}
+### Sharing data and materials ([Rick Gilmore] & [Bruce Desmarais]) {- #howto_data_sharing}
 
 Where can you share data and materials?
 Where *should* you share data and materials?
@@ -113,6 +121,8 @@ This workshop will demonstrate how researchers can use the [Open Science Framewo
 
 *Time required*: 30-45 min
 
+*Offered*: [Thu PM Session 4](#day_2_pm_session_4)
+
 ### Data management ([Briana Wham]? & [Jennifer Valcin]?) {- #howto_data_management}
 
 How to manage data to meet funder requirements and make sharing with collaborators and other researchers less burdensome.
@@ -122,6 +132,8 @@ How to manage data to meet funder requirements and make sharing with collaborato
 *Skill level*: All
 
 *Time required*:
+
+*Offered*: [Thurs AM Session 1](#day_2_am_session_1) and [Thurs PM Session 3](#day_2_pm_session_3).
 
 ### Where to start? Open science for early career researchers ([Daisy Lei]?, [Hollie Mullin]?, [Mike Burnham]?, & [Sai Koneru]?) {- #howto_early_career}
 
@@ -133,6 +145,8 @@ How can early career researchers start their open science journey [@Kathawalla20
 
 *Time required*:
 
+*Offered*: [Thu PM Session 3](#day_2_pm_session_3)
+
 ### Reproducible software ([Carrie Brown]? & [Alaina Pearce]?) {- #reproducible-software}
 
 How to make your code reproducible; Conda; software environments, R packages for data wrangling and cleaning.
@@ -142,7 +156,6 @@ How to make your code reproducible; Conda; software environments, R packages for
 *Skill level*: Intermediate
 
 *Time required*: 
-
 
 ## Other topics/presenters {-}
 

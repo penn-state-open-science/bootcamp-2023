@@ -4,3 +4,9 @@ fig:unnamed-chunk-4
 fig:unnamed-chunk-5
 fig:survey-1-timeseries
 fig:survey-1-interests
+am-coffee-marriott-foundation-building-1
+am-welcome-to-day-3-marriott-foundation-building
+am-break-out-discussions-on-next-steps
+am-break-1
+am-plenary-discussion-on-the-future-of-open-science-penn-state-marriott-foundation-building
+pm-end-of-workshop
