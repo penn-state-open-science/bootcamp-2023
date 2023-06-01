@@ -28,6 +28,15 @@ All times are Eastern Daylight Time (EDT).
 
 ### 10:45 am • Open science @ Penn State {- #day_1_plenary_2} 
 
+This session will feature a series of short (3-5 min) "blitz" talks about initiatives in open science that are going on at Penn State.
+
+- Case study: Reproducibility in neuroimaging ([Frank Hillary])
+- Case study: ScholarSphere
+<!-- - Case study: [Data Commons](https://www.datacommons.psu.edu) -->
+<!-- - Case study: NSF Synthesis Center (Ed O'Brien?) -->
+<!-- - Case study: Higher Education Leadership Initiative ([HELIOS](https://www.heliosopen.org)) -->
+- Case study: [Databrary](https://databrary.org) & [The PLAY Project](https://play-project.org) ([Rick Gilmore])
+
 ### 11:45 am • Lunch break {-}
 
 ## Afternoon {- #day_1_pm}

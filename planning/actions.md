@@ -19,10 +19,10 @@
 
 - Seek sponsors
   - ~~Eberly CoS~~ (request pending)
-  - College of the Liberal Arts
+  - ~~College of the Liberal Arts~~
   - College of HHD
-  - ICDS
-  - SSRI
+  - ~~ICDS~~
+  - ~~SSRI~~
   - Huck Institutes (Nicole)
   - University Libraries
   - Office of Senior VP Research
@@ -31,10 +31,13 @@
 - Confirmed sponsors
   - Child Study Center
   - Department of Psychology
-  - Department of Statistics (Nicole)
+  - Department of Statistics
   - Center for Applied Linguistics
   - Center for SoDA
+  - SSRI
+  - ICDS
 - Plan comms blitz before end of semester
+  - ~~Distributed survey 5/1~~
 
 ## May
 
