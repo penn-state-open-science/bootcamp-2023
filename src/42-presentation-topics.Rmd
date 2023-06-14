@@ -14,17 +14,17 @@ Which hands-on topics we offer will be shaped by the preferences of prospective 
 
 ### What is open science? Why do open science? ([Rick Gilmore]) {-}
 
-These are some possible presentations for [Day 1](#day_1).
+<!-- These are some possible presentations for [Day 1](#day_1). -->
 
 ### Open science @ PSU {-}
 
-Short (3-5 min) "blitz"-style talks about open science-related initiatives at Penn State.
+<!-- Short (3-5 min) "blitz"-style talks about open science-related initiatives at Penn State. -->
 
-- Case study: Reproducibility in neuroimaging ([Frank Hillary]? & [Nicole Lazar]?)
-- Case study: ScholarSphere ([Briana Wham]? or [Jennifer Valcin]?)
-- Case study: Data Commons (Maurie Kelly or Bernd Haupt?)
-- Case study: NSF Synthesis Center (Ed O'Brien?)
-- Case study: Databrary & the PLAY Project ([Rick Gilmore])
+<!-- - Case study: Reproducibility in neuroimaging ([Frank Hillary]? & [Nicole Lazar]?) -->
+<!-- - Case study: ScholarSphere ([Briana Wham]? or [Jennifer Valcin]?) -->
+<!-- - Case study: Data Commons (Maurie Kelly or Bernd Haupt?) -->
+<!-- - Case study: NSF Synthesis Center (Ed O'Brien?) -->
+<!-- - Case study: Databrary & the PLAY Project ([Rick Gilmore]) -->
 
 ### Keynote (Tim Errington) {- #keynote}
 
@@ -45,7 +45,7 @@ What is preregistration? What are registered reports? When and why would you wan
 
 *Skill level*: Novice
 
-*Time required*: 45 min
+*Time required*: 50 min
 
 *Offered*: [Thu PM Session 3](#day_2_pm_session_3)
 
@@ -57,11 +57,11 @@ Why are replication studies important? How to plan, conduct, and publish replica
 
 *Skill level*: Novice
 
-*Time required*: 45 min
+*Time required*: 50 min
 
 *Offered*: [Thu AM Session 2](#day_2_am_session_2)
 
-### Responsible and robust research ([Nicole Lazar]? & [Jennifer Valcin]?) {- #howto_responsible_research}
+### Responsible and robust research ([Nicole Lazar] & [Jennifer Valcin]) {- #howto_responsible_research}
 
 What are questionable research practices? Why are they questionable? How do we avoid them?
 
@@ -69,7 +69,9 @@ What are questionable research practices? Why are they questionable? How do we a
 
 *Skill level*: Novice
 
-*Time required*: 30 min
+*Time required*: 50 min
+
+*Offered*: [Thu AM Session 1](#day_2_am_session_1)
 
 ### Literate Programming with R Markdown and Quarto ([Rick Gilmore] & [Jennifer Valcin]){- #howto_rmarkdown}
 
@@ -83,33 +85,45 @@ These tools can be used to create slides, analysis reports, papers, and web site
 
 *Skill level*: Novice
 
-*Time required*: 1 hour
+*Time required*: 50 min
 
 *Offered*: [Thu AM Session 2](#day_2_am_session_2).
 
-### Literate programming with Jupyter notebooks ([Mike Burnham]) {- #howto_jupyter}
+### Data management policies ([Briana Wham] & [Alaina Pearce]) {- #howto_data_management_policies}
 
-[Jupyter notebooks](https://jupyter.org) are another literate programming tool, and also another research super-power.
+How to manage data to meet funder requirements and make sharing with collaborators and other researchers less burdensome.
 
 *Prerequisites*: None
 
-*Skill level*: Novice
+*Skill level*: All
 
-*Time required*: 1 hour
+*Time required*: 50 min
 
-*Offered*: [Thu PM Session 4](#day_2_pm_session_4).
+*Offered*: [Thurs AM Session 1](#day_2_am_session_1).
 
-### Version control with git, GitHub, and GitLab ([Carrie Brown]) {- #howto_git}
+### Data management: Practicalities ([Alaina Pearce] & [Briana Wham]) {- #howto_data_management_practical}
 
-*Prerequisites*: 
+How to manage data to meet funder requirements and make sharing with collaborators and other researchers less burdensome.
 
-*Skill level*: 
+*Prerequisites*: None
 
-*Time required*: 2-4 hrs.
+*Skill level*: All
 
-### Open access publishing ([Briana Wham]?) {- #howto_open_access}
+*Time required*: 50 min
 
-Where and how to share your research so that the maximum number of people can read it.
+*Offered*: [Thurs PM Session 3](#day_2_pm_session_3).
+
+### Where to start? Open science for early career researchers ([Daisy Lei]?, [Hollie Mullin]?, [Mike Burnham]?, & [Sai Koneru]?) {- #howto_early_career}
+
+How can early career researchers start their open science journey [@Kathawalla2021-tk; @Allen2019-js]?
+
+*Prerequisites*: None
+
+*Skill level*: All
+
+*Time required*:
+
+*Offered*: [Thu PM Session 3](#day_2_pm_session_3)
 
 ### Sharing data and materials ([Rick Gilmore] & [Bruce Desmarais]) {- #howto_data_sharing}
 
@@ -125,29 +139,32 @@ This workshop will demonstrate how researchers can use the [Open Science Framewo
 
 *Offered*: [Thu PM Session 4](#day_2_pm_session_4)
 
-### Data management ([Briana Wham]? & [Jennifer Valcin]?) {- #howto_data_management}
+### Literate programming with Jupyter notebooks ([Mike Burnham]) {- #howto_jupyter}
 
-How to manage data to meet funder requirements and make sharing with collaborators and other researchers less burdensome.
-
-*Prerequisites*: None
-
-*Skill level*: All
-
-*Time required*:
-
-*Offered*: [Thurs AM Session 1](#day_2_am_session_1) and [Thurs PM Session 3](#day_2_pm_session_3).
-
-### Where to start? Open science for early career researchers ([Daisy Lei]?, [Hollie Mullin]?, [Mike Burnham]?, & [Sai Koneru]?) {- #howto_early_career}
-
-How can early career researchers start their open science journey [@Kathawalla2021-tk; @Allen2019-js]?
+[Jupyter notebooks](https://jupyter.org) are another literate programming tool, and also another research super-power.
 
 *Prerequisites*: None
 
-*Skill level*: All
+*Skill level*: Novice
 
-*Time required*:
+*Time required*: 1 hour
 
-*Offered*: [Thu PM Session 3](#day_2_pm_session_3)
+*Offered*: [Thu PM Session 4](#day_2_pm_session_4).
+
+
+## Other topics/presenters {-}
+
+### Version control with git, GitHub, and GitLab ([Carrie Brown]) {- #howto_git}
+
+*Prerequisites*: 
+
+*Skill level*: 
+
+*Time required*: 2-4 hrs.
+
+### Open access publishing ([Briana Wham]?) {- #howto_open_access}
+
+Where and how to share your research so that the maximum number of people can read it.
 
 ### Reproducible software ([Carrie Brown]? & [Alaina Pearce]?) {- #reproducible-software}
 
@@ -158,8 +175,6 @@ How to make your code reproducible; Conda; software environments, R packages for
 *Skill level*: Intermediate
 
 *Time required*: 
-
-## Other topics/presenters {-}
 
 ### Case study: Big data behavioral science: The Play & Learning Across a Year (PLAY) Project ([Rick Gilmore]) {- #casestudy_PLAY}
 

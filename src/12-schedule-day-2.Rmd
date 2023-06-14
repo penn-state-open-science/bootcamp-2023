@@ -25,7 +25,7 @@ Locations and topics will be announced later.
 
 | Topic | Location |
 |--------------|----------|
-| [Data management](#howto_data_management) | TBD |
+| [Data management: Policies](#howto_data_management_policies) | TBD |
 | [Responsible & robust research](#howto_responsible_research) | TBD |
 | TOPIC | TBD |
 
@@ -54,7 +54,7 @@ Locations and topics will be announced later.
 
 | Topic | Location |
 |--------------|----------|
-| [Data management](#howto_data_management) | TBD |
+| [Data management: Practicalities](#howto_data_management_practical) | TBD |
 | [Pregistration](#howto_preregistration) | TBD |
 | [Open science for early career researchers](#howto_early_career) | TBD |
 
