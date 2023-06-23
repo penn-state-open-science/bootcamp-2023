@@ -10,7 +10,7 @@ Question marks (?) indicate that the person has not yet confirmed their interest
 The information is merely for planning purposes.
 Which hands-on topics we offer will be shaped by the preferences of prospective participants, as indicated in a May 2023 [survey](attendee-surveys.html#results).
 
-## Theme: What is open science? Open science @ PSU
+## Theme: What is open science? Open science @ PSU {-}
 
 ### What is open science? Why do open science? ([Rick Gilmore]) {-}
 
@@ -129,13 +129,17 @@ How can early career researchers start their open science journey [@Kathawalla20
 
 Where can you share data and materials?
 Where *should* you share data and materials?
-This workshop will demonstrate how researchers can use the [Open Science Framework (OSF)](https://osf.io), [Databrary](https://databrary.org), and other data and materials repositories both to share data and materials and to repurpose data and materials shared by others.
+*When* can and should you share data and materials?
+This workshop will demonstrate how researchers can use [Dataverse](https://dataverse.org), the [Open Science Framework (OSF)](https://osf.io), [Databrary](https://databrary.org), and other data and materials repositories both to share data and materials and to repurpose data and materials shared by others.
+The workshop will also discuss recent initiatives in some fields that require
+data and code sharing prior to the publication of an article so that statistical
+results and figures can be verified.
 
 *Prerequisites*: None
 
 *Skill level*: Novice
 
-*Time required*: 30-45 min
+*Time required*: 50 min
 
 *Offered*: [Thu PM Session 4](#day_2_pm_session_4)
 

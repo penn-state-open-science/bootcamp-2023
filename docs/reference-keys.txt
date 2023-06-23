@@ -4,4 +4,3 @@ fig:unnamed-chunk-4
 fig:unnamed-chunk-5
 fig:survey-1-timeseries
 fig:survey-1-interests
-theme-what-is-open-science-open-science-psu
