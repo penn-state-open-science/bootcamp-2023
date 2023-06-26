@@ -130,7 +130,7 @@ How can early career researchers start their open science journey [@Kathawalla20
 Where can you share data and materials?
 Where *should* you share data and materials?
 *When* can and should you share data and materials?
-This workshop will demonstrate how researchers can use [Dataverse](https://dataverse.org), the [Open Science Framework (OSF)](https://osf.io), [Databrary](https://databrary.org), and other data and materials repositories both to share data and materials and to repurpose data and materials shared by others.
+This workshop will demonstrate how researchers can use [Dataverse](https://dataverse.org), the [Open Science Framework (OSF)](https://osf.io), [Databrary](https://databrary.org), and other data and materials repositories both to share data and materials and to re-purpose data and materials shared by others.
 The workshop will also discuss recent initiatives in some fields that require
 data and code sharing prior to the publication of an article so that statistical
 results and figures can be verified.
@@ -142,6 +142,8 @@ results and figures can be verified.
 *Time required*: 50 min
 
 *Offered*: [Thu PM Session 4](#day_2_pm_session_4)
+
+*Talk slides*: [PDF](https://github.com/penn-state-open-science/bootcamp-2023-data-sharing/blob/fb674dc1de7a48fd989dd54e89e9462e10bd04a6/index.pdf)
 
 ### Literate programming with Jupyter notebooks ([Mike Burnham]) {- #howto_jupyter}
 
