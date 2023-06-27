@@ -6,7 +6,7 @@ This page describes the technologies and tools we use for generating this site.
 
 [Rick Gilmore] drafted the site using the [RStudio](https://posit.co/download/rstudio-desktop/) Integrated Development Environment (IDE) on his desktop computer.
 Penn State supports RStudio Server which allows users to run RStudio in a web browser (<https://rstudio.tlt.psu.edu>).
-However the versions of R seem out-of-date, and this service is only available to users whose computers are behind the PSU firewall (connected via GlobalProtect).s
+However the versions of R seem out-of-date, and this service is only available to users whose computers are behind the PSU firewall (connected via GlobalProtect).
 
 ## `bookdown`  {-}
 
