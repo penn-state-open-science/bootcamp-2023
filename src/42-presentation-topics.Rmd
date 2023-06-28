@@ -1,14 +1,8 @@
 # Presentation topics {-}
 
-The following are potential presentation topics we are considering for [Day 1](#day_1) and [Day 2](#day_2).
+The following are potential presentation topics for [Day 1](#day_1) and [Day 2](#day_2).
 
-These are also topics that might be offered later on after the bootcamp.
-
-Some of the presentations have been suggested by a specific person, and others are topics that Rick Gilmore thought might be appropriate for a person or group.
-The person indicated in the parentheses is the tentative or proposed coordinator for that workshop as of `r Sys.Date()`.
-Question marks (?) indicate that the person has not yet confirmed their interest or availability.
-The information is merely for planning purposes.
-Which hands-on topics we offer will be shaped by the preferences of prospective participants, as indicated in a May 2023 [survey](attendee-surveys.html#results).
+The hands-on topics offered have been shaped by the preferences of prospective participants, as indicated in a May 2023 [survey](attendee-surveys.html#results).
 
 ## Theme: What is open science? Open science @ PSU {-}
 
@@ -89,7 +83,7 @@ These tools can be used to create slides, analysis reports, papers, and web site
 
 *Offered*: [Thu AM Session 2](#day_2_am_session_2).
 
-### Data management policies ([Briana Wham] & [Alaina Pearce]) {- #howto_data_management_policies}
+### Data management: Policies ([Briana Wham] & [Alaina Pearce]) {- #howto_data_management_policies}
 
 How to manage data to meet funder requirements and make sharing with collaborators and other researchers less burdensome.
 
@@ -157,44 +151,43 @@ results and figures can be verified.
 
 *Offered*: [Thu PM Session 4](#day_2_pm_session_4).
 
+<!-- ## Other topics/presenters {-} -->
 
-## Other topics/presenters {-}
+<!-- ### Version control with git, GitHub, and GitLab ([Carrie Brown]) {- #howto_git} -->
 
-### Version control with git, GitHub, and GitLab ([Carrie Brown]) {- #howto_git}
+<!-- *Prerequisites*:  -->
 
-*Prerequisites*: 
+<!-- *Skill level*:  -->
 
-*Skill level*: 
+<!-- *Time required*: 2-4 hrs. -->
 
-*Time required*: 2-4 hrs.
+<!-- ### Open access publishing {- #howto_open_access} -->
 
-### Open access publishing ([Briana Wham]?) {- #howto_open_access}
+<!-- Where and how to share your research so that the maximum number of people can read it. -->
 
-Where and how to share your research so that the maximum number of people can read it.
+<!-- ### Reproducible software ([Carrie Brown]? & [Alaina Pearce]?) {- #reproducible-software} -->
 
-### Reproducible software ([Carrie Brown]? & [Alaina Pearce]?) {- #reproducible-software}
+<!-- How to make your code reproducible; Conda; software environments, R packages for data wrangling and cleaning. -->
 
-How to make your code reproducible; Conda; software environments, R packages for data wrangling and cleaning.
+<!-- *Prerequisites*: Familiarity with a programming language (e.g., R, Python, Matlab) -->
 
-*Prerequisites*: Familiarity with a programming language (e.g., R, Python, Matlab)
+<!-- *Skill level*: Intermediate -->
 
-*Skill level*: Intermediate
+<!-- *Time required*:  -->
 
-*Time required*: 
+<!-- ### Case study: Big data behavioral science: The Play & Learning Across a Year (PLAY) Project ([Rick Gilmore]) {- #casestudy_PLAY} -->
 
-### Case study: Big data behavioral science: The Play & Learning Across a Year (PLAY) Project ([Rick Gilmore]) {- #casestudy_PLAY}
+<!-- The [Play & Learning Across a Year (PLAY) Project](https://play-project.org) is an [NIH-funded research project](https://reporter.nih.gov/search/PJYxIpAvQkyD2ZNPUPbp8Q/project-details/9500957) that is recording, annotating, and sharing video recordings of mothers and their infants engaged in natural activities in the home. -->
+<!-- In addition to providing a first-of-its-kind openly shared video corpus of natural behavior via [Databrary](https://databrary.org), PLAY's entire [protocol](https://play-project.org) is openly shared on the web, and the project's survey data results are [openly summarized](https://PLAY-behaviorome.github.io/KoBoToolbox/) and regularly updated. As such, PLAY provides a test-case for how open science practices work in a large-scale, geographically distributed research project that collects and intends to share identifiable data. -->
 
-The [Play & Learning Across a Year (PLAY) Project](https://play-project.org) is an [NIH-funded research project](https://reporter.nih.gov/search/PJYxIpAvQkyD2ZNPUPbp8Q/project-details/9500957) that is recording, annotating, and sharing video recordings of mothers and their infants engaged in natural activities in the home.
-In addition to providing a first-of-its-kind openly shared video corpus of natural behavior via [Databrary](https://databrary.org), PLAY's entire [protocol](https://play-project.org) is openly shared on the web, and the project's survey data results are [openly summarized](https://PLAY-behaviorome.github.io/KoBoToolbox/) and regularly updated. As such, PLAY provides a test-case for how open science practices work in a large-scale, geographically distributed research project that collects and intends to share identifiable data.
+<!-- ### Reproducible research in economics ([Lars Vilhuber](https://www.ilr.cornell.edu/people/lars-vilhuber), Cornell?) {- #casestudy_economics} -->
 
-### Reproducible research in economics ([Lars Vilhuber](https://www.ilr.cornell.edu/people/lars-vilhuber), Cornell?) {- #casestudy_economics}
+<!-- ### Reproducible and robust research has wider reach {- #howto_reproducibility} -->
 
-### Reproducible and robust research has wider reach (?) {- #howto_reproducibility}
+<!-- Types of reproducibility. How building reproducible research workflows can make your work more robust and more readily shareable. -->
 
-Types of reproducibility. How building reproducible research workflows can make your work more robust and more readily shareable.
+<!-- *Prerequisites*: None -->
 
-*Prerequisites*: None
+<!-- *Skill level*: Novice -->
 
-*Skill level*: Novice
-
-*Time required*: 30 min
+<!-- *Time required*: 30 min -->
