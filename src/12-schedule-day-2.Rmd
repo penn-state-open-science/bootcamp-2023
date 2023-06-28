@@ -27,7 +27,6 @@ Locations and topics will be announced later.
 |--------------|----------|
 | [Data management: Policies](#howto_data_management_policies) | TBD |
 | [Responsible & robust research](#howto_responsible_research) | TBD |
-| TOPIC | TBD |
 
 ### 10:15 am • Break (30 min) {-}
 
@@ -37,7 +36,6 @@ Locations and topics will be announced later.
 |--------------|----------|
 | [Intro to R Markdown & Quarto](#howto_rmarkdown) | TBD |
 | [Replication studies](#howto_replication) | TBD |
-| TOPIC | TBD |
 
 
 ### 11:45 am • Lunch break {-}
@@ -66,7 +64,6 @@ Locations and topics will be announced later.
 |--------------|----------|
 | [Intro to Jupyter notebooks](#howto_jupyter) | TBD |
 | [Data sharing](#howto_data_sharing) | TBD |
-| TOPIC | TBD |
 
 ### 03:45 pm • Break to reconvene at [Marriott Foundation Building](#marriott-fdn-bldg) {-}
 
