@@ -6,4 +6,8 @@ Tim Errington is Senior Director of Research at the Center for Open Science.
 
 ## Maurie Kelly {-}
 
-Maurie Kelly is Director of the Pennsylvania Spatial Data Access program, an instructor in the Smeal School of Business and the College of Information Science and Technology, and Director of the Penn State [Data Commons](https://www.datacommons.psu.edu).
+[Maurie Kelly](https://iee.psu.edu/people/maurie-kelly) is Director of the Pennsylvania Spatial Data Access program, an instructor in the Smeal School of Business and the College of Information Science and Technology, and Director of the Penn State [Data Commons](https://www.datacommons.psu.edu).
+
+## Sarah Rajtmajer {-}
+
+[Sarah Rajtmajer](https://ist.psu.edu/directory/smr48) is an assistant professor in the [College of Information Sciences and Technology](https://ist.psu.edu) at Penn State University and core faculty at Penn State's Rock Ethics Institute. Her work leverages machine learning and mathematical modeling to understand trust and confidence in information.
