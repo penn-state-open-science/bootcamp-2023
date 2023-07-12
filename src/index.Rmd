@@ -89,6 +89,12 @@ knitr::include_url("https://www.map.psu.edu/?id=1134#!ct/59509,33177,25403,26748
 
 Plenary sessions will be held in 102 Marriott Foundation Building. 
 Smaller breakout sessions will be held in 109 Marriott Foundation Building and in the second floor library.
+Accessible restrooms are available on the first floor.
+Participants not requiring access to the accessible restrooms are asked to use facilities in the basement.
+
+```{r, out.width="100%", fig.cap="Marriott Foundation Building 1st Floor"}
+knitr::include_graphics("include/img/mariott-fdn-bldg-1st-fl.png")
+```
 
 Please enter the Marriott Foundation Building from the East side, adjacent to the Nittany Lion Inn parking lot.
 
@@ -104,7 +110,7 @@ knitr::include_graphics("https://la.psu.edu/wp-content/uploads/sites/2/2022/11/K
 knitr::include_url("https://map.psu.edu/?id=1134#!m/272192?s/", height = "400px")
 ```
 
-#### Parking
+#### Parking {-}
 
 Parking (at your own expense) is available at the Nittany Lion Parking Deck.
 
