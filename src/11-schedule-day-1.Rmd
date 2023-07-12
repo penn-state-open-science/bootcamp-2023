@@ -22,7 +22,7 @@ All times are Eastern Daylight Time (EDT).
 
 ### 09:00 am • Welcome. [Frank Hillary] & [Briana Wham]. {-}
 
-### 09:15 am • What is open science? Why open science? [Rick Gilmore].  {- #day_1_plenary_1}
+### 09:15 am • What is open science? Why open science? [Rick Gilmore] | [slides](https://penn-state-open-science.github.io/bootcamp-2023-open-sci-what-why/). {- #day_1_plenary_1}
 
 ### 10:15 am • Break  {-}
 

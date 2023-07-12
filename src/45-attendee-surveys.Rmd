@@ -11,6 +11,7 @@ suppressPackageStartupMessages('stringr')
 suppressPackageStartupMessages('lubridate')
 
 options(gargle_oauth_email = "rick.o.gilmore@gmail.com")
+googledrive::drive_auth()
 ```
 
 <!-- ## Day 3, August 11, 2023 -->
@@ -31,7 +32,7 @@ Survey link: <https://docs.google.com/forms/d/e/1FAIpQLScdIbP8TZrulVC01MQbtQN13i
 
 Download.
 
-```{r}
+```{r, eval=FALSE}
 if (!dir.exists('csv')) {
   message("Creating missing `csv/`.")
   dir.create("csv")
