@@ -41,6 +41,12 @@ This site documents and describes the 2023 Open Science Bootcamp to be held at t
 
 The Bootcamp is being planned by a hard-working [committee](program-planning-committee.html) of staff, graduate students, and faculty, many of whom also plan to present.
 
+::: {.rmdwarning}
+
+**TO REGISTER**: Visit <https://forms.gle/Q8fecFZXq6Yp2Cq69>.
+
+:::
+
 The Bootcamp would not be possible without the generosity and hard work of our [sponsors and supporters](#acknowledgements).
 
 ## Goals {-}

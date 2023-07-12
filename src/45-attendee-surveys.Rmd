@@ -9,9 +9,78 @@ suppressPackageStartupMessages('dplyr')
 suppressPackageStartupMessages('tidyr')
 suppressPackageStartupMessages('stringr')
 suppressPackageStartupMessages('lubridate')
+
+options(gargle_oauth_email = "rick.o.gilmore@gmail.com")
 ```
 
-## Survey 1 - May 1, 2023 {-}
+<!-- ## Day 3, August 11, 2023 -->
+
+<!-- ## Day 2, August  -->
+
+<!-- ## Day 1, August 9, 2023 -->
+
+## Registration - July 24, 2023 {-}
+
+Render date: `r Sys.time()`
+
+Survey link: <https://docs.google.com/forms/d/e/1FAIpQLScdIbP8TZrulVC01MQbtQN13iaW1WIjQx86f-wGOpC0F3bxBg/viewform?usp=sf_link>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdIbP8TZrulVC01MQbtQN13iaW1WIjQx86f-wGOpC0F3bxBg/viewform?embedded=true" width="640" height="1478" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+### Results {-}
+
+Download.
+
+```{r}
+if (!dir.exists('csv')) {
+  message("Creating missing `csv/`.")
+  dir.create("csv")
+}
+
+googledrive::drive_download("Open Science Bootcamp 2023: Registration (Responses)", path = "csv/registrations-2023-07.csv", type = "csv", overwrite = TRUE)
+```
+
+Clean.
+
+```{r}
+registrations <-
+  readr::read_csv("csv/registrations-2023-07.csv", show_col_types = FALSE)
+
+reqistrations_qs <- names(registrations)
+
+registrations_clean <- registrations |>
+  dplyr::rename(
+    timestamp = "Timestamp",
+    confirmed = "Will you attend the Bootcamp on August 9-11, 2023?",
+    name = "What is your name?",
+    email = "What is your PSU email?",
+    dept= "What is your department or unit?",
+    position = "What is your current position?"
+  )
+
+registrations_clean <- registrations_clean |>
+  dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York"))
+```
+
+Visualize.
+
+```{r registrations-timeseries, fig.cap = "Time series of registrations"}
+registrations_clean |>
+  dplyr::group_by(confirmed) |>
+  dplyr::mutate(resp_index = seq_along(confirmed)) |>
+  dplyr::ungroup() |>
+  ggplot() +
+  aes(x = timestamp, y = resp_index, color = confirmed) +
+  geom_point() +
+  geom_line() +
+  facet_grid(~ confirmed) +
+  theme(axis.text.x = element_text(angle = 90)) +
+  labs(x = NULL, y = 'n') +
+  scale_color_manual(breaks = c("No", "Yes"),
+                        values=c("red", "blue", "green"))
+```
+
+## Interest - May 1, 2023 {-}
 
 Render date: `r Sys.time()`
 
@@ -24,9 +93,6 @@ Survey link: <https://docs.google.com/forms/d/e/1FAIpQLSf_hIVQz3CoDq2bzjTNExw-Hn
 Download.
 
 ```{r}
-options(gargle_oauth_email = "rick.o.gilmore@gmail.com")
-#googledrive::drive_auth(email = 'rick.o.gilmore@gmail.com')
-
 if (!dir.exists('csv')) {
   message("Creating missing `csv/`.")
   dir.create("csv")
