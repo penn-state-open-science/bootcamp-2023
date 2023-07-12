@@ -1,9 +1,8 @@
 # Day 3 (Fri, Aug 11) {- #day_3}
 
-::: {.rmdimportant}
+::: {.note}
 
-*Locations*: [Marriott Foundation Building](#marriott-fdn-bldg) and 115 [Keller Building](#keller-bldg).
-
+*Locations*: [Marriott Foundation Building](#marriott-fdn-bldg)<!-- and 115 [Keller Building](#keller-bldg) -->.
 
 The Bootcamp ends at noon.
 
@@ -11,24 +10,25 @@ The Bootcamp ends at noon.
 
 ## Morning {- #day_3_am}
 
-::: {.rmdnote}
+::: {.rmdimportant}
 
 *Theme*: Open science @ Penn State: Next steps
 
 :::
 
-### 08:30 am • Coffee: [Marriott Foundation Building](#marriott-fdn-bldg) {-}
+### 08:30 am • Coffee: [Marriott Fdn Bldg](#marriott-fdn-bldg) {-}
 
-### 09:00 am • Welcome to Day 3: [Marriott Foundation Building](#marriott-fdn-bldg) {-}
+### 09:00 am • Welcome to Day 3: 102 [Marriott Fdn Bldg](#marriott-fdn-bldg), [Rick Gilmore] & [Nicole Lazar] {-}
 
 ### 09:15 am • Break-out discussions on next steps: {-}
 
-- Last names A-M: [Marriott Foundation Building](#marriott-fdn-bldg)
-- Last names N-Z: 115 [Keller Building](#keller-bldg)
+- Last names A-H: 109 [Marriott Fdn Bldg](#marriott-fdn-bldg), Facilitator: [Briana Wham?]
+- Last names I-R: Library [Marriott Fdn Bldg](#marriott-fdn-bldg), Facilitator: [Frank Hillary?]
+- Last names S-Z: 102 [Marriott Fdn Bldg](#keller-bldg), Facilitator: [Alaina Pearce?]
 
 ### 10:15 am • Break  {-}
 
-### 10:45 am • The future of open science @ Penn State: [Marriott Foundation Building](#marriott-fdn-bldg)  {-}
+### 10:45 am • The future of open science @ Penn State: [102 Marriott Fdn Bldg](#marriott-fdn-bldg)  {-}
 
 Plenary session and group discussion.
 

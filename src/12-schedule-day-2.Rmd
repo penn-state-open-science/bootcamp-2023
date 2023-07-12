@@ -1,31 +1,31 @@
 # Day 2 (Thu, Aug 10) {- #day_2}
 
-::: {.rmdimportant}
+::: {.rmdnote}
 
 *Locations*: [Marriott Foundation Building](#marriott-fdn-bldg) and 115 [Keller Building](#keller-bldg).
 
 Parallel sessions for hands-on workshops. 
-Locations and topics will be announced later.
+Locations be announced soon.
 
 :::
 
 ## Morning {- #day_2_am}
 
-::: {.rmdnote}
+::: {.rmdimportant}
 
 *Theme*: How to do open science: Workshops
 
 :::
 
-### 08:30 am • Coffee: [Marriott Foundation Building](#marriott-fdn-bldg) {-}
+### 08:30 am • Coffee: [Marriott Fdn Building](#marriott-fdn-bldg) {-}
 
-### 09:00 am • Welcome to Day 2: [Marriott Foundation Building](#marriott-fdn-bldg) {-}
+### 09:00 am • Welcome to Day 2: 102 [Marriott Fdn Building](#marriott-fdn-bldg) {-}
 
 ### 09:15 am • Workshop session 1 {- #day_2_am_session_1}
 
 | Topic | Location |
 |--------------|----------|
-| [Data management: Policies](#howto_data_management_policies) | TBD |
+| [Data management: Policies](#howto_data_management_policies) | 102 Marriott Fdn Bldg |
 | [Responsible & robust research](#howto_responsible_research) | TBD |
 
 ### 10:15 am • Break (30 min) {-}
@@ -42,7 +42,7 @@ Locations and topics will be announced later.
 
 ## Afternoon {- #day_2_pm}
 
-::: {.rmdnote}
+::: {.rmdimportant}
 
 *Theme*: How to do open science: Workshops
 
@@ -52,7 +52,7 @@ Locations and topics will be announced later.
 
 | Topic | Location |
 |--------------|----------|
-| [Data management: Practicalities](#howto_data_management_practical) | TBD |
+| [Data management: Practicalities](#howto_data_management_practical) | 102 Marriott Fdn Bldg |
 | [Pregistration](#howto_preregistration) | TBD |
 | [Open science for early career researchers](#howto_early_career) | TBD |
 
@@ -63,10 +63,10 @@ Locations and topics will be announced later.
 | Topic | Location |
 |--------------|----------|
 | [Intro to Jupyter notebooks](#howto_jupyter) | TBD |
-| [Data sharing](#howto_data_sharing) | TBD |
+| [Data sharing](#howto_data_sharing) | 102 Marriott Fdn Bldg |
 
-### 03:45 pm • Break to reconvene at [Marriott Foundation Building](#marriott-fdn-bldg) {-}
+### 03:45 pm • Break to reconvene at 102 [Marriott Fdn Bldg](#marriott-fdn-bldg) {-}
 
-### 04:00 pm • Recap Day 2 (plenary session): [Marriott Foundation Building](#marriott-fdn-bldg) {-}
+### 04:00 pm • Recap Day 2 (plenary session): 102 [Marriott Fdn Bldg](#marriott-fdn-bldg) {-}
 
 ### 04:15 pm • End of Day 2 {-}

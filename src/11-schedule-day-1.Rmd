@@ -2,9 +2,9 @@
 
 <!-- .rmdnote, .rmdcaution, .rmdimportant, .rmdtip, and .rmdwarning.  -->
 
-::: {.rmdimportant}
+::: {.rmdnote}
 
-*Location*: [Marriott Foundation Building](#marriott-fdn-bldg)
+*Location*: 102 [Marriott Foundation Building](#marriott-fdn-bldg)
 
 All times are Eastern Daylight Time (EDT).
 
@@ -12,7 +12,7 @@ All times are Eastern Daylight Time (EDT).
 
 ## Morning {- #day_1_am}
 
-::: {.rmdnote}
+::: {.rmdimportant}
 
 *Themes*: What is open science? Why do open science? Open Science at Penn State.
 
@@ -45,7 +45,7 @@ This session will feature a series of short (3-5 min) "blitz" talks about initia
 
 ## Afternoon {- #day_1_pm}
 
-::: {.rmdnote}
+::: {.rmdimportant}
 
 *Theme*: Getting started with open science
 
