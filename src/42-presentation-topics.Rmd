@@ -67,13 +67,10 @@ What are questionable research practices? Why are they questionable? How do we a
 
 *Offered*: [Thu AM Session 1](#day_2_am_session_1)
 
-### Literate Programming with R Markdown and Quarto ([Rick Gilmore] & [Jennifer Valcin]){- #howto_rmarkdown}
+### Reproducible research with R Markdown and Quarto ([Rick Gilmore] & [Jennifer Valcin]){- #howto_rmarkdown}
 
-What is literate programming? 
-How can literate programming tools improve your research productivity? 
-This workshop will demonstrate the many uses of [R Markdown](https://rmarkdown.rstudio.com) and its successor, [Quarto](https://quarto.org) in research, teaching, and service.
-These tools can be used to create slides, analysis reports, papers, and web sites (like this one) using the same source materials.
-[Rick Gilmore] considers these tools super-powers.
+This workshop will demonstrate how to create reproducible research workflows with [R Markdown](https://rmarkdown.rstudio.com) and its successor, [Quarto](https://quarto.org).
+These tools can be used to analysis reports, create slides, papers, and web sites (like this one) using the same source materials.
 
 *Prerequisites*: None
 
@@ -119,7 +116,19 @@ How can early career researchers start their open science journey [@Kathawalla20
 
 *Offered*: [Thu PM Session 3](#day_2_pm_session_3)
 
-### Sharing data and materials ([Rick Gilmore] & [Bruce Desmarais]) {- #howto_data_sharing}
+### Reproducible research with Jupyter notebooks ([Mike Burnham]) {- #howto_jupyter}
+
+[Jupyter notebooks](https://jupyter.org) are another literate programming tool, and also another research super-power.
+
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+*Time required*: 1 hour
+
+*Offered*: [Thu PM Session 4](#day_2_pm_session_4).
+
+### Data & materials sharing: Why, when, where, & how ([Rick Gilmore] & [Bruce Desmarais]) {- #howto_data_sharing}
 
 Where can you share data and materials?
 Where *should* you share data and materials?
@@ -139,17 +148,6 @@ results and figures can be verified.
 
 *Talk slides*: [PDF](https://github.com/penn-state-open-science/bootcamp-2023-data-sharing/blob/fb674dc1de7a48fd989dd54e89e9462e10bd04a6/index.pdf)
 
-### Literate programming with Jupyter notebooks ([Mike Burnham]) {- #howto_jupyter}
-
-[Jupyter notebooks](https://jupyter.org) are another literate programming tool, and also another research super-power.
-
-*Prerequisites*: None
-
-*Skill level*: Novice
-
-*Time required*: 1 hour
-
-*Offered*: [Thu PM Session 4](#day_2_pm_session_4).
 
 <!-- ## Other topics/presenters {-} -->
 

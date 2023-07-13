@@ -24,9 +24,9 @@ googledrive::drive_auth()
 
 Render date: `r Sys.time()`
 
-Survey link: <https://docs.google.com/forms/d/e/1FAIpQLScdIbP8TZrulVC01MQbtQN13iaW1WIjQx86f-wGOpC0F3bxBg/viewform?usp=sf_link>
+Survey link: <https://forms.gle/wPBr9XgXmmzhSszm7>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdIbP8TZrulVC01MQbtQN13iaW1WIjQx86f-wGOpC0F3bxBg/viewform?embedded=true" width="640" height="1478" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdIbP8TZrulVC01MQbtQN13iaW1WIjQx86f-wGOpC0F3bxBg/viewform?embedded=true" width="640" height="2489" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ### Results {-}
 
