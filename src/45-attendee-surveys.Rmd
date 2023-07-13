@@ -91,10 +91,20 @@ registrations_clean |>
 
 #### By position {-}
 
-```{r}
+```{r by-position}
 registrations_clean |>
   ggplot() +
   aes(x = position) +
+  geom_bar() +
+  coord_flip()
+```
+
+#### By Department {-}
+
+```{r by-dept}
+registrations_clean |>
+  ggplot() +
+  aes(x = dept) +
   geom_bar() +
   coord_flip()
 ```
