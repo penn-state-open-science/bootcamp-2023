@@ -32,7 +32,7 @@ Survey link: <https://forms.gle/wPBr9XgXmmzhSszm7>
 
 Download.
 
-```{r, eval=FALSE}
+```{r}
 if (!dir.exists('csv')) {
   message("Creating missing `csv/`.")
   dir.create("csv")
@@ -54,13 +54,21 @@ registrations_clean <- registrations |>
     timestamp = "Timestamp",
     confirmed = "Will you attend the Bootcamp on August 9-11, 2023?",
     name = "What is your name?",
-    email = "What is your PSU email?",
+    psu_email = "What is your PSU email?",
     dept= "What is your department or unit?",
-    position = "What is your current position?"
+    position = "What is your current position?",
+    email = "Email Address",
+    am_sess_1 = "Which of these sessions do you plan to attend?...8",
+    am_sess_2 = "Which of these sessions do you plan to attend?...9",
+    pm_sess_3 = "Which of these sessions do you plan to attend?...10",
+    pm_sess_4 = "Which of these sessions do you plan to attend?...11",
+    comments = "Any comments?"
   )
 
 registrations_clean <- registrations_clean |>
-  dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York"))
+  dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York")) |>
+  dplyr::select(-psu_email)
+
 ```
 
 Visualize.
@@ -80,6 +88,71 @@ registrations_clean |>
   scale_color_manual(breaks = c("No", "Yes"),
                         values=c("red", "blue", "green"))
 ```
+
+#### By position {-}
+
+```{r}
+registrations_clean |>
+  ggplot() +
+  aes(x = position) +
+  geom_bar() +
+  coord_flip()
+```
+
+#### [Thu AM Session 1](#day_2_am_session_1) {-}
+
+```{r am_sess_1}
+registrations_clean |>
+  dplyr::filter(!is.na(am_sess_1)) |>
+  ggplot() +
+  aes(x = am_sess_1) +
+  geom_bar() +
+  coord_flip()
+```
+
+#### [Thu AM Session 2](#day_2_am_session_2) {-}
+
+```{r am_sess_2}
+registrations_clean |>
+  dplyr::filter(!is.na(am_sess_2)) |>
+  ggplot() +
+  aes(x = am_sess_2) +
+  geom_bar() +
+  coord_flip()
+```
+
+#### [Thu PM Session 3](#day_2_pm_session_3) {-}
+
+```{r pm_sess_3}
+registrations_clean |>
+  dplyr::filter(!is.na(pm_sess_3)) |>
+  ggplot() +
+  aes(x = pm_sess_3) +
+  geom_bar() +
+  coord_flip()
+```
+
+#### [Thu PM Session 4](#day_2_pm_session_4) {-}
+
+```{r pm_sess_4}
+registrations_clean |>
+  dplyr::filter(!is.na(pm_sess_4)) |>
+  ggplot() +
+  aes(x = pm_sess_4) +
+  geom_bar() +
+  coord_flip()
+```
+
+#### Comments {-}
+
+```{r}
+registrations_clean |>
+  dplyr::select(comments) |>
+  dplyr::filter(!is.na(comments)) |>
+  knitr::kable(format = 'html') |>
+  kableExtra::kable_material()
+```
+
 
 ## Interest - May 1, 2023 {-}
 
@@ -204,9 +277,8 @@ Other suggestions:
 
 ```{r, fig.cap="Other topic suggestions"}
 attendees_1_clean |>
-  select(interest_other) |>
-  filter(!is.na(interest_other)) |>
+  dplyr::select(interest_other) |>
+  dplyr::filter(!is.na(interest_other)) |>
   knitr::kable(format = 'html') |>
   kableExtra::kable_material()
 ```
-
