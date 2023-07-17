@@ -45,8 +45,8 @@ What is preregistration? What are registered reports? When and why would you wan
 
 ### Replication studies ([Kevin McManus]) {- #howto_replication}
 
-Why are replication studies important? How to plan, conduct, and publish replication studies.
-
+This session will provide an introduction and overview of the replication process in social science research, focusing on three components: (1) what is replication and why is it important? (2) considerations for selecting a study to replicate (3) recommended practices for executing and writing up a replication study. Taken together, this session seeks to address several questions on the conceptual and practical aspects of doing replication research.
+ 
 *Prerequisites*: None
 
 *Skill level*: Novice
@@ -112,7 +112,7 @@ How can early career researchers start their open science journey [@Kathawalla20
 
 *Skill level*: All
 
-*Time required*:
+*Time required*: 50 min
 
 *Offered*: [Thu PM Session 3](#day_2_pm_session_3)
 
@@ -124,7 +124,7 @@ How can early career researchers start their open science journey [@Kathawalla20
 
 *Skill level*: Novice
 
-*Time required*: 1 hour
+*Time required*: 50 min
 
 *Offered*: [Thu PM Session 4](#day_2_pm_session_4).
 
