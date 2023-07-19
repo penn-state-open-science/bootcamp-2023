@@ -274,7 +274,7 @@ attendees_1_interests <- attendees_1_clean |>
 
 ```{r survey-1-interests, fig.cap="Expressed levels of interest for workshop topics"}
 attendees_1_interests |>
-  ggplot() +
+  ggplot2::ggplot() +
   aes(x = interest_level, fill = interest_level, label = mean_interest) +
   geom_bar(na.rm = TRUE) +
   facet_wrap(~ topic) + 
@@ -292,3 +292,28 @@ attendees_1_clean |>
   knitr::kable(format = 'html') |>
   kableExtra::kable_material()
 ```
+
+### Extract emails for registration invitation {-}
+
+::: {.rmdnote}
+
+**NOTE**: All identifiable information is prevented from being publicly shared by adding the `src/csv/` data folder to our `src/.gitignore` file.
+
+:::
+
+```{r}
+# Select and save first...
+attendees_1_clean |>
+  dplyr::filter(interested %in% c("Yes", "Maybe")) |>
+  dplyr::select(email) |>
+  readr::write_csv("csv/prereg-emails.csv")
+
+# Then reimport and process via tempfile
+prereg <- readr::read_csv("csv/prereg-emails.csv", show_col_types = FALSE)
+tf <- (tempfile(fileext = ".txt"))
+prereg_em <- file(tf, "w")
+writeLines(con = tf, as.character(prereg$email), sep = ",")
+close(prereg_em)
+message(tf)
+```
+
