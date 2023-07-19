@@ -1,6 +1,6 @@
 # Presentation topics {-}
 
-The following are potential presentation topics for [Day 1](#day_1) and [Day 2](#day_2).
+The following are presentation topics for [Day 1](#day_1) and [Day 2](#day_2).
 
 The hands-on topics offered have been shaped by the preferences of prospective participants, as indicated in a May 2023 [survey](attendee-surveys.html#results).
 
@@ -8,9 +8,15 @@ The hands-on topics offered have been shaped by the preferences of prospective p
 
 ### What is open science? Why do open science? ([Rick Gilmore]) {-}
 
-<!-- These are some possible presentations for [Day 1](#day_1). -->
+This talk will describe the main practices and principles of open science and describe
+how these practices and principles can strengthen and enrich the scholarship of researchers at every 
+career stage.
+
+*Talk slides*: [HTML](https://penn-state-open-science.github.io/bootcamp-2023-open-sci-what-why/)
 
 ### Open science @ PSU {-}
+
+What initiatives and resources are available at Penn State related to open science?
 
 <!-- Short (3-5 min) "blitz"-style talks about open science-related initiatives at Penn State. -->
 
@@ -79,6 +85,8 @@ These tools can be used to analysis reports, create slides, papers, and web site
 *Time required*: 50 min
 
 *Offered*: [Thu AM Session 2](#day_2_am_session_2).
+
+*Talk slides*: [HTML](https://penn-state-open-science.github.io/bootcamp-2023-rmarkdown-quarto/)
 
 ### Data management: Policies ([Briana Wham] & [Alaina Pearce]) {- #howto_data_management_policies}
 
