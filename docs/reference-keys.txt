@@ -8,5 +8,5 @@ fig:survey-1-timeseries
 fig:survey-1-interests
 download
 clean
-visualize
+visualize-1
 rating-distribution

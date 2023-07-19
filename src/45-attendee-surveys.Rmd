@@ -3,12 +3,12 @@
 This page summarizes the data collected from prospective and actual Bootcamp attendees.
 
 ```{r include=FALSE}
-suppressPackageStartupMessages('tidyverse')
-suppressPackageStartupMessages('ggplot2')
-suppressPackageStartupMessages('dplyr')
-suppressPackageStartupMessages('tidyr')
-suppressPackageStartupMessages('stringr')
-suppressPackageStartupMessages('lubridate')
+library('tidyverse')
+library('ggplot2')
+library('dplyr')
+library('tidyr')
+library('stringr')
+library('lubridate')
 
 options(gargle_oauth_email = "rick.o.gilmore@gmail.com")
 googledrive::drive_auth()
@@ -67,11 +67,21 @@ registrations_clean <- registrations |>
 
 registrations_clean <- registrations_clean |>
   dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York")) |>
+  dplyr::arrange(timestamp) |>
   dplyr::select(-psu_email)
 
 ```
 
-Visualize.
+#### Registration numbers {-}
+
+```{r}
+registration_yes <- registrations_clean |> 
+  dplyr::filter(confirmed == "Yes") 
+```
+
+As of `r Sys.time()`, we have $n=$ `r dim(registration_yes)[1]` confirmed attendees. That is `r round(100*dim(registration_yes)[1]/75, 1)` \% of our target registration/attendance limit of $n=75$, and includes the presenters.
+
+#### Time series {-}
 
 ```{r registrations-timeseries, fig.cap = "Time series of registrations"}
 registrations_clean |>
@@ -103,6 +113,12 @@ registrations_clean |>
 
 ```{r by-dept}
 registrations_clean |>
+  dplyr::mutate(
+    dept = dplyr::recode(dept,
+                         `Clinical Psychology` = "Psychology",
+                         `Department of Psychology` = "Psychology",
+                         `Spanish Italian and portuguese` = "Spanish, Italian, & Portuguese")
+  ) |>
   ggplot() +
   aes(x = dept) +
   geom_bar() +
@@ -216,6 +232,8 @@ attendees_1_clean <- attendees_1 |>
 attendees_1_clean <- attendees_1_clean |>
   dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York"))
 ```
+
+### Visualize {-}
 
 ```{r survey-1-timeseries, fig.cap = "Time series of responses"}
 attendees_1_clean |>
