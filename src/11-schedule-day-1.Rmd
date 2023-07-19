@@ -39,7 +39,7 @@ This session will feature a series of short (3-5 min) "blitz" talks about initia
 - Case study: ScholarSphere (TBD)
 - Case study: Using the [Open Science Framework (OSF)](https://osf.io) ([Alaina Pearce])
 - Case study: Penn State's subscription to the [Qualitative Data Repository (QDR)](https://qdr.syr.edu) ([Briana Wham])
-- Case study: [Databrary](https://databrary.org) & [The PLAY Project](https://play-project.org) ([Rick Gilmore])
+- Case study: [Databrary](https://databrary.org) & [The PLAY Project](https://play-project.org) ([Rick Gilmore]) | [HTML slides](https://penn-state-open-science.github.io/bootcamp-2023-databrary-play/).
 
 ### 11:45 am • Lunch break {-}
 
