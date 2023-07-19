@@ -6,3 +6,7 @@ fig:unnamed-chunk-6
 fig:registrations-timeseries
 fig:survey-1-timeseries
 fig:survey-1-interests
+download
+clean
+visualize
+rating-distribution

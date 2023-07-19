@@ -1,0 +1,124 @@
+# Scientific Values {-}
+
+This page summarizes the results of data collected about scientific values from an anonymous survey.
+
+```{r include=FALSE}
+library('tibble')
+library('ggplot2')
+library('dplyr')
+library('tidyr')
+library('stringr')
+library('lubridate')
+
+options(gargle_oauth_email = "rick.o.gilmore@gmail.com")
+googledrive::drive_auth()
+```
+
+Render date: `r Sys.time()`
+
+Survey link: <https://forms.gle/TPjvbqJzSFVMJVkA9>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScJhA9Qla7qjDehr43q0HwlMhHiQ-DKGerOQ4b8Jywvev5faw/viewform?embedded=true" width="640" height="2193" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+## Results {-}
+
+### Download
+
+```{r}
+if (!dir.exists('csv')) {
+  message("Creating missing `csv/`.")
+  dir.create("csv")
+}
+
+googledrive::drive_download("Scientific Values Survey (Responses)", path = "csv/scientific-values.csv", type = "csv", overwrite = TRUE)
+```
+
+### Clean
+
+```{r}
+sci_vals <-
+  readr::read_csv("csv/scientific-values.csv", show_col_types = FALSE)
+
+new_names <-
+  c(
+    "Timestamp",
+    "Disinterestedness_should",
+    "Organized Skepticism_should",
+    "Particularism_should",
+    "Communality_should",
+    "Organized Dogmatism_should",
+    "Self-interestedness_should",
+    "Universalism_should",
+    "Solitariness_should",
+    "Disinterestedness_actually",
+    "Organized Skepticism_actually",
+    "Particularism_actually",
+    "Communality_actually",
+    "Organized Dogmatism_actually",
+    "Self-interestedness_actually",
+    "Universalism_actually",
+    "Solitariness_actually",
+    "Comments"
+  )
+
+# Make new data frame with long and short names for reference
+sci_vals_qs <- tibble::tibble(q_long = names(sci_vals), q_short = new_names)
+
+# Swap out old (long) names for new (short) names
+names(sci_vals) <- new_names
+
+# These data are ‘wide’, meaning that there are multiple variables for each respondent. The data will be easier to visualize and analyze if we make the data ‘longer’.
+
+sci_vals_long <- sci_vals |>
+  tidyr::pivot_longer(!c('Timestamp', 'Comments'),
+                      names_to = "norm_counternorm",
+                      values_to = "rating")
+
+# We move the '_should' and '_actually' to a separate variable called 'resp_frame'
+sci_vals_long <- sci_vals_long |>
+  dplyr::mutate(resp_frame = stringr::str_extract(norm_counternorm, "should|actually")) |>
+  dplyr::mutate(norm_counternorm = stringr::str_remove_all(norm_counternorm, "_[a-z]+"))
+
+# We should indicate whether these are norms or counternorms.
+sci_vals_long <- sci_vals_long |>
+  dplyr::mutate(type = if_else(
+    norm_counternorm %in% c(
+      "Disinterestedness",
+      "Organized Skepticism",
+      "Communality",
+      "Universalism"
+    ),
+    "norm",
+    "counternorm"
+  ))
+
+# Omit 'test' values when we have actual data
+# sci_vals_long <- sci_vals_long |>
+#   dplyr::filter(comments != "test")
+```
+
+### Visualize
+
+```{r}
+sci_vals_qs %>%
+  kableExtra::kable(., format='html')
+```
+
+### Rating distribution
+
+Remember, the rating scale was from 1: “not at all” to 5: “a great deal”.
+
+```{r fig-sci-vals-survey}
+sci_vals_long |> 
+  ggplot() + 
+  aes(norm_counternorm, rating, fill = type) + 
+  geom_violin() +
+  geom_point(position = position_jitter(width = .07, height = .07), alpha = 0.5) +
+  ylim(1, 5) +
+  facet_grid(cols = vars(resp_frame)) +
+  coord_flip() +
+  ggtitle("Ratings of scientists' adherence to norms and counternorms") +
+  theme(legend.position = "bottom") +
+  theme(legend.title = element_blank())
+```
+
