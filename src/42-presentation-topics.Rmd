@@ -30,7 +30,7 @@ What initiatives and resources are available at Penn State related to open scien
 
 ### Good enough practices for data and project management ([Alaina Pearce]) {- #howto_good_enough}
 
-Best practices can be hard to implement, so what open science practices are both ueseful and "good enough" [@Wilson2017-ot] to have an impact on your work?  How can researchers make their data findable, accessible, interoperable, and reusable--adhere to the FAIR data principles [@Wilkinson2016-qr]? How can these practices improve your data lifecycle and/or pipeline (e.g., data use and re-use within and between labs)?
+Best practices can be hard to implement, so what open science practices are both useful and “good enough” [@Wilson2017-ot] to have an impact on your work? What are the first steps you can take to make your data more FAIR [@Wilkinson2016-qr]? How can these practices improve your data lifecycle and/or pipeline (e.g., data use and re-use within and between labs)?
 
 ## How to do open science? {-}
 
@@ -102,7 +102,7 @@ How to manage data to meet funder requirements and make sharing with collaborato
 
 ### Data management: Practicalities ([Alaina Pearce] & [Briana Wham]) {- #howto_data_management_practical}
 
-How to manage data to meet funder requirements and make sharing with collaborators and other researchers less burdensome.
+How can you manage data to make sharing with collaborators and other researchers less burdensome? Data management is often learned through trial and error. Therefore, this workshop will provide a set of practices that can make data management and data sharing easier. After a brief overview, this will be a Choose-Your-Own-Adventure workshop so we can dive into the details of data management that will be most helpful for you. Examples include discussing file naming conventions, directory organization for large lab projects, standardized data architectures (e.g., [BIDS](https://bids.neuroimaging.io); [MIxS](https://genomicsstandardsconsortium.github.io/mixs/)), how to make a data dictionary, and data manipulation/creation of new variables.
 
 *Prerequisites*: None
 

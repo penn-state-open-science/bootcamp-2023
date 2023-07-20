@@ -20,7 +20,7 @@ googledrive::drive_auth()
 
 <!-- ## Day 1, August 9, 2023 -->
 
-## Registration - July 24, 2023 {-}
+## Registration - July 19, 2023 {-}
 
 Render date: `r Sys.time()`
 
