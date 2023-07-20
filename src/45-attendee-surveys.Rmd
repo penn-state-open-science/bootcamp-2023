@@ -101,34 +101,63 @@ registrations_clean |>
 
 #### By position {-}
 
-```{r by-position}
-registrations_clean |>
+```{r by-position, fig.cap="Registrations by position"}
+registration_yes |>
   ggplot() +
   aes(x = position) +
   geom_bar() +
   coord_flip()
 ```
 
-#### By Department {-}
+#### By Department & College {-}
 
-```{r by-dept}
-registrations_clean |>
+```{r by-dept, fig.cap="Registrations by department and college"}
+registration_yes <- registration_yes |>
   dplyr::mutate(
-    dept = dplyr::recode(dept,
-                         `Clinical Psychology` = "Psychology",
-                         `Department of Psychology` = "Psychology",
-                         `Spanish Italian and portuguese` = "Spanish, Italian, & Portuguese")
+    dept = dplyr::recode(
+      dept,
+      `Clinical Psychology` = "Psychology",
+      `Psychology / SSRI` = "Psychology",
+      `Department of Psychology` = "Psychology",
+      `Human Development and Family Studies & Social Data Analytics` = "HDFS",
+      `RPTM`= "Recreation, Park, & Tourism Management",
+      `Spanish Italian and portuguese` = "Spanish, Italian, & Portuguese",
+      `Nutrition` = "Nutritional Sciences"
+    )
   ) |>
+  dplyr::mutate(college = case_match(dept,
+                                     "Statistics" ~ "ECoS",
+                                     "Psychology" ~ "CLA",
+                                     "Spanish, Italian, & Portuguese" ~ "CLA",
+                                     "Research Informatics and Publishing" ~ "Libraries",
+                                     "Political Science" ~ "CLA",
+                                     "Applied Linguistics" ~ "CLA",
+                                     "IST" ~ "IST",
+                                     "Engineering Science and Mechanics" ~ "Engineering",
+                                     "Chemical Engineering" ~ "Engineering",
+                                     "Material Science and Engineering" ~ "Engineering",
+                                     "Nutritional Sciences" ~ "HHD",
+                                     "HDFS" ~ "HHD",
+                                     "Kinesiology" ~ "HHD",
+                                     "Recreation, Park, & Tourism Management" ~ "HHD"),
+                .default = "Unknown",
+                .missing = "Unknown")
+
+registration_yes |>
   ggplot() +
-  aes(x = dept) +
+  aes(x = dept, fill = college) +
   geom_bar() +
   coord_flip()
+```
+
+```{r, include = FALSE}
+xtabs(~ college, registration_yes)
 ```
 
 #### [Thu AM Session 1](#day_2_am_session_1) {-}
 
 ```{r am_sess_1}
-registrations_clean |>
+registration_yes |>
   dplyr::filter(!is.na(am_sess_1)) |>
   ggplot() +
   aes(x = am_sess_1) +
@@ -139,7 +168,7 @@ registrations_clean |>
 #### [Thu AM Session 2](#day_2_am_session_2) {-}
 
 ```{r am_sess_2}
-registrations_clean |>
+registration_yes |>
   dplyr::filter(!is.na(am_sess_2)) |>
   ggplot() +
   aes(x = am_sess_2) +
@@ -150,7 +179,7 @@ registrations_clean |>
 #### [Thu PM Session 3](#day_2_pm_session_3) {-}
 
 ```{r pm_sess_3}
-registrations_clean |>
+registration_yes |>
   dplyr::filter(!is.na(pm_sess_3)) |>
   ggplot() +
   aes(x = pm_sess_3) +
@@ -161,7 +190,7 @@ registrations_clean |>
 #### [Thu PM Session 4](#day_2_pm_session_4) {-}
 
 ```{r pm_sess_4}
-registrations_clean |>
+registration_yes |>
   dplyr::filter(!is.na(pm_sess_4)) |>
   ggplot() +
   aes(x = pm_sess_4) +
@@ -172,15 +201,14 @@ registrations_clean |>
 #### Comments {-}
 
 ```{r}
-registrations_clean |>
+registration_yes |>
   dplyr::select(comments) |>
   dplyr::filter(!is.na(comments)) |>
   knitr::kable(format = 'html') |>
   kableExtra::kable_material()
 ```
 
-
-## Interest - May 1, 2023 {-}
+## Initial Interest - May 1, 2023 {-}
 
 Render date: `r Sys.time()`
 

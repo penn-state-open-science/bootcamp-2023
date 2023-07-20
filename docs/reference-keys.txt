@@ -4,6 +4,8 @@ fig:unnamed-chunk-4
 fig:unnamed-chunk-5
 fig:unnamed-chunk-6
 fig:registrations-timeseries
+fig:by-position
+fig:by-dept
 fig:survey-1-timeseries
 fig:survey-1-interests
 download
