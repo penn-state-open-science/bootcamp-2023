@@ -115,6 +115,21 @@ knitr::include_url("https://map.psu.edu/?id=1134#!m/272192?s/", height = "400px"
 
 Parking (at your own expense) is available at the Nittany Lion Parking Deck.
 
+## Frequently Asked Questions
+
+**Will slides from the bootcamp be available?**
+
+- Slides and other resources will be shared on our website.
+
+**Will the bootcamp be available via Zoom? Will there be recordings available?**
+
+- A Zoom option *may* be provided. Check our website closer to the event for the Zoom link. Any recordings will be shared after the Bootcamp.
+
+**Can I sign up for the Bootcamp if I cannot attend all 2.5 days of the Bootcamp?**
+
+- We strongly recommend that participants commit to attending the full Bootcamp. Food and money are wasted if people register for the event but do not attend.
+- We recommend registering for the Zoom option (registration form to be released) if you cannot attend in person.
+
 <!-- ### Remote participants {-} -->
 
 <!-- Bootcamp 2023 will be streamed online at the following URL: -->

@@ -69,7 +69,6 @@ registrations_clean <- registrations_clean |>
   dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York")) |>
   dplyr::arrange(timestamp) |>
   dplyr::select(-psu_email)
-
 ```
 
 #### Registration numbers {-}
@@ -117,12 +116,19 @@ registration_yes <- registration_yes |>
     dept = dplyr::recode(
       dept,
       `Clinical Psychology` = "Psychology",
+      `Psychology (Cognitive)` = "Psychology",
       `Psychology / SSRI` = "Psychology",
       `Department of Psychology` = "Psychology",
       `Human Development and Family Studies & Social Data Analytics` = "HDFS",
+      `Human Development and Family Studies` = "HDFS",
+      `HDFS/DEMO` = "HDFS",
       `RPTM`= "Recreation, Park, & Tourism Management",
       `Spanish Italian and portuguese` = "Spanish, Italian, & Portuguese",
-      `Nutrition` = "Nutritional Sciences"
+      `Spanish, Italian, and Portuguese Department` = "Spanish, Italian, & Portuguese",
+      `Nutrition` = "Nutritional Sciences",
+      `College of IST` = "IST",
+      `Statistics Department` = "Statistics",
+      `Recreation, Park and Tourism Management` = "Recreation, Park, & Tourism Management"
     )
   ) |>
   dplyr::mutate(college = case_match(dept,
@@ -132,6 +138,7 @@ registration_yes <- registration_yes |>
                                      "Research Informatics and Publishing" ~ "Libraries",
                                      "Political Science" ~ "CLA",
                                      "Applied Linguistics" ~ "CLA",
+                                     "C-SoDA" ~ "CLA",
                                      "IST" ~ "IST",
                                      "Engineering Science and Mechanics" ~ "Engineering",
                                      "Chemical Engineering" ~ "Engineering",

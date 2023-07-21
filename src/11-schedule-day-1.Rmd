@@ -32,7 +32,7 @@ This session will feature a series of short (3-5 min) "blitz" talks about initia
 
 - Case study: Reproducibility in neuroimaging ([Frank Hillary])
 - Case study: AI replication markets for the DARPA SCORE initiative ([Sarah Rajtmajer])
-- Case study: Support at [ICDS](https://www.icds.psu.edu) for Open and Reproducible Research ([Carrie Brown])
+- Case study: Support at [ICDS](https://www.icds.psu.edu) for Open and Reproducible Research (TBD)
 <!-- - Case study: Higher Education Leadership Initiative ([HELIOS](https://www.heliosopen.org)) -->
 - Case study: Open Access at Penn State (TBD)
 - Case study: [Data Commons](https://www.datacommons.psu.edu) ([Maurie Kelly])
