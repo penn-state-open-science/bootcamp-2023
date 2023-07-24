@@ -56,79 +56,6 @@ The Bootcamp would not be possible without the generosity and hard work of our [
 - To accelerate the development of a community of scholars who are interested in open science.
 - To plan next steps that will foster the emergence of a robust open science community at Penn State.
 
-## Origins {-}
-
-The Bootcamp is an outgrowth of discussions that emerged in early 2022 among some of the conference organizers and builds upon the lessons learned in an open science [survey](https://penn-state-open-science.github.io/survey-fall-2022/) that a number of Penn State researchers completed in late 2022 and early 2023.
-
-It also builds upon the lessons learned in hosting bootcamps focused on the R programming language sponsored in [2017](https://psu-psychology.github.io/r-bootcamp/), [2018](https://psu-psychology.github.io/r-bootcamp-2018/), and [2019](https://psu-psychology.github.io/r-bootcamp-2019/) by [Psychology Department](https://psych.la.psu.edu) and [HDFS](https://hhd.psu.edu/hdfs) faculty.
-
-## Logistics {-}
-
-### Meals {-}
-
-Breakfast and coffee will be provided on Wednesday, Thursday, and Friday mornings.
-
-Lunch will be provided on Wednesday and Thursday.
-The Bootcamp will end by lunch time on Friday.
-
-We will have vegetarian and vegan food options.
-
-### Locations {-}
-
-Most in-person events at Bootcamp 2023 will be held in the newly renovated **Marriott Foundation Building** on the Penn State University Park campus.
-The Marriott Foundation Building is located just north of the Nittany Lion Inn, near the intersection of Park Avenue and Atherton Street.
-
-#### Marriott Foundation Building  {- #marriott-fdn-bldg}
-
-```{r, out.width="100%", fig.cap="Marriott Foundation Building"}
-knitr::include_graphics("https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/4_3_2000w/public/Oak%20Building.jpeg?h=71976bb4&itok=AOCn0pbO")
-```
-
-```{r, out.width="100%", fig.cap="Marriott Foundation Building location from https://www.map.psu.edu"}
-knitr::include_url("https://www.map.psu.edu/?id=1134#!ct/59509,33177,25403,26748,26749,26750,27255?m/336393?s/", height = "400px")
-```
-
-Plenary sessions will be held in 102 Marriott Foundation Building. 
-Smaller breakout sessions will be held in 109 Marriott Foundation Building and in the second floor library.
-Accessible restrooms are available on the first floor.
-Participants not requiring access to the accessible restrooms are asked to use facilities in the basement.
-
-```{r, out.width="100%", fig.cap="Marriott Foundation Building 1st Floor"}
-knitr::include_graphics("include/img/mariott-fdn-bldg-1st-fl.png")
-```
-
-Please enter the Marriott Foundation Building from the East side, adjacent to the Nittany Lion Inn parking lot.
-
-#### Keller Building {- #keller-bldg}
-
-Some breakout sessions may be held in 115 Keller Building on [Thursday, August 10](#day_2) and [Friday, August 11](#day_3).
-
-```{r, out.width="100%", fig.cap="Keller Building"}
-knitr::include_graphics("https://la.psu.edu/wp-content/uploads/sites/2/2022/11/Keller-Building-April-2022-01.jpg")
-```
-
-```{r, out.width="100%", fig.cap="Keller Building location from https://www.map.psu.edu"}
-knitr::include_url("https://map.psu.edu/?id=1134#!m/272192?s/", height = "400px")
-```
-
-#### Parking {-}
-
-Parking (at your own expense) is available at the Nittany Lion Parking Deck.
-
-## Frequently Asked Questions
-
-**Will slides from the bootcamp be available?**
-
-- Slides and other resources will be shared on our website.
-
-**Will the bootcamp be available via Zoom? Will there be recordings available?**
-
-- A Zoom option *may* be provided. Check our website closer to the event for the Zoom link. Any recordings will be shared after the Bootcamp.
-
-**Can I sign up for the Bootcamp if I cannot attend all 2.5 days of the Bootcamp?**
-
-- We strongly recommend that participants commit to attending the full Bootcamp. Food and money are wasted if people register for the event but do not attend.
-- We recommend registering for the Zoom option (registration form to be released) if you cannot attend in person.
 
 <!-- ### Remote participants {-} -->
 
@@ -137,6 +64,12 @@ Parking (at your own expense) is available at the Nittany Lion Parking Deck.
 <!-- <https://psu.zoom.us/bootcamp-2023/> -->
 
 <!-- All sessions will be recorded and made publicly available at a later date. -->
+
+## Origins {-}
+
+The Bootcamp is an outgrowth of discussions that emerged in early 2022 among some of the conference organizers and builds upon the lessons learned in an open science [survey](https://penn-state-open-science.github.io/survey-fall-2022/) that a number of Penn State researchers completed in late 2022 and early 2023.
+
+It also builds upon the lessons learned in hosting bootcamps focused on the R programming language sponsored in [2017](https://psu-psychology.github.io/r-bootcamp/), [2018](https://psu-psychology.github.io/r-bootcamp-2018/), and [2019](https://psu-psychology.github.io/r-bootcamp-2019/) by [Psychology Department](https://psych.la.psu.edu) and [HDFS](https://hhd.psu.edu/hdfs) faculty.
 
 ## Acknowledgements {-}
 

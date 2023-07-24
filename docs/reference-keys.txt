@@ -8,7 +8,6 @@ fig:by-position
 fig:regisrations-timeseries
 fig:survey-1-timeseries
 fig:survey-1-interests
-frequently-asked-questions
 download
 clean
 visualize-1

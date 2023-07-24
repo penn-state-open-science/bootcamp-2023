@@ -154,8 +154,7 @@ results and figures can be verified.
 
 *Offered*: [Thu PM Session 4](#day_2_pm_session_4)
 
-*Talk slides*: [PDF](https://github.com/penn-state-open-science/bootcamp-2023-data-sharing/blob/fb674dc1de7a48fd989dd54e89e9462e10bd04a6/index.pdf)
-
+*Talk slides*: [PDF](https://github.com/penn-state-open-science/bootcamp-2023-data-sharing/blob/7aef15bfc83886f488a5256cc76312cc6cf2002a/index.pdf)
 
 <!-- ## Other topics/presenters {-} -->
 
