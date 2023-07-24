@@ -121,6 +121,7 @@ registration_yes <- registration_yes |>
       `Department of Psychology` = "Psychology",
       `English language` = "English",
       `english` = "English",
+      `English Language Teaching` = "English",
       `Languages` = "Global Languages & Literatures",
       `Languages and Literature` = "Global Languages & Literatures",
       `Department of Foreign Languages` = "Global Languages & Literatures",
@@ -129,37 +130,46 @@ registration_yes <- registration_yes |>
       `Human Development and Family Studies` = "HDFS",
       `Department of Human Development and Family Studies` = "HDFS",
       `HDFS/DEMO` = "HDFS",
-      `RPTM`= "Recreation, Park, & Tourism Management",
+      `RPTM` = "Recreation, Park, & Tourism Management",
       `Spanish Italian and portuguese` = "Spanish, Italian, & Portuguese",
       `Spanish, Italian, and Portuguese Department` = "Spanish, Italian, & Portuguese",
       `Nutrition` = "Nutritional Sciences",
       `College of IST` = "IST",
       `Statistics Department` = "Statistics",
-      `Recreation, Park and Tourism Management` = "Recreation, Park, & Tourism Management"
+      `Recreation, Park and Tourism Management` = "Recreation, Park, & Tourism Management",
+      `SHS` = "Student Health Svcs"
     )
-  ) |>
-  dplyr::mutate(college = case_match(dept,
-                                     "Statistics" ~ "ECoS",
-                                     "Psychology" ~ "CLA",
-                                     "Spanish, Italian, & Portuguese" ~ "CLA",
-                                     "Research Informatics and Publishing" ~ "Libraries",
-                                     "Political Science" ~ "CLA",
-                                     "Applied Linguistics" ~ "CLA",
-                                     "Global Languages & Literatures" ~ "CLA",
-                                     "English" ~ "CLA",
-                                     "C-SoDA" ~ "CLA",
-                                     "Office of Digital Pedagogies and Initiatives" ~ "CLA",
-                                     "IST" ~ "IST",
-                                     "Engineering Science and Mechanics" ~ "Engineering",
-                                     "Chemical Engineering" ~ "Engineering",
-                                     "Material Science and Engineering" ~ "Engineering",
-                                     "Nutritional Sciences" ~ "HHD",
-                                     "HDFS" ~ "HHD",
-                                     "Kinesiology" ~ "HHD",
-                                     "Recreation, Park, & Tourism Management" ~ "HHD"),
-                .default = "Unknown",
-                .missing = "Unknown")
+  ) |> 
+  dplyr::mutate(
+    college = case_match(
+      dept,
+      "Statistics" ~ "ECoS",
+      "Psychology" ~ "CLA",
+      "Spanish, Italian, & Portuguese" ~ "CLA",
+      "Research Informatics and Publishing" ~ "Libraries",
+      "Political Science" ~ "CLA",
+      "Applied Linguistics" ~ "CLA",
+      "Global Languages & Literatures" ~ "CLA",
+      "English" ~ "CLA",
+      "C-SoDA" ~ "CLA",
+      "Office of Digital Pedagogies and Initiatives" ~ "CLA",
+      "IST" ~ "IST",
+      "Engineering Science and Mechanics" ~ "Engineering",
+      "Chemical Engineering" ~ "Engineering",
+      "Material Science and Engineering" ~ "Engineering",
+      "Nutritional Sciences" ~ "HHD",
+      "HDFS" ~ "HHD",
+      "Kinesiology" ~ "HHD",
+      "Recreation, Park, & Tourism Management" ~ "HHD",
+      "Bellisario College of Communication" ~ "Comm",
+      "Marketing" ~ "Smeal"
+    ),
+    .default = "Unknown",
+    .missing = "Unknown"
+  )
+```
 
+```{r regisrations-timeseries, fig.cap="Time series of registrations"}
 registration_yes |>
   ggplot() +
   aes(x = dept, fill = college) +
@@ -215,15 +225,15 @@ registration_yes |>
   coord_flip()
 ```
 
-#### Comments {-}
+<!-- #### Comments {-} -->
 
-```{r}
-registration_yes |>
-  dplyr::select(comments) |>
-  dplyr::filter(!is.na(comments)) |>
-  knitr::kable(format = 'html') |>
-  kableExtra::kable_material()
-```
+<!-- ```{r} -->
+<!-- registration_yes |> -->
+<!--   dplyr::select(comments) |> -->
+<!--   dplyr::filter(!is.na(comments)) |> -->
+<!--   knitr::kable(format = 'html') |> -->
+<!--   kableExtra::kable_material() -->
+<!-- ``` -->
 
 ## Initial Interest - May 1, 2023 {-}
 
