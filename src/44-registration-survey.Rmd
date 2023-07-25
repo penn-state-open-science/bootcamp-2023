@@ -1,0 +1,242 @@
+# Registration Survey {-}
+
+This page summarizes the data collected from prospective and actual Bootcamp attendees using a survey that began July 19, 2023.
+
+```{r include=FALSE}
+library('tidyverse')
+library('ggplot2')
+library('dplyr')
+library('tidyr')
+library('stringr')
+library('lubridate')
+
+options(gargle_oauth_email = "rick.o.gilmore@gmail.com")
+googledrive::drive_auth()
+```
+
+Render date: `r Sys.time()`
+
+Survey link: <https://forms.gle/wPBr9XgXmmzhSszm7>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdIbP8TZrulVC01MQbtQN13iaW1WIjQx86f-wGOpC0F3bxBg/viewform?embedded=true" width="640" height="2489" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+## Gather & Clean {-}
+
+Download.
+
+```{r}
+if (!dir.exists('csv')) {
+  message("Creating missing `csv/`.")
+  dir.create("csv")
+}
+
+googledrive::drive_download("Open Science Bootcamp 2023: Registration (Responses)", path = "csv/registrations-2023-07.csv", type = "csv", overwrite = TRUE)
+```
+Clean.
+
+## Visualize {-}
+
+```{r}
+registrations <-
+  readr::read_csv("csv/registrations-2023-07.csv", show_col_types = FALSE)
+
+reqistrations_qs <- names(registrations)
+
+registrations_clean <- registrations |>
+  dplyr::rename(
+    timestamp = "Timestamp",
+    confirmed = "Will you attend the Bootcamp on August 9-11, 2023?",
+    name = "What is your name?",
+    psu_email = "What is your PSU email?",
+    dept= "What is your department or unit?",
+    position = "What is your current position?",
+    email = "Email Address",
+    am_sess_1 = "Which of these sessions do you plan to attend?...8",
+    am_sess_2 = "Which of these sessions do you plan to attend?...9",
+    pm_sess_3 = "Which of these sessions do you plan to attend?...10",
+    pm_sess_4 = "Which of these sessions do you plan to attend?...11",
+    comments = "Any comments?"
+  )
+
+
+registrations_clean <- registrations_clean |>
+  dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York")) |>
+  dplyr::arrange(timestamp) |>
+  dplyr::filter(!(name == "mina masoumi"),
+                !(name == "Ahmad Khanahmadi")) |>
+  dplyr::filter(!(role %in% c("duplicate"))) |>
+  dplyr::select(-psu_email)
+```
+
+### Registration numbers {-}
+
+```{r}
+registration_yes <- registrations_clean |> 
+  dplyr::filter(confirmed == "Yes") 
+```
+
+As of `r Sys.time()`, we have $n=$ `r dim(registration_yes)[1]` confirmed attendees. That is `r round(100*dim(registration_yes)[1]/75, 1)` \% of our target registration/attendance limit of $n=75$, and includes the $n=$ `r registration_yes |> dplyr::filter(role == "staff") |> dplyr::select(name) |> count()` presenters.
+
+### Time series {-}
+
+```{r registrations-timeseries, fig.cap = "Time series of registrations"}
+registrations_clean |>
+  dplyr::group_by(confirmed) |>
+  dplyr::mutate(resp_index = seq_along(confirmed)) |>
+  dplyr::ungroup() |>
+  ggplot() +
+  aes(x = timestamp, y = resp_index, color = confirmed) +
+  geom_point() +
+  geom_line() +
+  facet_grid(~ confirmed) +
+  theme(axis.text.x = element_text(angle = 90)) +
+  labs(x = NULL, y = 'n') +
+  scale_color_manual(breaks = c("No", "Yes"),
+                        values=c("red", "green")) +
+  theme(legend.position = "none")
+```
+
+### By position {-}
+
+```{r by-position, fig.cap="Registrations by position"}
+registration_yes |>
+  ggplot() +
+  aes(x = position, fill = position) +
+  geom_bar() +
+  theme(legend.position = "none") +
+  coord_flip()
+```
+
+### By Department & College {-}
+
+```{r by-dept, fig.cap="Registrations by department and college"}
+registration_yes <- registration_yes |>
+  dplyr::mutate(
+    dept = dplyr::recode(
+      dept,
+      `Clinical Psychology` = "Psychology",
+      `Psychology (Cognitive)` = "Psychology",
+      `Psychology / SSRI` = "Psychology",
+      `Department of Psychology` = "Psychology",
+      `English language` = "English",
+      `english` = "English",
+      `English Language Teaching` = "English",
+      `English Department` = "English",
+      `Languages` = "Global Languages & Literatures",
+      `Languages and Literature` = "Global Languages & Literatures",
+      `Department of Foreign Languages` = "Global Languages & Literatures",
+      `Linguistics` = "Applied Linguistics",
+      `Human Development and Family Studies & Social Data Analytics` = "HDFS",
+      `Human Development and Family Studies` = "HDFS",
+      `Department of Human Development and Family Studies` = "HDFS",
+      `HDFS/DEMO` = "HDFS",
+      `RPTM` = "Recreation, Park, & Tourism Management",
+      `Spanish Italian and portuguese` = "Spanish, Italian, & Portuguese",
+      `Spanish, Italian, and Portuguese Department` = "Spanish, Italian, & Portuguese",
+      `Nutrition` = "Nutritional Sciences",
+      `College of IST` = "IST",
+      `Statistics Department` = "Statistics",
+      `Recreation, Park and Tourism Management` = "Recreation, Park, & Tourism Management",
+      `SHS` = "Student Health Svcs"
+    )
+  ) |> 
+  dplyr::mutate(
+    college = case_match(
+      dept,
+      "Statistics" ~ "ECoS",
+      "Psychology" ~ "CLA",
+      "Spanish, Italian, & Portuguese" ~ "CLA",
+      "Research Informatics and Publishing" ~ "Libraries",
+      "Political Science" ~ "CLA",
+      "Applied Linguistics" ~ "CLA",
+      "Global Languages & Literatures" ~ "CLA",
+      "English" ~ "CLA",
+      "C-SoDA" ~ "CLA",
+      "Office of Digital Pedagogies and Initiatives" ~ "CLA",
+      "IST" ~ "IST",
+      "Engineering Science and Mechanics" ~ "Engineering",
+      "Chemical Engineering" ~ "Engineering",
+      "Material Science and Engineering" ~ "Engineering",
+      "Nutritional Sciences" ~ "HHD",
+      "HDFS" ~ "HHD",
+      "Kinesiology" ~ "HHD",
+      "Recreation, Park, & Tourism Management" ~ "HHD",
+      "Bellisario College of Communication" ~ "Comm",
+      "Marketing" ~ "Smeal"
+    ),
+    .default = "Unknown",
+    .missing = "Unknown"
+  )
+```
+
+```{r regisrations-timeseries, fig.cap="Registrations by department and college"}
+registration_yes |>
+  dplyr::filter(!is.na(dept)) |>
+  ggplot() +
+  aes(x = dept, fill = college) +
+  geom_bar() +
+  theme(legend.position = "bottom") +
+  coord_flip()
+```
+
+```{r, include = FALSE}
+xtabs(~ college, registration_yes)
+```
+
+### [Thu AM Session 1](#day_2_am_session_1) {-}
+
+```{r am_sess_1}
+registration_yes |>
+  dplyr::filter(!is.na(am_sess_1)) |>
+  ggplot() +
+  aes(x = am_sess_1, fill = am_sess_1) +
+  geom_bar() +
+  theme(legend.position = "none") +
+  coord_flip() 
+```
+
+### [Thu AM Session 2](#day_2_am_session_2) {-}
+
+```{r am_sess_2}
+registration_yes |>
+  dplyr::filter(!is.na(am_sess_2)) |>
+  ggplot() +
+  aes(x = am_sess_2, fill = am_sess_2) +
+  geom_bar() +
+  theme(legend.position = "none") +
+  coord_flip()
+```
+
+### [Thu PM Session 3](#day_2_pm_session_3) {-}
+
+```{r pm_sess_3}
+registration_yes |>
+  dplyr::filter(!is.na(pm_sess_3)) |>
+  ggplot() +
+  aes(x = pm_sess_3, fill = pm_sess_3) +
+  geom_bar() +
+  theme(legend.position = "none") +
+  coord_flip()
+```
+
+### [Thu PM Session 4](#day_2_pm_session_4) {-}
+
+```{r pm_sess_4}
+registration_yes |>
+  dplyr::filter(!is.na(pm_sess_4)) |>
+  ggplot() +
+  aes(x = pm_sess_4, fill = pm_sess_4) +
+  geom_bar() +
+  theme(legend.position = "none") +
+  coord_flip()
+```
+
+<!-- ## Comments {-} -->
+
+<!-- ```{r} -->
+<!-- registration_yes |> -->
+<!--   dplyr::select(comments) |> -->
+<!--   dplyr::filter(!is.na(comments)) |> -->
+<!--   knitr::kable(format = 'html') |> -->
+<!--   kableExtra::kable_material() -->
+<!-- ``` -->

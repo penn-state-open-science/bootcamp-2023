@@ -1,0 +1,154 @@
+# Interest Survey {-}
+
+We conducted an initial survey of interest in the Bootcamp and possible topics in early May 2023.
+
+Survey link: <https://docs.google.com/forms/d/e/1FAIpQLSf_hIVQz3CoDq2bzjTNExw-Hn6uXLAf8ri4v8k5lRkifclxsQ/viewform?usp=sf_link>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_hIVQz3CoDq2bzjTNExw-Hn6uXLAf8ri4v8k5lRkifclxsQ/viewform?embedded=true" width="640" height="1321" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+## Gather & Clean {-}
+
+Download.
+
+```{r}
+if (!dir.exists('csv')) {
+  message("Creating missing `csv/`.")
+  dir.create("csv")
+}
+
+googledrive::drive_download("Open Science Bootcamp 2023 (Responses)", path = "csv/attendees-2023-05.csv", type = "csv", overwrite = TRUE)
+```
+
+Clean.
+
+```{r}
+attendees_1 <-
+  readr::read_csv("csv/attendees-2023-05.csv", show_col_types = FALSE)
+
+attendees_qs <- names(attendees_1)
+
+attendees_1_clean <- attendees_1 |>
+  dplyr::rename(
+    timestamp = "Timestamp",
+    interested = "Are you interested in and available to attend the August 9-11 Bootcamp?",
+    name = "What is your name",
+    email = "What is your PSU email?",
+    interest_rmarkdown = "Please indicate your level of interest in attending a hands-on workshop on the following topics. [Intro to R/R Markdown/Quarto]",
+    interest_jupyter = "Please indicate your level of interest in attending a hands-on workshop on the following topics. [Intro to Jupyter Notebooks]",
+    interest_git = "Please indicate your level of interest in attending a hands-on workshop on the following topics. [Version control with git and GitHub]",
+    interest_prereg = "Please indicate your level of interest in attending a hands-on workshop on the following topics. [Preregistration and registered reports]",
+    interest_open_access = "Please indicate your level of interest in attending a hands-on workshop on the following topics. [Open Access Publishing]",
+    interest_data_mgmt = "Please indicate your level of interest in attending a hands-on workshop on the following topics. [Data Management Plans]",
+    interest_data_sharing = "Please indicate your level of interest in attending a hands-on workshop on the following topics. [Where to share data]",
+    interest_repro_software = "Please indicate your level of interest in attending a hands-on workshop on the following topics. [Reproducible software]",
+    interest_early_career = "Please indicate your level of interest in attending a hands-on workshop on the following topics. [Open science for early career researchers]",
+    interest_qrp = "Please indicate your level of interest in attending a hands-on workshop on the following topics. [Questionable research practices and how to avoid them]",
+    interest_replication = "Please indicate your level of interest in attending a hands-on workshop on the following topics. [How to conduct and publish replication studies]",
+    interest_other = "Are there topics not listed above that you would like to have considered?"
+  )
+
+attendees_1_clean <- attendees_1_clean |>
+  dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York"))
+```
+
+## Visualize {-}
+
+```{r survey-1-timeseries, fig.cap = "Time series of responses"}
+attendees_1_clean |>
+  dplyr::group_by(interested) |>
+  dplyr::mutate(resp_index = seq_along(interested)) |>
+  dplyr::ungroup() |>
+  ggplot() +
+  aes(x = timestamp, y = resp_index, color = interested) +
+  geom_point() +
+  geom_line() +
+  facet_grid(~ interested) +
+  theme(axis.text.x = element_text(angle = 90)) +
+  labs(x = NULL, y = 'n') +
+  scale_color_manual(breaks = c("No", "Maybe", "Yes"),
+                        values=c("red", "blue", "green"))
+```
+
+```{r}
+# Define helper function for ordered factor
+recode_low_med_high <- function(x) {
+  factor(
+    x,
+    levels = c("Low interest", "Medium interest", "High interest"),
+    labels = c("low", "med", "high"),
+    ordered = TRUE
+  )
+}
+
+recode_interest_score <- function(df) {
+  df <- dplyr::mutate(df,
+                     interest_score = case_match(interest_level,
+                                                 "high" ~ 3,
+                                                 "med" ~ 2,
+                                                 "low" ~ 1))
+  df
+}
+```
+
+```{r}
+# Transform interests
+attendees_1_interests <- attendees_1_clean |>
+  select(-interest_other) |>
+  pivot_longer(
+    cols = contains("interest_"),
+    names_to = "topic",
+    values_to = "interest_level"
+  ) |>
+  mutate(interest_level = recode_low_med_high(interest_level)) |>
+  mutate(topic = str_remove_all(topic, "interest_")) |>
+  filter(!is.na(interest_level)) |>
+  recode_interest_score() |>
+  group_by(topic) |> 
+  mutate(mean_interest = round(mean(interest_score), 2)) |>
+  ungroup()
+```
+
+```{r survey-1-interests, fig.cap="Expressed levels of interest for workshop topics"}
+attendees_1_interests |>
+  ggplot2::ggplot() +
+  aes(x = interest_level, fill = interest_level, label = mean_interest) +
+  geom_bar(na.rm = TRUE) +
+  facet_wrap(~ topic) + 
+  geom_text(x = 1, y = 30) + # This is not the best way to do this.
+  theme(axis.text.x = element_blank()) +
+  labs(x = NULL, y = 'n')
+```
+
+Other suggestions:
+
+```{r, fig.cap="Other topic suggestions"}
+attendees_1_clean |>
+  dplyr::select(interest_other) |>
+  dplyr::filter(!is.na(interest_other)) |>
+  knitr::kable(format = 'html') |>
+  kableExtra::kable_material()
+```
+
+### Extract emails for registration invitation {-}
+
+::: {.rmdnote}
+
+**NOTE**: All identifiable information is prevented from being publicly shared by adding the `src/csv/` data folder to our `src/.gitignore` file.
+
+:::
+
+```{r}
+# Select and save first...
+attendees_1_clean |>
+  dplyr::filter(interested %in% c("Yes", "Maybe")) |>
+  dplyr::select(email) |>
+  readr::write_csv("csv/prereg-emails.csv")
+
+# Then reimport and process via tempfile
+prereg <- readr::read_csv("csv/prereg-emails.csv", show_col_types = FALSE)
+tf <- (tempfile(fileext = ".txt"))
+prereg_em <- file(tf, "w")
+writeLines(con = tf, as.character(prereg$email), sep = ",")
+close(prereg_em)
+message(tf)
+```
