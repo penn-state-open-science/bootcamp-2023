@@ -6,11 +6,10 @@ The hands-on topics offered have been shaped by the preferences of prospective p
 
 ## Theme: What is open science? Open science @ PSU {-}
 
-### What is open science? Why do open science? ([Rick Gilmore]) {-}
+### What is open science? Why do open science? ([Rick Gilmore]) {- #what-is-why}
 
 This talk will describe the main practices and principles of open science and describe
-how these practices and principles can strengthen and enrich the scholarship of researchers at every 
-career stage.
+how these practices and principles can strengthen and enrich the scholarship of researchers at every career stage.
 
 *Talk slides*: [HTML](https://penn-state-open-science.github.io/bootcamp-2023-open-sci-what-why/)
 
@@ -27,6 +26,10 @@ What initiatives and resources are available at Penn State related to open scien
 <!-- - Case study: Databrary & the PLAY Project ([Rick Gilmore]) -->
 
 ### Keynote (Tim Errington) {- #keynote}
+
+*Replication of preclinical cancer biology: Challenges or opportunities?*
+
+The Reproducibility Project: Cancer Biology was a large-scale systematic investigation into the replicability of high-impact, preclinical cancer biology experiments. Overall, there were challenges at every stage of the research process to design and conduct the replications. It was hard to understand what was originally done, there was not always access to the original data or reagents to conduct the experiments, and model systems frequently did not behave as originally reported. The limited transparency and incomplete reporting made the efforts to replicate the findings much harder than was necessary. Of the replication experiments able to be completed, the evidence was much weaker on average than the original findings even though all the replications underwent peer review before conducting the experiments to maximize their quality and rigor. These findings suggest that there is unnecessary friction in the research process that may be slowing the advancement of knowledge, solutions, and treatments.
 
 ### Good enough practices for data and project management ([Alaina Pearce]) {- #howto_good_enough}
 

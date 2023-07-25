@@ -20,9 +20,9 @@ All times are Eastern Daylight Time (EDT).
 
 ### 08:30 am • Coffee {-}
 
-### 09:00 am • Welcome. [Frank Hillary] & [Briana Wham]. {-}
+### 09:00 am • Welcome. [Frank Hillary] & [Briana Wham] {-}
 
-### 09:15 am • What is open science? Why open science? [Rick Gilmore] | [slides](https://penn-state-open-science.github.io/bootcamp-2023-open-sci-what-why/). {- #day_1_plenary_1}
+### 09:15 am • [*What is open science? Why open science?*](#what-is-why), [Rick Gilmore] {- #day_1_plenary_1}
 
 ### 10:15 am • Break  {-}
 
@@ -51,12 +51,12 @@ This session will feature a series of short (3-5 min) "blitz" talks about initia
 
 :::
 
-### 01:15 pm • **Keynote**: [Tim Errington](https://www.linkedin.com/in/tim-errington-558a928), Senior Director of Research, Center for Open Science. {- #day_1_plenary_keynote}
+### 01:15 pm • **Keynote**: [*Replication of preclinical cancer biology: Challenges or opportunities?*](#keynote), [Tim Errington](https://www.linkedin.com/in/tim-errington-558a928), Senior Director of Research, Center for Open Science {- #day_1_plenary_keynote}
 
 ### 02:15 pm • Break {-}
 
-### 02:45 pm • [Good enough practices](#howto_good_enough). [Alaina Pearce], Penn State. {- #day_1_plenary_3}
- 
+### 02:45 pm • [*Good enough practices for data and project management*](#howto_good_enough), [Alaina Pearce] {- #day_1_plenary_3}
+
 ### 03:45 pm • Day 1 wrap-up {-}
 
 ### 04:15 pm • End of Day 1 {-}
