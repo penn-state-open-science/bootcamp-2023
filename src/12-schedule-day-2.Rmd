@@ -23,19 +23,19 @@ Locations be announced soon.
 
 ### 09:15 am • Workshop session 1 {- #day_2_am_session_1}
 
-| Topic | Location |
-|--------------|----------|
-| [Data management: Policies](#howto_data_management_policies) | 102 Marriott Fdn Bldg |
-| [Responsible & robust research](#howto_responsible_research) | TBD |
+| Topic | Location | Materials |
+|--------------|----------|-------|
+| [Data management: Policies](#howto_data_management_policies) | 102 Marriott Fdn Bldg | [Slides]() |
+| [Responsible & robust research](#howto_responsible_research) | TBD | [Slides]() |
 
 ### 10:15 am • Break (30 min) {-}
 
 ### 10:45 am • Workshop session 2 {- #day_2_am_session_2}
 
-| Topic | Location |
-|--------------|----------|
-| [Intro to R Markdown & Quarto](#howto_rmarkdown) | TBD |
-| [Replication studies](#howto_replication) | TBD |
+| Topic | Location | Materials |
+|--------------|----------|-------|
+| [Intro to R Markdown & Quarto](#howto_rmarkdown) | TBD |  [HTML Slides](https://penn-state-open-science.github.io/bootcamp-2023-rmarkdown-quarto/) |
+| [Replication studies](#howto_replication) | TBD | [Slides]() |
 
 
 ### 11:45 am • Lunch break: [Marriott Fdn Building](#marriott-fdn-bldg) {-}
@@ -50,20 +50,20 @@ Locations be announced soon.
 
 ### 01:15 pm • Workshop session 3 {- #day_2_pm_session_3}
 
-| Topic | Location |
-|--------------|----------|
-| [Data management: Practicalities](#howto_data_management_practical) | 102 Marriott Fdn Bldg |
-| [Pregistration](#howto_preregistration) | TBD |
-| [Open science for early career researchers](#howto_early_career) | TBD |
+| Topic | Location | Materials |
+|--------------|----------|-------|
+| [Data management: Practicalities](#howto_data_management_practical) | 102 Marriott Fdn Bldg | [Slides]() |
+| [Pregistration](#howto_preregistration) | TBD | [Slides]() |
+| [Open science for early career researchers](#howto_early_career) | TBD | [Slides]() |
 
 ### 02:15 pm • Break (30 min) {-}
 
 ### 02:45 pm • Workshop session 4 {- #day_2_pm_session_4}
 
-| Topic | Location |
-|--------------|----------|
-| [Intro to Jupyter notebooks](#howto_jupyter) | TBD |
-| [Data sharing](#howto_data_sharing) | 102 Marriott Fdn Bldg |
+| Topic | Location | Materials |
+|--------------|----------|-------|
+| [Intro to Jupyter notebooks](#howto_jupyter) | TBD | [Slides]() |
+| [Data sharing](#howto_data_sharing) | 102 Marriott Fdn Bldg | [PDF slides](https://github.com/penn-state-open-science/bootcamp-2023-data-sharing/blob/7aef15bfc83886f488a5256cc76312cc6cf2002a/index.pdf) |
 
 ### 03:45 pm • Break to reconvene at 102 [Marriott Fdn Bldg](#marriott-fdn-bldg) {-}
 
