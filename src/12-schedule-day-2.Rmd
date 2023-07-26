@@ -53,7 +53,7 @@ Locations be announced soon.
 | Topic | Location | Materials |
 |--------------|----------|-------|
 | [Data management: Practicalities](#howto_data_management_practical) | 102 Marriott Fdn Bldg | [Slides]() |
-| [Pregistration](#howto_preregistration) | TBD | [Slides]() |
+| [Preregistration](#howto_preregistration) | TBD | [Slides]() |
 | [Open science for early career researchers](#howto_early_career) | TBD | [Slides]() |
 
 ### 02:15 pm • Break (30 min) {-}
