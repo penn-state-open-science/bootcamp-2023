@@ -34,8 +34,6 @@ googledrive::drive_download("Open Science Bootcamp 2023: Registration (Responses
 ```
 Clean.
 
-## Visualize {-}
-
 ```{r}
 registrations <-
   readr::read_csv("csv/registrations-2023-07.csv", show_col_types = FALSE)
@@ -57,16 +55,19 @@ registrations_clean <- registrations |>
     pm_sess_4 = "Which of these sessions do you plan to attend?...11",
     comments = "Any comments?"
   )
+```
 
 
+```{r}
 registrations_clean <- registrations_clean |>
   dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York")) |>
   dplyr::arrange(timestamp) |>
-  dplyr::filter(!(name == "mina masoumi"),
-                !(name == "Ahmad Khanahmadi")) |>
+  dplyr::filter(!(name %in% c("mina masoumi", "Ahmad Khanahmadi", "Effah Morad"))) |>
   dplyr::filter(!(role %in% c("duplicate"))) |>
   dplyr::select(-psu_email)
 ```
+
+## Visualize {-}
 
 ### Registration numbers {-}
 
@@ -75,7 +76,7 @@ registration_yes <- registrations_clean |>
   dplyr::filter(confirmed == "Yes") 
 ```
 
-As of `r Sys.time()`, we have $n=$ `r dim(registration_yes)[1]` confirmed attendees. That is `r round(100*dim(registration_yes)[1]/75, 1)` \% of our target registration/attendance limit of $n=75$, and includes the $n=$ `r registration_yes |> dplyr::filter(role == "staff") |> dplyr::select(name) |> count()` presenters.
+As of `r Sys.time()`, we have $n=$ `r dim(registration_yes)[1]` confirmed attendees. That is `r round(100*dim(registration_yes)[1]/75, 1)` \% of our target registration/attendance limit of $n=75$, and includes the $n=$ `r registration_yes |> dplyr::filter(role %in% c("staff", "presenter")) |> dplyr::select(name) |> count()` program committee and non-registered presenters.
 
 ### Time series {-}
 
@@ -100,6 +101,7 @@ registrations_clean |>
 
 ```{r by-position, fig.cap="Registrations by position"}
 registration_yes |>
+  dplyr::filter(!is.na(position)) |>
   ggplot() +
   aes(x = position, fill = position) +
   geom_bar() +
@@ -131,6 +133,7 @@ registration_yes <- registration_yes |>
       `Department of Human Development and Family Studies` = "HDFS",
       `HDFS/DEMO` = "HDFS",
       `RPTM` = "Recreation, Park, & Tourism Management",
+      `Sociology and Social Data Analytics` = "Sociology",
       `Spanish Italian and portuguese` = "Spanish, Italian, & Portuguese",
       `Spanish, Italian, and Portuguese Department` = "Spanish, Italian, & Portuguese",
       `Spanish Italian and Portuguese` = "Spanish, Italian, & Portuguese",
@@ -153,6 +156,7 @@ registration_yes <- registration_yes |>
       "Political Science" ~ "CLA",
       "Applied Linguistics" ~ "CLA",
       "Global Languages & Literatures" ~ "CLA",
+      "Sociology" ~ "CLA",
       "English" ~ "CLA",
       "C-SoDA" ~ "CLA",
       "Office of Digital Pedagogies and Initiatives" ~ "CLA",
@@ -174,7 +178,9 @@ registration_yes <- registration_yes |>
 
 ```{r regisrations-timeseries, fig.cap="Registrations by department and college"}
 registration_yes |>
-  dplyr::filter(!is.na(dept)) |>
+  dplyr::filter(!is.na(dept),
+                !stringr::str_detect(dept, "Center for Open Science"),
+                !stringr::str_detect(dept, "Center for Energy & Environment")) |>
   ggplot() +
   aes(x = dept, fill = college) +
   geom_bar() +
