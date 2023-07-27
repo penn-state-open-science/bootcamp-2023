@@ -120,6 +120,7 @@ registration_yes <- registration_yes |>
       `Psychology (Cognitive)` = "Psychology",
       `Psychology / SSRI` = "Psychology",
       `Department of Psychology` = "Psychology",
+      `Psych` = "Psychology",
       `English language` = "English",
       `english` = "English",
       `English Language Teaching` = "English",
