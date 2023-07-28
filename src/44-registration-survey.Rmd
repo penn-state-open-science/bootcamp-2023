@@ -120,6 +120,7 @@ registration_yes <- registration_yes |>
       `Psychology (Cognitive)` = "Psychology",
       `Psychology / SSRI` = "Psychology",
       `Department of Psychology` = "Psychology",
+      `Cognitive Psychology` = "Psychology",
       `Psych` = "Psychology",
       `English language` = "English",
       `english` = "English",
@@ -151,6 +152,7 @@ registration_yes <- registration_yes |>
     college = case_match(
       dept,
       "Statistics" ~ "ECoS",
+      "Biology" ~ "ECos",
       "Psychology" ~ "CLA",
       "Spanish, Italian, & Portuguese" ~ "CLA",
       "Research Informatics and Publishing" ~ "Libraries",
@@ -165,6 +167,7 @@ registration_yes <- registration_yes |>
       "Chemical Engineering" ~ "Engineering",
       "Material Science and Engineering" ~ "Engineering",
       "Engineering Science & Mechanics" ~ "Engineering",
+      "Biomedical Engineering" ~ "Engineering",
       "Nutritional Sciences" ~ "HHD",
       "HDFS" ~ "HHD",
       "Kinesiology" ~ "HHD",
@@ -186,6 +189,7 @@ registration_yes |>
   aes(x = dept, fill = college) +
   geom_bar() +
   theme(legend.position = "bottom") +
+  theme(legend.title = element_blank()) +
   coord_flip()
 ```
 
