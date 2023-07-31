@@ -153,7 +153,7 @@ registration_yes <- registration_yes |>
     college = case_match(
       dept,
       "Statistics" ~ "ECoS",
-      "Biology" ~ "ECos",
+      "Biology" ~ "ECoS",
       "Psychology" ~ "CLA",
       "Spanish, Italian, & Portuguese" ~ "CLA",
       "Research Informatics and Publishing" ~ "Libraries",
