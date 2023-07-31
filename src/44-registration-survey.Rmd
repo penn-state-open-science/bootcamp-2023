@@ -145,6 +145,7 @@ registration_yes <- registration_yes |>
       `Recreation, Park and Tourism Management` = "Recreation, Park, & Tourism Management",
       `SHS` = "Student Health Svcs",
       `ESM` = "Engineering Science & Mechanics",
+      `Engineering Science` = "Engineering Science & Mechanics",
       `Engineering Science and Mechanics` = "Engineering Science & Mechanics"
     )
   ) |> 
@@ -163,6 +164,7 @@ registration_yes <- registration_yes |>
       "English" ~ "CLA",
       "C-SoDA" ~ "CLA",
       "Office of Digital Pedagogies and Initiatives" ~ "CLA",
+      "Asian Studies" ~ "CLA",
       "IST" ~ "IST",
       "Chemical Engineering" ~ "Engineering",
       "Material Science and Engineering" ~ "Engineering",
@@ -173,7 +175,10 @@ registration_yes <- registration_yes |>
       "Kinesiology" ~ "HHD",
       "Recreation, Park, & Tourism Management" ~ "HHD",
       "Bellisario College of Communication" ~ "Comm",
-      "Marketing" ~ "Smeal"
+      "Marketing" ~ "Smeal",
+      "Food Science" ~ "Ag",
+      "Neuroscience" ~ "Med",
+      "College of Human and Health Development" ~ "HHD"
     ),
     .default = "Unknown",
     .missing = "Unknown"
