@@ -37,7 +37,6 @@ Daisy Lei is a PhD candidate at Penn State, pursuing a dual-title degree in [Psy
 ## Kevin McManus {-}
 
 Kevin McManus is an Associate Professor of [Applied Linguistics](https://aplng.la.psu.edu) at Penn State, Director of the [Center for Language Acquisition](https://language.la.psu.edu), and Director of the [Center for Advanced Language Proficiency, Education, and Research](https://calper.la.psu.edu). His research focuses on second language acquisition, especially psycholinguistics, crosslinguistic influence, and instruction, and research methodology, including replication research and open science. 
-
 ## Hollie Mullin {-}
 
 Hollie Mullin is a first year Clinical Psychology student in Dr. Frank Hillary’s lab at Penn State. Hollie would like to combine neuropsychological assessment and neuroimaging to examine how abnormal aging and TBIs affect cognitive functioning and brain network organization. Hollie also hopes to address replicability issues in neuroimaging to better predict long term outcomes and enhance rehabilitation interventions for patients.

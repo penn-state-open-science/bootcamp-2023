@@ -28,8 +28,6 @@ Locations be announced soon.
 | [Data management: Policies](#howto_data_management_policies) | 102 Marriott Fdn Bldg | [Slides]() |
 | [Responsible & robust research](#howto_responsible_research) | 115 Keller Bldg | [Slides]() |
 
-[Registrant Interests](#day_2_am_session_1_regis)
-
 ### 10:15 am • Break (30 min) {-}
 
 ### 10:45 am • Workshop session 2 {- #day_2_am_session_2}
@@ -37,9 +35,8 @@ Locations be announced soon.
 | Topic | Location | Materials |
 |--------------|----------|-------|
 | [Intro to R Markdown & Quarto](#howto_rmarkdown) | 102 Marriott Fdn Bldg |  [HTML Slides](https://penn-state-open-science.github.io/bootcamp-2023-rmarkdown-quarto/) |
-| [Replication studies](#howto_replication) | Library Marriott Fdn Bldg | [Slides]() |
-
-[Registrant Interests](#day_2_am_session_2_regis)
+| [Replication studies](#howto_replication) | 115 Keller Bldg | [Slides]() |
+| [Preregistration](#howto_preregistration) | Library Marriott Fdn Bldg | [Slides]() |
 
 ### 11:45 am • Lunch break: [Marriott Fdn Building](#marriott-fdn-bldg) {-}
 
@@ -56,10 +53,7 @@ Locations be announced soon.
 | Topic | Location | Materials |
 |--------------|----------|-------|
 | [Data management: Practicalities](#howto_data_management_practical) | 102 Marriott Fdn Bldg | [Slides]() |
-| [Preregistration](#howto_preregistration) | Library Marriott Fdn Bldg | [Slides]() |
 | [Open science for early career researchers](#howto_early_career) | 115 Keller Bldg | [Slides]() |
-
-[Registrant Interests](#day_2_pm_session_3_regis)
 
 ### 02:15 pm • Break (30 min) {-}
 
@@ -69,8 +63,6 @@ Locations be announced soon.
 |--------------|----------|-------|
 | [Intro to Jupyter notebooks](#howto_jupyter) | 115 Keller Bldg | [Slides]() |
 | [Data sharing](#howto_data_sharing) | 102 Marriott Fdn Bldg | [PDF slides](https://github.com/penn-state-open-science/bootcamp-2023-data-sharing/blob/7aef15bfc83886f488a5256cc76312cc6cf2002a/index.pdf) |
-
-[Registrant Interests](#day_2_pm_session_4_regis)
 
 ### 03:45 pm • Break to reconvene at 102 [Marriott Fdn Bldg](#marriott-fdn-bldg) {-}    
 

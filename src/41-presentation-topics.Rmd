@@ -40,7 +40,7 @@ Best practices can be hard to implement, so what open science practices are both
 These are some possible presentations for [Day 2](#day_1).
 [Day 2](#day_2) would be conducted in 3-5 breakout sessions.
 
-### Preregistration & registered reports ([Frank Hillary]) {- #howto_preregistration}
+### Preregistration & registered reports ([Frank Hillary] & [Hollie Mullin]) {- #howto_preregistration}
 
 What is preregistration? What are registered reports? When and why would you want to use these tools?
 
@@ -50,7 +50,7 @@ What is preregistration? What are registered reports? When and why would you wan
 
 *Time required*: 50 min
 
-*Offered*: [Thu PM Session 3](#day_2_pm_session_3)
+*Offered*: [Thu AM Session 2](#day_2_am_session_2)
 
 ### Replication studies ([Kevin McManus]) {- #howto_replication}
 
