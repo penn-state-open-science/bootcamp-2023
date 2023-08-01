@@ -22,7 +22,7 @@ Survey link: <https://forms.gle/TPjvbqJzSFVMJVkA9>
 
 ## Results {-}
 
-### Download
+### Download {-}
 
 ```{r}
 if (!dir.exists('csv')) {
@@ -33,7 +33,7 @@ if (!dir.exists('csv')) {
 googledrive::drive_download("Scientific Values Survey (Responses)", path = "csv/scientific-values.csv", type = "csv", overwrite = TRUE)
 ```
 
-### Clean
+### Clean {-}
 
 ```{r}
 sci_vals <-
@@ -97,14 +97,14 @@ sci_vals_long <- sci_vals_long |>
 #   dplyr::filter(comments != "test")
 ```
 
-### Visualize
+### Visualize {-}
 
 ```{r}
 sci_vals_qs %>%
   kableExtra::kable(., format='html')
 ```
 
-### Rating distribution
+### Rating distribution {-}
 
 Remember, the rating scale was from 1: “not at all” to 5: “a great deal”.
 

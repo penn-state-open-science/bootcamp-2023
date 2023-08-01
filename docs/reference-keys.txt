@@ -8,7 +8,3 @@ fig:by-position
 fig:regisrations-timeseries
 fig:survey-1-timeseries
 fig:survey-1-interests
-download
-clean
-visualize-2
-rating-distribution

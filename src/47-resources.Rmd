@@ -6,7 +6,7 @@
 
 The [Penn State University Libraries](https://libraries.psu.edu) are a hub of information and training about many topics related to open science.
 
-#### Workshops {-}
+<!-- #### Workshops {-} -->
 
 #### ScholarSphere {-}
 
