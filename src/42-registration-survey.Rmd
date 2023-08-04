@@ -32,6 +32,7 @@ if (!dir.exists('csv')) {
 
 googledrive::drive_download("Open Science Bootcamp 2023: Registration (Responses)", path = "csv/registrations-2023-07.csv", type = "csv", overwrite = TRUE)
 ```
+
 Clean.
 
 ```{r, message=FALSE, echo=TRUE}
@@ -238,6 +239,12 @@ registrations_yes |>
   theme(legend.position = "none") +
   coord_flip()
 ```
+
+::: {.rmdnote}
+
+**Note**: We moved the preregistration session to Thu AM Session 2 to avoid a scheduling conflict among the presenters.
+
+:::
 
 ### [Thu PM Session 4](#day_2_pm_session_4) {- #day_2_pm_session_4_regis}
 
