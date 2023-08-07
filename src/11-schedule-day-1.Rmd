@@ -31,7 +31,7 @@ All times are Eastern Daylight Time (EDT).
 This session will feature a series of short (3-5 min) "blitz" talks about initiatives in open science that are going on at Penn State.
 
 - Case study: Reproducibility in neuroimaging ([Frank Hillary])
-- Case study: AI replication markets for the DARPA SCORE initiative ([Sarah Rajtmajer])
+- Case study: Case study: AI for assessing confidence in published findings ([Sarah Rajtmajer])
 <!-- - Case study: Support at [ICDS](https://www.icds.psu.edu) for Open and Reproducible Research (TBD) -->
 <!-- - Case study: Higher Education Leadership Initiative ([HELIOS](https://www.heliosopen.org)) -->
 - Case study: Open Access at Penn State ([Briana Wham])

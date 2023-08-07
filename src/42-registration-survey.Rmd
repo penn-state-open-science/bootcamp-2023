@@ -10,8 +10,7 @@ library('tidyr')
 library('stringr')
 library('lubridate')
 
-options(gargle_oauth_email = "rick.o.gilmore@gmail.com")
-googledrive::drive_auth()
+
 ```
 
 Render date: `r Sys.time()`
@@ -24,11 +23,14 @@ Survey link: <https://forms.gle/wPBr9XgXmmzhSszm7>
 
 Download.
 
-```{r, message=FALSE, echo=TRUE}
+```{r, message=FALSE, echo=TRUE, eval=FALSE}
 if (!dir.exists('csv')) {
   message("Creating missing `csv/`.")
   dir.create("csv")
 }
+
+options(gargle_oauth_email = "rick.o.gilmore@gmail.com")
+googledrive::drive_auth()
 
 googledrive::drive_download("Open Science Bootcamp 2023: Registration (Responses)", path = "csv/registrations-2023-07.csv", type = "csv", overwrite = TRUE)
 ```
