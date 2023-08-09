@@ -34,9 +34,9 @@ This session will feature a series of short (3-5 min) "blitz" talks about initia
 - Case study: Case study: AI for assessing confidence in published findings ([Sarah Rajtmajer])
 <!-- - Case study: Support at [ICDS](https://www.icds.psu.edu) for Open and Reproducible Research (TBD) -->
 <!-- - Case study: Higher Education Leadership Initiative ([HELIOS](https://www.heliosopen.org)) -->
-- Case study: Open Access at Penn State ([Briana Wham])
+- Case study: [Open Access at Penn State](https://openaccess.psu.edu) ([Briana Wham])
 - Case study: [Data Commons](https://www.datacommons.psu.edu) ([Maurie Kelly])
-- Case study: ScholarSphere ([Briana Wham])
+- Case study: [ScholarSphere](https://scholarsphere.psu.edu) ([Briana Wham])
 - Case study: Using the [Open Science Framework (OSF)](https://osf.io) ([Alaina Pearce])
 - Case study: Penn State's subscription to the [Qualitative Data Repository (QDR)](https://qdr.syr.edu) ([Briana Wham])
 - Case study: [Databrary](https://databrary.org) & [The PLAY Project](https://play-project.org) ([Rick Gilmore]) | [HTML slides](https://penn-state-open-science.github.io/bootcamp-2023-databrary-play/).
