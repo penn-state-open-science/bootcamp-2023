@@ -9,8 +9,6 @@ library('dplyr')
 library('tidyr')
 library('stringr')
 library('lubridate')
-
-
 ```
 
 Render date: `r Sys.time()`
