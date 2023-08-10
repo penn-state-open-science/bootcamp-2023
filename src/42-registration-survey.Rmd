@@ -101,7 +101,7 @@ registrations_clean |>
 ### By position {-}
 
 
-```{r by-position, fig.cap="Day 1 attendees by position"}
+```{r by-position, fig.cap="Day 1 registrations vs. attendees by position"}
 registrations_yes |>
   dplyr::filter(!is.na(position)) |>
   ggplot() +
@@ -189,7 +189,7 @@ registrations_yes <- registrations_yes |>
   )
 ```
 
-```{r regisrations-timeseries, fig.cap="Registrations by department and college"}
+```{r regisrations-timeseries, fig.cap="Registrations vs. Day 1 attendance by department and college"}
 registrations_yes |>
   dplyr::filter(!is.na(dept),
                 !stringr::str_detect(dept, "Center for Open Science"),
