@@ -100,7 +100,6 @@ registrations_clean |>
 
 ### By position {-}
 
-
 ```{r by-position, fig.cap="Day 1 registrations vs. attendees by position"}
 registrations_yes |>
   dplyr::filter(!is.na(position)) |>
@@ -114,7 +113,7 @@ registrations_yes |>
 
 ### By Department & College {-}
 
-```{r by-dept, fig.cap="Registrations by department and college"}
+```{r by-dept, fig.cap="Day 1 attendance vs. registrations by department and college"}
 registrations_yes <- registrations_yes |>
   dplyr::mutate(
     dept = dplyr::recode(
