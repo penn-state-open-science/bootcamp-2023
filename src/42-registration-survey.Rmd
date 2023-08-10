@@ -98,22 +98,31 @@ registrations_clean |>
   theme(legend.position = "none")
 ```
 
+### Incorporate attendee sign-ins
+
+```{r}
+registrations_yes <- registrations_yes |>
+  tidyr::pivot_longer(cols = contains("Day_"), names_to = "attended_day", values_to = "yes_no") |>
+  dplyr::filter(yes_no == "yes")
+```
+
+
 ### By position {-}
 
-```{r by-position, fig.cap="Day 1 registrations vs. attendees by position"}
+```{r by-position, fig.cap="Registrations vs. attendees by day and position"}
 registrations_yes |>
   dplyr::filter(!is.na(position)) |>
   ggplot() +
   aes(x = position, fill = position) +
   geom_bar() +
-  facet_grid(~ Day_1) +
+  facet_grid(~ attended_day) +
   theme(legend.position = "none") +
   coord_flip()
 ```
 
 ### By Department & College {-}
 
-```{r by-dept, fig.cap="Day 1 attendance vs. registrations by department and college"}
+```{r by-dept}
 registrations_yes <- registrations_yes |>
   dplyr::mutate(
     dept = dplyr::recode(
@@ -188,7 +197,7 @@ registrations_yes <- registrations_yes |>
   )
 ```
 
-```{r regisrations-timeseries, fig.cap="Registrations vs. Day 1 attendance by department and college"}
+```{r regisrations-timeseries, fig.cap="Registrations vs. attendance by department and college"}
 registrations_yes |>
   dplyr::filter(!is.na(dept),
                 !stringr::str_detect(dept, "Center for Open Science"),
@@ -196,14 +205,14 @@ registrations_yes |>
   ggplot() +
   aes(x = dept, fill = college) +
   geom_bar() +
-  facet_grid(~ Day_1) +
+  facet_grid(~ attended_day) +
   theme(legend.position = "bottom") +
   theme(legend.title = element_blank()) +
   coord_flip()
 ```
 
 ```{r, include = FALSE}
-xtabs(~ college + Day_1, registrations_yes)
+xtabs(~ college + attended_day, registrations_yes)
 ```
 
 ### [Thu AM Session 1](#day_2_am_session_1) {- #day_2_am_session_1_regis}

@@ -6,15 +6,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Registration Survey | Open Science Bootcamp 2023</title>
 <meta name="author" content="The 2023 Bootcamp Program Planning Committee">
-<meta name="description" content="This page summarizes the data collected from prospective and actual Bootcamp attendees using a survey that began July 19, 2023. Render date: 2023-08-10 10:23:17.489716 Survey link:...">
+<meta name="description" content="This page summarizes the data collected from prospective and actual Bootcamp attendees using a survey that began July 19, 2023. Render date: 2023-08-10 14:23:30.205884 Survey link:...">
 <meta name="generator" content="bookdown 0.34 with bs4_book()">
 <meta property="og:title" content="Registration Survey | Open Science Bootcamp 2023">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://penn-state-open-science.github.io/bootcamp-2023/registration-survey.html">
-<meta property="og:description" content="This page summarizes the data collected from prospective and actual Bootcamp attendees using a survey that began July 19, 2023. Render date: 2023-08-10 10:23:17.489716 Survey link:...">
+<meta property="og:description" content="This page summarizes the data collected from prospective and actual Bootcamp attendees using a survey that began July 19, 2023. Render date: 2023-08-10 14:23:30.205884 Survey link:...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Registration Survey | Open Science Bootcamp 2023">
-<meta name="twitter:description" content="This page summarizes the data collected from prospective and actual Bootcamp attendees using a survey that began July 19, 2023. Render date: 2023-08-10 10:23:17.489716 Survey link:...">
+<meta name="twitter:description" content="This page summarizes the data collected from prospective and actual Bootcamp attendees using a survey that began July 19, 2023. Render date: 2023-08-10 14:23:30.205884 Survey link:...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.2/transition.js"></script><script src="libs/bs3compat-0.4.2/tabs.js"></script><script src="libs/bs3compat-0.4.2/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -96,14 +96,14 @@
 <h1>Registration Survey<a class="anchor" aria-label="anchor" href="#registration-survey"><i class="fas fa-link"></i></a>
 </h1>
 <p>This page summarizes the data collected from prospective and actual Bootcamp attendees using a survey that began July 19, 2023.</p>
-<p>Render date: 2023-08-10 10:23:17.489716</p>
+<p>Render date: 2023-08-10 14:23:30.205884</p>
 <p>Survey link: <a href="https://forms.gle/wPBr9XgXmmzhSszm7" class="uri">https://forms.gle/wPBr9XgXmmzhSszm7</a></p>
 <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdIbP8TZrulVC01MQbtQN13iaW1WIjQx86f-wGOpC0F3bxBg/viewform?embedded=true" width="640" height="2489" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
 <div id="gather-clean" class="section level2 unnumbered">
 <h2>Gather &amp; Clean<a class="anchor" aria-label="anchor" href="#gather-clean"><i class="fas fa-link"></i></a>
 </h2>
 <p>Download.</p>
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw">if</span> <span class="op">(</span><span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/files2.html">dir.exists</a></span><span class="op">(</span><span class="st">'csv'</span><span class="op">)</span><span class="op">)</span> <span class="op">{</span></span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/message.html">message</a></span><span class="op">(</span><span class="st">"Creating missing `csv/`."</span><span class="op">)</span></span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/files2.html">dir.create</a></span><span class="op">(</span><span class="st">"csv"</span><span class="op">)</span></span>
@@ -114,7 +114,7 @@
 <span></span>
 <span><span class="fu">googledrive</span><span class="fu">::</span><span class="fu"><a href="https://googledrive.tidyverse.org/reference/drive_download.html">drive_download</a></span><span class="op">(</span><span class="st">"Open Science Bootcamp 2023: Registration (Responses)"</span>, path <span class="op">=</span> <span class="st">"csv/registrations-2023-07.csv"</span>, type <span class="op">=</span> <span class="st">"csv"</span>, overwrite <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code></pre></div>
 <p>Clean.</p>
-<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">registrations</span> <span class="op">&lt;-</span></span>
 <span>  <span class="fu">readr</span><span class="fu">::</span><span class="fu"><a href="https://readr.tidyverse.org/reference/read_delim.html">read_csv</a></span><span class="op">(</span><span class="st">"csv/registrations-2023-07.csv"</span>, show_col_types <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span>
 <span></span>
@@ -142,7 +142,7 @@
 <div id="registration-numbers" class="section level3 unnumbered">
 <h3>Registration numbers<a class="anchor" aria-label="anchor" href="#registration-numbers"><i class="fas fa-link"></i></a>
 </h3>
-<p>As of 2023-08-10 10:23:17.977146, we have <span class="math inline">\(n=\)</span> 84 confirmed attendees. That is 112 % of our target registration/attendance limit of <span class="math inline">\(n=75\)</span>, and includes the <span class="math inline">\(n=\)</span> 14 program committee and non-registered presenters.</p>
+<p>As of 2023-08-10 14:23:30.266865, we have <span class="math inline">\(n=\)</span> 85 confirmed attendees. That is 113.3 % of our target registration/attendance limit of <span class="math inline">\(n=75\)</span>, and includes the <span class="math inline">\(n=\)</span> 14 program committee and non-registered presenters.</p>
 </div>
 <div id="time-series" class="section level3 unnumbered">
 <h3>Time series<a class="anchor" aria-label="anchor" href="#time-series"><i class="fas fa-link"></i></a>
@@ -154,13 +154,18 @@ Figure 6: Time series of registrations
 </p>
 </div>
 </div>
+<div id="incorporate-attendee-sign-ins" class="section level3" number="0.0.1">
+<h3>
+<span class="header-section-number">0.0.1</span> Incorporate attendee sign-ins<a class="anchor" aria-label="anchor" href="#incorporate-attendee-sign-ins"><i class="fas fa-link"></i></a>
+</h3>
+</div>
 <div id="by-position" class="section level3 unnumbered">
 <h3>By position<a class="anchor" aria-label="anchor" href="#by-position"><i class="fas fa-link"></i></a>
 </h3>
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:by-position"></span>
-<img src="include/img/by-position-1.png" alt="Day 1 registrations vs. attendees by position" width="672"><p class="caption">
-Figure 7: Day 1 registrations vs. attendees by position
+<img src="include/img/by-position-1.png" alt="Registrations vs. attendees by day and position" width="672"><p class="caption">
+Figure 7: Registrations vs. attendees by day and position
 </p>
 </div>
 </div>
@@ -169,8 +174,8 @@ Figure 7: Day 1 registrations vs. attendees by position
 </h3>
 <div class="figure" style="text-align: center">
 <span style="display:block;" id="fig:regisrations-timeseries"></span>
-<img src="include/img/regisrations-timeseries-1.png" alt="Registrations vs. Day 1 attendance by department and college" width="672"><p class="caption">
-Figure 8: Registrations vs. Day 1 attendance by department and college
+<img src="include/img/regisrations-timeseries-1.png" alt="Registrations vs. attendance by department and college" width="672"><p class="caption">
+Figure 8: Registrations vs. attendance by department and college
 </p>
 </div>
 </div>
@@ -224,6 +229,7 @@ Figure 8: Registrations vs. Day 1 attendance by department and college
 <a class="nav-link" href="#visualize">Visualize</a><ul class="nav navbar-nav">
 <li><a class="nav-link" href="#registration-numbers">Registration numbers</a></li>
 <li><a class="nav-link" href="#time-series">Time series</a></li>
+<li><a class="nav-link" href="#incorporate-attendee-sign-ins"><span class="header-section-number">0.0.1</span> Incorporate attendee sign-ins</a></li>
 <li><a class="nav-link" href="#by-position">By position</a></li>
 <li><a class="nav-link" href="#by-department-college">By Department &amp; College</a></li>
 <li><a class="nav-link" href="#day_2_am_session_1_regis">Thu AM Session 1</a></li>
