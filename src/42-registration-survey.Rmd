@@ -100,12 +100,14 @@ registrations_clean |>
 
 ### By position {-}
 
-```{r by-position, fig.cap="Registrations by position"}
+
+```{r by-position, fig.cap="Day 1 attendees by position"}
 registrations_yes |>
   dplyr::filter(!is.na(position)) |>
   ggplot() +
   aes(x = position, fill = position) +
   geom_bar() +
+  facet_grid(~ Day_1) +
   theme(legend.position = "none") +
   coord_flip()
 ```
@@ -195,13 +197,14 @@ registrations_yes |>
   ggplot() +
   aes(x = dept, fill = college) +
   geom_bar() +
+  facet_grid(~ Day_1) +
   theme(legend.position = "bottom") +
   theme(legend.title = element_blank()) +
   coord_flip()
 ```
 
 ```{r, include = FALSE}
-xtabs(~ college, registrations_yes)
+xtabs(~ college + Day_1, registrations_yes)
 ```
 
 ### [Thu AM Session 1](#day_2_am_session_1) {- #day_2_am_session_1_regis}
