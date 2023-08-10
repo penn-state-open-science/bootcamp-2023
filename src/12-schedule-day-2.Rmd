@@ -34,7 +34,7 @@ Locations be announced soon.
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| [Intro to R Markdown & Quarto](#howto_rmarkdown) | 102 Marriott Fdn Bldg |  [HTML Slides](https://penn-state-open-science.github.io/bootcamp-2023-rmarkdown-quarto/) |
+| [Reproducible workflows with R Markdown & Quarto](#howto_rmarkdown) | 102 Marriott Fdn Bldg |  [HTML Slides](https://penn-state-open-science.github.io/bootcamp-2023-rmarkdown-quarto/) |
 | [Replication studies](#howto_replication) | 115 Keller Bldg | [Slides]() |
 | [Preregistration](#howto_preregistration) | Library Marriott Fdn Bldg | [Slides]() |
 
