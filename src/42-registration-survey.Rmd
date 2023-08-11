@@ -44,7 +44,7 @@ reqistrations_qs <- names(registrations)
 registrations_clean <- registrations |>
   dplyr::rename(
     timestamp = "Timestamp",
-    confirmed = "Will you attend the Bootcamp on August 9-11, 2023?",
+    registered = "Will you attend the Bootcamp on August 9-11, 2023?",
     name = "What is your name?",
     psu_email = "What is your PSU email?",
     dept= "What is your department or unit?",
@@ -74,23 +74,24 @@ registrations_clean <- registrations_clean |>
 
 ```{r}
 registrations_yes <- registrations_clean |> 
-  dplyr::filter(confirmed == "Yes") 
+  dplyr::filter(registered == "Yes") |>
+  dplyr::mutate(registered = tolower(registered))
 ```
 
-As of `r Sys.time()`, we have $n=$ `r dim(registrations_yes)[1]` confirmed attendees. That is `r round(100*dim(registrations_yes)[1]/75, 1)` \% of our target registration/attendance limit of $n=75$, and includes the $n=$ `r registrations_yes |> dplyr::filter(role %in% c("staff", "presenter")) |> dplyr::select(name) |> count()` program committee and non-registered presenters.
+As of `r Sys.time()`, we have $n=$ `r dim(registrations_yes)[1]` registered attendees. That is `r round(100*dim(registrations_yes)[1]/75, 1)` \% of our target registration/attendance limit of $n=75$, and includes the $n=$ `r registrations_yes |> dplyr::filter(role %in% c("staff", "presenter")) |> dplyr::select(name) |> count()` program committee and non-registered presenters.
 
 ### Time series {-}
 
 ```{r registrations-timeseries, fig.cap = "Time series of registrations"}
 registrations_clean |>
-  dplyr::group_by(confirmed) |>
-  dplyr::mutate(resp_index = seq_along(confirmed)) |>
+  dplyr::group_by(registered) |>
+  dplyr::mutate(resp_index = seq_along(registered)) |>
   dplyr::ungroup() |>
   ggplot() +
-  aes(x = timestamp, y = resp_index, color = confirmed) +
+  aes(x = timestamp, y = resp_index, color = registered) +
   geom_point() +
   geom_line() +
-  facet_grid(~ confirmed) +
+  facet_grid(~ registered) +
   theme(axis.text.x = element_text(angle = 90)) +
   labs(x = NULL, y = 'n') +
   scale_color_manual(breaks = c("No", "Yes"),
@@ -102,7 +103,7 @@ registrations_clean |>
 
 ```{r}
 registrations_yes <- registrations_yes |>
-  tidyr::pivot_longer(cols = contains("Day_"), names_to = "attended_day", values_to = "yes_no") |>
+  tidyr::pivot_longer(cols = c(registered, contains("Day_")), names_to = "registered_attended", values_to = "yes_no") |>
   dplyr::filter(yes_no == "yes")
 ```
 
@@ -115,7 +116,7 @@ registrations_yes |>
   ggplot() +
   aes(x = position, fill = position) +
   geom_bar() +
-  facet_grid(~ attended_day) +
+  facet_grid(~ registered_attended) +
   theme(legend.position = "none") +
   coord_flip()
 ```
@@ -205,14 +206,14 @@ registrations_yes |>
   ggplot() +
   aes(x = dept, fill = college) +
   geom_bar() +
-  facet_grid(~ attended_day) +
+  facet_grid(~ registered_attended) +
   theme(legend.position = "bottom") +
   theme(legend.title = element_blank()) +
   coord_flip()
 ```
 
 ```{r, include = FALSE}
-xtabs(~ college + attended_day, registrations_yes)
+xtabs(~ college + registered_attended, registrations_yes)
 ```
 
 ### [Thu AM Session 1](#day_2_am_session_1) {- #day_2_am_session_1_regis}
