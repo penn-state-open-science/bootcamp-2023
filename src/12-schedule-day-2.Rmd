@@ -25,7 +25,7 @@ Locations be announced soon.
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| [Data management: Policies](#howto_data_management_policies) | 102 Marriott Fdn Bldg | [Slides]() |
+| [Data management: Policies](#howto_data_management_policies) | 102 Marriott Fdn Bldg | [Slides](pdf/2023_OpenScienceBootcamp-DataManagement.pdf) |
 | [Responsible & robust research](#howto_responsible_research) | 115 Keller Bldg | [Slides]() |
 
 ### 10:15 am • Break (30 min) {-}
@@ -35,7 +35,7 @@ Locations be announced soon.
 | Topic | Location | Materials |
 |--------------|----------|-------|
 | [Reproducible workflows with R Markdown & Quarto](#howto_rmarkdown) | 102 Marriott Fdn Bldg |  [HTML Slides](https://penn-state-open-science.github.io/bootcamp-2023-rmarkdown-quarto/) |
-| [Replication studies](#howto_replication) | 115 Keller Bldg | [Slides]() |
+| [Replication studies](#howto_replication) | 115 Keller Bldg | [PDF Slides](OpenScienceBootcamp2023_McManus.pdf) |
 | [Preregistration](#howto_preregistration) | Library Marriott Fdn Bldg | [Slides]() |
 
 ### 11:45 am • Lunch break: [Marriott Fdn Building](#marriott-fdn-bldg) {-}
@@ -61,7 +61,7 @@ Locations be announced soon.
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| [Intro to Jupyter notebooks](#howto_jupyter) | 115 Keller Bldg | [Slides]() |
+| [Intro to Jupyter notebooks](#howto_jupyter) | 115 Keller Bldg | [Notebook](html/jupyter.html) |
 | [Data sharing](#howto_data_sharing) | 102 Marriott Fdn Bldg | [PDF slides](https://github.com/penn-state-open-science/bootcamp-2023-data-sharing/blob/7aef15bfc83886f488a5256cc76312cc6cf2002a/index.pdf) |
 
 ### 03:45 pm • Break to reconvene at 102 [Marriott Fdn Bldg](#marriott-fdn-bldg) {-}    

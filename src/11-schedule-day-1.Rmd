@@ -30,15 +30,15 @@ All times are Eastern Daylight Time (EDT).
 
 This session will feature a series of short (3-5 min) "blitz" talks about initiatives in open science that are going on at Penn State.
 
-- Case study: Reproducibility in neuroimaging ([Frank Hillary])
-- Case study: Case study: AI for assessing confidence in published findings ([Sarah Rajtmajer])
+- Case study: Reproducibility in neuroimaging ([Frank Hillary]) | [PDF slides](pdf/1_PennState_Open_Sci_Boot_Blitz_8_8_23.pdf)
+- Case study: Case study: AI for assessing confidence in published findings ([Sarah Rajtmajer]) | [PDF slides](pdf/2_Bootcamp_LighteningTalk_Rajtmajer.pdf)
 <!-- - Case study: Support at [ICDS](https://www.icds.psu.edu) for Open and Reproducible Research (TBD) -->
 <!-- - Case study: Higher Education Leadership Initiative ([HELIOS](https://www.heliosopen.org)) -->
-- Case study: [Open Access at Penn State](https://openaccess.psu.edu) ([Briana Wham])
-- Case study: [Data Commons](https://www.datacommons.psu.edu) ([Maurie Kelly])
-- Case study: [ScholarSphere](https://scholarsphere.psu.edu) ([Briana Wham])
-- Case study: Using the [Open Science Framework (OSF)](https://osf.io) ([Alaina Pearce])
-- Case study: Penn State's subscription to the [Qualitative Data Repository (QDR)](https://qdr.syr.edu) ([Briana Wham])
+- Case study: [Open Access at Penn State](https://openaccess.psu.edu) ([Briana Wham]) | [PDF slides](pdf/3_OSBootcamp_OpenAccessatPennState.pdf)
+- Case study: [Data Commons](https://www.datacommons.psu.edu) ([Maurie Kelly]) | [PDF slides](pdf/4_BootcampFinalSlides.pdf)
+- Case study: [ScholarSphere](https://scholarsphere.psu.edu) ([Briana Wham]) | [PDF slides](pdf/5_OSBootcamp_ScholarSphere.pdf)
+- Case study: Using the [Open Science Framework (OSF)](https://osf.io) ([Alaina Pearce]) | [HTML link](https://osf.io/ynjqw/)
+- Case study: Penn State's subscription to the [Qualitative Data Repository (QDR)](https://qdr.syr.edu) ([Briana Wham]) | [PDF slides](pdf/7_OSBootcamp_QDR.pdf)
 - Case study: [Databrary](https://databrary.org) & [The PLAY Project](https://play-project.org) ([Rick Gilmore]) | [HTML slides](https://penn-state-open-science.github.io/bootcamp-2023-databrary-play/).
 
 ### 11:45 am • Lunch break {-}
@@ -51,11 +51,11 @@ This session will feature a series of short (3-5 min) "blitz" talks about initia
 
 :::
 
-### 01:15 pm • **Keynote**: [*Replication of preclinical cancer biology: Challenges or opportunities?*](#keynote), [Tim Errington](https://www.linkedin.com/in/tim-errington-558a928), Senior Director of Research, Center for Open Science {- #day_1_plenary_keynote}
+### 01:15 pm • **Keynote**: [*Replication of preclinical cancer biology: Challenges or opportunities?*](#keynote), [Tim Errington](https://www.linkedin.com/in/tim-errington-558a928), Senior Director of Research, Center for Open Science | [PDF slides](pdf/2023.08.09_PSU_Errington.pdf) {- #day_1_plenary_keynote}
 
 ### 02:15 pm • Break {-}
 
-### 02:45 pm • [*Good enough practices for data and project management*](#howto_good_enough), [Alaina Pearce] {- #day_1_plenary_3}
+### 02:45 pm • [*Good enough practices for data and project management*](#howto_good_enough), [Alaina Pearce] | [PDF slides](pdf/2023_OpenScienceBootcamp-GoodEnough.pdf) {- #day_1_plenary_3}
 
 ### 03:45 pm • Day 1 wrap-up {-}
 
