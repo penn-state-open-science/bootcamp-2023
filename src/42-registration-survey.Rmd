@@ -116,7 +116,7 @@ registrations_yes |>
   ggplot() +
   aes(x = position, fill = position) +
   geom_bar() +
-  facet_grid(~ registered_attended) +
+  facet_grid(registered_attended ~ .) +
   theme(legend.position = "none") +
   coord_flip()
 ```
@@ -198,15 +198,59 @@ registrations_yes <- registrations_yes |>
   )
 ```
 
-```{r regisrations-timeseries, fig.cap="Registrations vs. attendance by department and college"}
+
+```{r regis-attendance-dept-coll, fig.cap="Registrations by department and college"}
 registrations_yes |>
   dplyr::filter(!is.na(dept),
                 !stringr::str_detect(dept, "Center for Open Science"),
                 !stringr::str_detect(dept, "Center for Energy & Environment")) |>
+  dplyr::filter(registered_attended == "registered") |>
   ggplot() +
   aes(x = dept, fill = college) +
   geom_bar() +
-  facet_grid(~ registered_attended) +
+  theme(legend.position = "bottom") +
+  theme(legend.title = element_blank()) +
+  coord_flip()
+```
+
+```{r day-1-attendance-dept-coll, fig.cap="Day_1 attendees by department and college"}
+registrations_yes |>
+  dplyr::filter(!is.na(dept),
+                !stringr::str_detect(dept, "Center for Open Science"),
+                !stringr::str_detect(dept, "Center for Energy & Environment")) |>
+  dplyr::filter(registered_attended == "Day_1") |>
+  ggplot() +
+  aes(x = dept, fill = college) +
+  geom_bar() +
+  theme(legend.position = "bottom") +
+  theme(legend.title = element_blank()) +
+  coord_flip()
+```
+
+```{r day-2-attendance-dept-coll, fig.cap="Day_2 attendees by department and college"}
+registrations_yes |>
+  dplyr::filter(!is.na(dept),
+                !stringr::str_detect(dept, "Center for Open Science"),
+                !stringr::str_detect(dept, "Center for Energy & Environment")) |>
+  dplyr::filter(registered_attended == "Day_2") |>
+  ggplot() +
+  aes(x = dept, fill = college) +
+  geom_bar() +
+  theme(legend.position = "bottom") +
+  theme(legend.title = element_blank()) +
+  coord_flip()
+```
+
+```{r day-3-attendance-dept-coll, fig.cap="Day_3 attendees by department and college"}
+registrations_yes |>
+  dplyr::filter(!is.na(dept),
+                !stringr::str_detect(dept, "Center for Open Science"),
+                !stringr::str_detect(dept, "Center for Energy & Environment")) |>
+  dplyr::filter(registered_attended == "Day_3") |>
+  ggplot() +
+  aes(x = dept, fill = college) +
+  geom_bar() +
+  scale_y_continuous(breaks = c(1:12)) +
   theme(legend.position = "bottom") +
   theme(legend.title = element_blank()) +
   coord_flip()

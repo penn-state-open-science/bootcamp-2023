@@ -26,7 +26,7 @@ Locations be announced soon.
 | Topic | Location | Materials |
 |--------------|----------|-------|
 | [Data management: Policies](#howto_data_management_policies) | 102 Marriott Fdn Bldg | [Slides](pdf/2023_OpenScienceBootcamp-DataManagement.pdf) |
-| [Responsible & robust research](#howto_responsible_research) | 115 Keller Bldg | [Slides]() |
+| [Responsible & robust research](#howto_responsible_research) | 115 Keller Bldg | [PDF Slides](pdf/Responsible and Robust Research_Open Science Bootcamp.pdf) |
 
 ### 10:15 am • Break (30 min) {-}
 
@@ -36,7 +36,7 @@ Locations be announced soon.
 |--------------|----------|-------|
 | [Reproducible workflows with R Markdown & Quarto](#howto_rmarkdown) | 102 Marriott Fdn Bldg |  [HTML Slides](https://penn-state-open-science.github.io/bootcamp-2023-rmarkdown-quarto/) |
 | [Replication studies](#howto_replication) | 115 Keller Bldg | [PDF Slides](OpenScienceBootcamp2023_McManus.pdf) |
-| [Preregistration](#howto_preregistration) | Library Marriott Fdn Bldg | [Slides]() |
+| [Preregistration](#howto_preregistration) | Library Marriott Fdn Bldg | [PDF Slides](pdf/PennState_Open_Sci_Boot_Pre_Reg_8_8_23.pdf) |
 
 ### 11:45 am • Lunch break: [Marriott Fdn Building](#marriott-fdn-bldg) {-}
 
@@ -52,8 +52,8 @@ Locations be announced soon.
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| [Data management: Practicalities](#howto_data_management_practical) | 102 Marriott Fdn Bldg | [Slides]() |
-| [Open science for early career researchers](#howto_early_career) | 115 Keller Bldg | [Slides]() |
+| [Data management: Practicalities](#howto_data_management_practical) | 102 Marriott Fdn Bldg | [PDF slides](pdf/2023_OpenScienceBootcamp-DataManagement.pdf) |
+| [Open science for early career researchers](#howto_early_career) | 115 Keller Bldg | [PDF Slides](pdf/open_sci_for_early_research_careers_2023.pdf) |
 
 ### 02:15 pm • Break (30 min) {-}
 

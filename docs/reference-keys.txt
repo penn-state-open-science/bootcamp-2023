@@ -6,7 +6,10 @@ fig:unnamed-chunk-6
 fig:unnamed-chunk-7
 fig:registrations-timeseries
 fig:by-position
-fig:regisrations-timeseries
+fig:regis-attendance-dept-coll
+fig:day-1-attendance-dept-coll
+fig:day-2-attendance-dept-coll
+fig:day-3-attendance-dept-coll
 fig:survey-1-timeseries
 fig:survey-1-interests
 incorporate-attendee-sign-ins
