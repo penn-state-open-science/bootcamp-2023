@@ -35,7 +35,7 @@ Locations be announced soon.
 | Topic | Location | Materials |
 |--------------|----------|-------|
 | [Reproducible workflows with R Markdown & Quarto](#howto_rmarkdown) | 102 Marriott Fdn Bldg |  [HTML Slides](https://penn-state-open-science.github.io/bootcamp-2023-rmarkdown-quarto/) |
-| [Replication studies](#howto_replication) | 115 Keller Bldg | [PDF Slides](OpenScienceBootcamp2023_McManus.pdf) |
+| [Replication studies](#howto_replication) | 115 Keller Bldg | [PDF Slides](pdf/OpenScienceBootcamp2023_McManus.pdf) |
 | [Preregistration](#howto_preregistration) | Library Marriott Fdn Bldg | [PDF Slides](pdf/PennState_Open_Sci_Boot_Pre_Reg_8_8_23.pdf) |
 
 ### 11:45 am • Lunch break: [Marriott Fdn Building](#marriott-fdn-bldg) {-}
