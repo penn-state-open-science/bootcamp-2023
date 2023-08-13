@@ -99,7 +99,10 @@ registrations_clean |>
   theme(legend.position = "none")
 ```
 
-### Incorporate attendee sign-ins
+### Incorporate attendee sign-ins {-}
+
+We did some manual manipulations of the Google Sheet used for registration information to generate four variables related to registration status and attendance on days 1-3. 
+Then, we manipulate those variables here to allow us to use these data in the following plots and summaries.
 
 ```{r}
 registrations_yes <- registrations_yes |>
