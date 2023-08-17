@@ -17,5 +17,5 @@ You may view the associated website at:
 
 - Clone or fork the repository to a new RStudio project.
 - From the project's root directory, run `renv::restore()` to add package dependencies. You may need to install `renv` first via `install.packages('renv')`. You may also need `rtools`, so `install.packages('rtools')`.
-- Run `bookdown::render('src')` to render the files.
+- Run `bookdown::render_book('src')` to render the files.
 - View the output in `docs/` by pointing your browser to `docs/index.html`.

@@ -10,7 +10,7 @@ library('tidyr')
 library('stringr')
 library('lubridate')
 
-options(gargle_oauth_email = "rick.o.gilmore@gmail.com")
+options(gargle_oauth_email = "dul261@psu.edu")
 googledrive::drive_auth()
 ```
 

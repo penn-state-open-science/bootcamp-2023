@@ -27,7 +27,7 @@ if (!dir.exists('csv')) {
   dir.create("csv")
 }
 
-options(gargle_oauth_email = "rick.o.gilmore@gmail.com")
+options(gargle_oauth_email = "dul261@psu.edu")
 googledrive::drive_auth()
 
 googledrive::drive_download("Open Science Bootcamp 2023: Registration (Responses)", path = "csv/registrations-2023-07.csv", type = "csv", overwrite = TRUE)
