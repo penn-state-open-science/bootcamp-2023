@@ -24,7 +24,7 @@ Survey link: <https://forms.gle/TPjvbqJzSFVMJVkA9>
 
 ### Download {-}
 
-```{r}
+```{r eval=FALSE}
 if (!dir.exists('csv')) {
   message("Creating missing `csv/`.")
   dir.create("csv")

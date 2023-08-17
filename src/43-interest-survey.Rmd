@@ -10,7 +10,7 @@ Survey link: <https://docs.google.com/forms/d/e/1FAIpQLSf_hIVQz3CoDq2bzjTNExw-Hn
 
 Download.
 
-```{r}
+```{r eval=FALSE}
 if (!dir.exists('csv')) {
   message("Creating missing `csv/`.")
   dir.create("csv")
