@@ -2,7 +2,7 @@
 
 This page summarizes the results of data collected about scientific values from an anonymous survey.
 
-```{r include=FALSE}
+```{r include=FALSE, eval=FALSE}
 library('tibble')
 library('ggplot2')
 library('dplyr')
@@ -10,7 +10,7 @@ library('tidyr')
 library('stringr')
 library('lubridate')
 
-options(gargle_oauth_email = "dul261@psu.edu")
+options(gargle_oauth_email = "rick.o.gilmore")
 googledrive::drive_auth()
 ```
 

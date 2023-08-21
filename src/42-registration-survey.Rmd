@@ -110,6 +110,11 @@ registrations_yes <- registrations_yes |>
   dplyr::filter(yes_no == "yes")
 ```
 
+The following table summarizes registrations vs. attendance:
+
+```{r}
+xtabs(~ registered_attended + yes_no, registrations_yes)
+```
 
 ### By position {-}
 
