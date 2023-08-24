@@ -139,6 +139,8 @@ How can early career researchers start their open science journey [@Kathawalla20
 
 *Offered*: [Thu PM Session 4](#day_2_pm_session_4).
 
+*Talk materials* [Sample Jupyter notebook](html/jupyter.html)
+
 ### Data & materials sharing: Why, when, where, & how ([Rick Gilmore] & [Bruce Desmarais]) {- #howto_data_sharing}
 
 Where can you share data and materials?
