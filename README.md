@@ -6,7 +6,7 @@ You may view the associated website at:
 
 <https://penn-state-open-science.github.io/bootcamp-2023/>
 
-### Contents
+## Contents
 
 - `docs/`: Website served by GitHub pages.
 - `renv/`: Files related to the `renv` package manager.
